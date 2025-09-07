@@ -1,0 +1,305 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "applications": "Applications",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "pageHeaders": {
+    "about": "About Us",
+    "products": "Products",
+    "applications": "Applications",
+    "news": "News",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Professional Chemical Equipment Manufacturer",
+    "subtitle": "Committed to providing high-quality, high-efficiency chemical equipment solutions for customers",
+    "cta": "Learn More"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Hengyu Technology Co., Ltd. is an enterprise specializing in the research, development, production and sales of silicone chemicals, with thirty years of silicone industry experience and formulation technology. We can provide high-performance additive solutions for various industrial applications, and can quickly respond to sample analysis needs, helping customers solve core technical problems with efficient testing and precise solutions.",
+    "companyOverview": "Company Overview",
+    "companyOverviewDesc": "Hengyu Technology Co., Ltd. is an enterprise specializing in the research, development, production and sales of silicone chemicals, with thirty years of silicone industry experience and formulation technology.",
+    "productionLines": "Production Lines",
+    "productionLinesDesc": "Production lines cover silicone defoamers, glass fiber additives, die-casting release agents, agricultural silicone extenders and other additives.",
+    "qualityControl": "Quality Control",
+    "qualityControlDesc": "The factory is equipped with advanced production equipment and strict quality control systems to ensure high quality and stability of products.",
+    "safety": "Environmental Safety",
+    "safetyDesc": "We also focus on environmental protection and safe production, comply with relevant regulations and standards, and ensure the sustainability and safety of the production process.",
+    "companyAdvantages": "Company Advantages",
+    "factoryGallery": "Factory Gallery",
+    "features": {
+      "quality": "Quality Assurance",
+      "qualityDesc": "We strictly control product quality to ensure every piece of equipment meets international standards",
+      "innovation": "Technical Innovation",
+      "innovationDesc": "Continuous investment in R&D to promote innovation in chemical equipment technology",
+      "service": "Quality Service",
+      "serviceDesc": "Provide comprehensive pre-sales, in-sales, and after-sales service support",
+      "experience": "Rich Experience",
+      "experienceDesc": "Over 30 years of industry experience, deeply understanding customer needs"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Professional chemical equipment solutions covering multiple industry application areas",
+    "categoriesTitle": "Products Categories",
+    "viewDetails": "View Details",
+    "cta": {
+      "description": "Need more product information or have special requirements?",
+      "button": "Contact Us"
+    },
+    "categories": {
+      "有机硅消泡剂": {
+        "title": "Silicone Defoamers",
+        "subtitle": "High-efficiency silicone defoamer solutions",
+        "icon": "🧪"
+      },
+      "农药助剂": {
+        "title": "Agricultural Adjuvants",
+        "subtitle": "Agricultural silicone adjuvant solutions",
+        "icon": "🌾"
+      },
+      "脱模剂": {
+        "title": "Release Agents",
+        "subtitle": "Professional release agent solutions",
+        "icon": "⚙️"
+      },
+      "玻璃纤维浸润剂": {
+        "title": "Glass Fiber Sizing Agents",
+        "subtitle": "Specialized sizing agents for glass fiber processing",
+        "icon": "🧵"
+      },
+      "碳纤维浸润剂": {
+        "title": "Carbon Fiber Sizing Agents",
+        "subtitle": "Specialized sizing agents for carbon fiber processing",
+        "icon": "🔬"
+      }
+    }
+  },
+  "applications": {
+    "title": "Applications",
+    "subtitle": "Professional chemical product solutions for different industries",
+    "categories": {
+      "defoaming": {
+        "title": "Defoaming Applications",
+        "description": "Professional defoamer solutions for various industrial fields",
+        "applications": [
+          {
+            "name": "Water Treatment Defoamer",
+            "product": "HY-603 Silicone Defoamer"
+          },
+          {
+            "name": "Industrial Cleaning Defoamer",
+            "product": "HY-611 Silicone Defoamer"
+          },
+          {
+            "name": "Circuit Board Cleaning Defoamer",
+            "product": "HY-611 Silicone Defoamer"
+          },
+          {
+            "name": "Oilfield Chemical Defoamer",
+            "product": "HY-611 Silicone Defoamer"
+          },
+          {
+            "name": "Paint and Ink Defoamer",
+            "product": "HY-611 Silicone Defoamer"
+          },
+          {
+            "name": "Pulp and Paper Making Defoamer",
+            "product": "HY-611 Silicone Defoamer"
+          },
+          {
+            "name": "Pesticide Industry Defoamer",
+            "product": "HY-611 Silicone Defoamer"
+          },
+          {
+            "name": "General Purpose Defoamer",
+            "product": "HY-603 Silicone Defoamer"
+          }
+        ]
+      },
+      "agricultural": {
+        "title": "Agricultural Applications",
+        "description": "High-efficiency agricultural adjuvants to improve crop growth and pesticide effectiveness",
+        "applications": [
+          {
+            "name": "Spreading Agent",
+            "product": "HY8308 Agricultural Silicone Spreading Agent"
+          },
+          {
+            "name": "Wetting Agent",
+            "product": "HY8328 Agricultural Silicone Wetting Agent"
+          }
+        ]
+      },
+      "mold-release": {
+        "title": "Mold Release Applications",
+        "description": "Professional release agents for various metal die-casting processes",
+        "applications": [
+          {
+            "name": "Aluminum Alloy Die Casting",
+            "product": "HY-19N Release Agent"
+          },
+          {
+            "name": "Magnesium Alloy Die Casting",
+            "product": "HY-59N Release Agent"
+          }
+        ]
+      },
+      "fiber": {
+        "title": "Fiber Industry",
+        "description": "High-performance fiber sizing agents to enhance composite material performance",
+        "applications": [
+          {
+            "name": "Glass Fiber Applications",
+            "product": "HY-501 Glass Fiber Sizing Agent"
+          },
+          {
+            "name": "Carbon Fiber Applications",
+            "product": "HY-503 Carbon Fiber Sizing Agent"
+          }
+        ]
+      }
+    }
+  },
+  "news": {
+    "title": "Latest Updates",
+    "subtitle": "Stay informed with our latest news and updates",
+    "readMore": "Read More",
+    "featuredProduct": {
+      "title": "HY-611 Silicone Defoamer",
+      "description": "High-performance, alkali-stable silicone defoamer emulsion with 30% active content",
+      "productFeatures": "Product Features",
+      "mainApplications": "Main Application Areas",
+      "productAdvantages": "Product Advantages",
+      "features": [
+        "Water-soluble silicone defoamer emulsion",
+        "Optimized for surfactant-rich formulations and environments",
+        "Significant foam control performance with minimal impact on transparency",
+        "Recommended for process environments with high pH and chemical load"
+      ],
+      "applications": [
+        "Petroleum Industry: drilling, extraction, and refining processes",
+        "Paper Industry: pulp black liquor treatment, papermaking process, wastewater treatment",
+        "Food Industry: production of amino acids (e.g., MSG) and organic acids (e.g., citric acid), soy products, etc.",
+        "Industrial Cleaning: machining, circuit boards, beer bottles, and other cleaning scenarios",
+        "Chemical Production: latex production and PVC production",
+        "Textile Printing and Dyeing Industry",
+        "Wastewater Treatment Field",
+        "Coating Industry: production and application processes for latex paint, paint, ink, etc."
+      ],
+      "advantages": "When formulated into detergents and textile auxiliaries, HY-611 silicone defoamer exhibits significant foam control performance, with minimal impact on transparency, making it an ideal choice for industrial applications."
+    },
+    "items": {
+      "item1": {
+        "title": "New High-Efficiency Reactor Technology Receives National Patent",
+        "excerpt": "Our independently developed new high-efficiency reactor technology recently received a national invention patent. This technology can improve reaction efficiency by more than 30%...",
+        "category": "Technical Innovation"
+      },
+      "item2": {
+        "title": "Company Wins 'Annual Excellent Enterprise' Award",
+        "excerpt": "In the 2024 chemical equipment industry selection, our company won the 'Annual Excellent Enterprise' title for its excellent product quality and innovation capabilities...",
+        "category": "Company Honor"
+      },
+      "item3": {
+        "title": "Successfully Delivered Large Chemical Project Equipment",
+        "excerpt": "We successfully delivered core equipment worth 50 million yuan to a large chemical enterprise, receiving high recognition from customers...",
+        "category": "Project Update"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Always at Your Service",
+    "salesManager": "Sales Manager",
+    "salesManagerPhone": "+86 17664115961",
+    "technicalManager": "Technical Manager",
+    "technicalManagerPhone": "+86 13791209669",
+    "email": "Email",
+    "emailContent": "info@hychemaux.com",
+    "address": "Location",
+    "addressContent": "No. 9 Dongze Road, Binhu District, Wuxi City, Jiangsu Province, China",
+    "workingHours": {
+      "title": "Working Hours",
+      "content": "Monday - Friday: 9:00 - 18:00<br />Saturday: 9:00 - 12:00<br />Sunday: Closed"
+    },
+    "form": {
+      "title": "Send Message",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "companyName": "Chemical Equipment",
+    "description": "Professional chemical equipment manufacturer, committed to providing high-quality, high-efficiency chemical equipment solutions for customers.",
+    "products": {
+      "title": "Products",
+      "reactors": "Reactors",
+      "heaters": "Heaters",
+      "separators": "Separators",
+      "pumps": "Pump Equipment"
+    },
+    "services": {
+      "title": "Services",
+      "consultation": "Technical Consultation",
+      "installation": "Installation & Commissioning",
+      "maintenance": "Maintenance",
+      "training": "Training Services"
+    },
+    "contact": {
+      "title": "Contact",
+      "salesManager": "Sales Manager",
+      "salesManagerPhone": "+86 17664115961",
+      "technicalManager": "Technical Manager",
+      "technicalManagerPhone": "+86 13791209669",
+      "email": "info@hychemaux.com",
+      "address": "No. 9 Dongze Road, Binhu District, Wuxi City, Jiangsu Province, China"
+    },
+    "copyright": "© 2025 Hengyu Technology Co., Ltd.",
+    "rights": "All Rights Reserved"
+  },
+  "productDetail": {
+    "productNotFound": "Product Not Found",
+    "backToProducts": "Back to Products",
+    "home": "Home",
+    "productFeatures": "Product Features",
+    "typicalProperties": "Typical Properties",
+    "howToUse": "How to Use",
+    "typicalApplications": "Typical Applications",
+    "applicablePesticides": "Applicable Pesticides",
+    "packagingAndStorage": "Packaging & Storage",
+    "packagingSpecs": "Packaging Specifications",
+    "storageConditions": "Storage Conditions",
+    "shelfLife": "Shelf Life",
+    "leaveMessage": "Leave Your Message",
+    "yourName": "Your Name",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "message": "Message",
+    "submit": "Submit",
+    "requestMsdsTds": "REQUEST MSDS/TDS",
+    "note": "Note: The above information is for reference only and does not constitute technical specifications.",
+    "indicator": "Indicator",
+    "result": "Result"
+  },
+  "productNames": {
+    "hy-611": "HY-611 Silicone Defoamer",
+    "hy-603": "HY-603 Silicone Defoamer", 
+    "hy8308": "HY8308 Agricultural Silicone Spreading Agent",
+    "hy8328": "HY8328 Agricultural Silicone Wetting Agent",
+    "hy-9072": "HY-9072 Release Agent",
+    "hy-09n": "HY-09N Release Agent",
+    "hy-19n": "HY-19N Release Agent",
+    "hy-59n": "HY-59N Release Agent",
+    "hy-501": "HY-501 Glass Fiber Sizing Agent",
+    "hy-503": "HY-503 Carbon Fiber Sizing Agent"
+  }
+}

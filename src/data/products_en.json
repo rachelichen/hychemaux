@@ -1,0 +1,140 @@
+{
+  "hy-611": {
+    "product_name": "HY-611 Silicone Defoamer",
+    "category": "Silicone Defoamers",
+    "indicators": {
+      "appearance": "Milky white liquid",
+      "solid_content": "5-10%"
+    },
+    "product_introduction": "This product is a high-content silicone defoamer that provides long-lasting defoaming performance even in small amounts. Its main application industries include water treatment, oil extraction, and industrial cleaning.",
+    "features": [
+      "Fast foam suppression, long-lasting defoaming",
+      "Strong stability, no oil separation",
+      "Easy to dilute and use",
+      "Minimal oil spots, minimal coating shrinkage, no impact on other system properties",
+      "Environmentally friendly, no organic solvents"
+    ],
+    "how_to_use": [
+      "Identify the cause and location of foam generation for effective defoamer addition control.",
+      "Determine the addition amount based on foam severity and system characteristics.",
+      "Can be added directly or diluted before addition. Small-scale testing is recommended to determine optimal addition amount.",
+      "Add evenly and dispersedly during production to ensure full contact between defoamer and foam.",
+      "Recommended dosage is 0.1%-0.5% of total system, specific amount should be adjusted based on actual foam conditions."
+    ],
+    "typical_applications": [
+      "Wastewater treatment",
+      "Oilfield drilling",
+      "Chemical industry",
+      "Food fermentation",
+      "Papermaking",
+      "Textile printing and dyeing",
+      "Coatings and inks",
+      "Metal processing"
+    ],
+    "packaging": "50Kg, 200Kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-603": {
+    "product_name": "HY-603 Silicone Defoamer",
+    "category": "Silicone Defoamers",
+    "indicators": {
+      "appearance": "Milky white liquid",
+      "solid_content": "10-30%"
+    },
+    "product_introduction": "This product is a high-content silicone defoamer that provides long-lasting defoaming performance even in small amounts. Its main application industries include water treatment, oil extraction, and industrial cleaning.",
+    "features": [
+      "Fast foam suppression, long-lasting defoaming",
+      "Strong stability, no oil separation",
+      "Easy to dilute and use",
+      "Minimal oil spots, minimal coating shrinkage, no impact on other system properties",
+      "Environmentally friendly, no organic solvents"
+    ],
+    "how_to_use": [
+      "Identify the cause and location of foam generation for effective defoamer addition control.",
+      "Determine the addition amount based on foam severity and system characteristics.",
+      "Can be added directly or diluted before addition. Small-scale testing is recommended to determine optimal addition amount.",
+      "Add evenly and dispersedly during production to ensure full contact between defoamer and foam.",
+      "Recommended dosage is 0.1%-0.5% of total system, specific amount should be adjusted based on actual foam conditions."
+    ],
+    "typical_applications": [
+      "Wastewater treatment",
+      "Oilfield drilling",
+      "Chemical industry",
+      "Food fermentation",
+      "Papermaking",
+      "Textile printing and dyeing",
+      "Coatings and inks",
+      "Metal processing"
+    ],
+    "packaging": "50Kg, 200Kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy8308": {
+    "product_name": "HY8308 Agricultural Silicone Spreading Agent",
+    "category": "Agricultural Adjuvants",
+    "typical_properties": {
+      "appearance": "Colorless to light yellow transparent liquid",
+      "specific_gravity": "1.020 (25℃)",
+      "viscosity": "20~50 (mPa.S, 25℃)",
+      "cloud_point": "<10 (0.1% aqueous solution, ℃)",
+      "water_solubility": "Easily soluble or dispersible in water, appearing transparent to semi-transparent",
+      "surface_tension": "19~22 (25℃, 0.1% aqueous solution, mN/m)",
+      "active_ingredient": "100%"
+    },
+    "product_introduction": "This product can be used as a spray modifier, foliar penetration promoter, and spreading agent. It is widely used in herbicides, foliar fertilizers, plant growth regulators, insecticides, and fungicides. It does not decompose pesticide active ingredients, significantly reduces solution surface tension, and enhances the wetting, penetration, adhesion, and spreading ability of pesticide solutions on plant leaves or insect bodies, significantly improving efficacy, reducing pesticide application amounts, reducing application frequency, saving water, reducing pesticide pollution, and protecting the environment.",
+    "features": [
+      "Spreading: Contains nonionic surfactants, helps improve pesticide and fertilizer efficacy, saves time, improves droplet contact with plant or insect body surfaces, with excellent spreading performance.",
+      "Penetration: After field application, droplets dry quickly on leaf and fruit surfaces, remain dry, effectively preventing pesticide volatilization and loss. In rainy and foggy weather, leaf and fruit surfaces are not prone to water accumulation, preventing pathogen spore germination in high humidity environments.",
+      "Cost reduction: Improves efficacy, reduces pesticide usage, lowers pesticide application amounts, reduces application frequency."
+    ],
+    "how_to_use": [
+      "Temporary mixing before pesticide spraying: Add directly to sprayer and mix with pesticide solution. Add 0.02~0.04% of total spray solution weight (e.g., add 3~6g HY8308 to 15kg sprayer).",
+      "Adding to pesticide formulation: Suitable for pesticide formulation production stage. Add directly to formulation. Add 0.5~5% of total pesticide formulation weight. Specific amount can be fine-tuned based on formulation type, target crops, and control requirements."
+    ],
+    "applicable_pesticides": [
+      "Herbicides",
+      "Plant growth regulators",
+      "Fungicides",
+      "Foliar fertilizers",
+      "Insecticides"
+    ],
+    "packaging": "25Kg, 50Kg, 200Kg, 1000Kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "36 months"
+  },
+  "hy8328": {
+    "product_name": "HY8328 Agricultural Silicone Wetting Agent",
+    "category": "Agricultural Adjuvants",
+    "typical_properties": {
+      "appearance": "Colorless to light yellow transparent liquid",
+      "specific_gravity": "1.020 (25℃)",
+      "viscosity": "20~50 (mPa.S, 25℃)",
+      "cloud_point": "<10 (0.1% aqueous solution, ℃)",
+      "water_solubility": "Easily soluble or dispersible in water, appearing transparent to semi-transparent",
+      "surface_tension": "19~22 (25℃, 0.1% aqueous solution, mN/m)",
+      "active_ingredient": "100%"
+    },
+    "product_introduction": "This product can be used as a spray modifier, foliar penetration promoter, and spreading agent. It is widely used in herbicides, foliar fertilizers, plant growth regulators, insecticides, and fungicides. It does not decompose pesticide active ingredients, significantly reduces solution surface tension, and enhances the wetting, penetration, adhesion, and spreading ability of pesticide solutions on plant leaves or insect bodies, significantly improving efficacy, reducing pesticide application amounts, reducing application frequency, saving water, reducing pesticide pollution, and protecting the environment.",
+    "features": [
+      "Spreading: Contains nonionic surfactants, helps improve pesticide and fertilizer efficacy, saves time, improves droplet contact with plant or insect body surfaces, with excellent spreading performance.",
+      "Penetration: After field application, droplets dry quickly on leaf and fruit surfaces, remain dry, effectively preventing pesticide volatilization and loss. In rainy and foggy weather, leaf and fruit surfaces are not prone to water accumulation, preventing pathogen spore germination in high humidity environments.",
+      "Efficacy improvement: Improves efficacy, reduces pesticide usage, lowers pesticide application amounts, reduces application frequency."
+    ],
+    "how_to_use": [
+      "Temporary mixing before pesticide spraying: Add directly to sprayer and mix with pesticide solution. Add 0.02~0.04% of total spray solution weight (e.g., add 3~6g HY8328 to 15kg sprayer).",
+      "Adding to pesticide formulation: Suitable for pesticide formulation production stage. Add directly to formulation. Add 0.5~5% of total pesticide formulation weight. Specific amount can be fine-tuned based on formulation type, target crops, and control requirements."
+    ],
+    "applicable_pesticides": [
+      "Herbicides",
+      "Plant growth regulators",
+      "Fungicides",
+      "Foliar fertilizers",
+      "Insecticides"
+    ],
+    "packaging": "25Kg, 50Kg, 200Kg, 1000Kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "36 months"
+  }
+}

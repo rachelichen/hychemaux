@@ -1,0 +1,301 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品中心",
+    "applications": "应用行业",
+    "news": "新闻资讯",
+    "contact": "联系我们"
+  },
+  "pageHeaders": {
+    "about": "关于我们",
+    "products": "产品中心",
+    "applications": "应用行业",
+    "news": "新闻资讯",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "专业的化工设备制造商",
+    "subtitle": "致力于为客户提供高品质、高效率的化工设备解决方案",
+    "cta": "了解更多"
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "珩钰科技有限公司是一家专注于有机硅化学品研发、生产与销售的企业，拥有三十年有机硅行业经验及配方技术，我们可为各类工业应用提供高性能添加剂解决方案，更能快速响应样品分析需求，以高效化验与精准方案，助力客户解决核心技术难题。",
+    "companyOverview": "公司概况",
+    "companyOverviewDesc": "珩钰科技有限公司是一家专注于有机硅化学品研发、生产与销售的企业，拥有三十年有机硅行业经验及配方技术。",
+    "productionLines": "生产线",
+    "productionLinesDesc": "生产线涵盖有机硅消泡剂，玻璃纤维助剂，压铸用脱模剂，农用有机硅扩展剂等添加剂。",
+    "qualityControl": "质量控制",
+    "qualityControlDesc": "工厂配备了先进的生产设备和严格的质量控制体系，确保产品的高品质和稳定性。",
+    "safety": "环保安全",
+    "safetyDesc": "我们还注重环保和安全生产，遵守相关法规和标准，确保生产过程的可持续性和安全性。",
+    "companyAdvantages": "企业优势",
+    "factoryGallery": "工厂展示",
+    "features": {
+      "quality": "品质保证",
+      "qualityDesc": "我们严格把控产品质量，确保每一件设备都符合国际标准",
+      "innovation": "技术创新",
+      "innovationDesc": "持续投入研发，推动化工设备技术的创新发展",
+      "service": "优质服务",
+      "serviceDesc": "提供全方位的售前、售中、售后服务支持",
+      "experience": "丰富经验",
+      "experienceDesc": "拥有30年以上的行业经验，深谙客户需求"
+    }
+  },
+  "products": {
+    "title": "产品中心",
+    "subtitle": "专业的化工设备解决方案，涵盖多个行业应用领域",
+    "categoriesTitle": "产品分类",
+    "viewDetails": "查看详情",
+    "cta": {
+      "description": "需要了解更多产品信息或有特殊需求？",
+      "button": "联系我们"
+    },
+    "categories": {
+      "有机硅消泡剂": {
+        "title": "有机硅消泡剂",
+        "subtitle": "高效有机硅消泡剂解决方案",
+        "icon": "🧪"
+      },
+      "农药助剂": {
+        "title": "农药助剂",
+        "subtitle": "农用有机硅助剂解决方案",
+        "icon": "🌾"
+      },
+      "脱模剂": {
+        "title": "脱模剂",
+        "subtitle": "专业脱模剂解决方案",
+        "icon": "⚙️"
+      },
+      "玻璃纤维浸润剂": {
+        "title": "玻璃纤维浸润剂",
+        "subtitle": "玻璃纤维处理专用浸润剂",
+        "icon": "🧵"
+      },
+      "碳纤维浸润剂": {
+        "title": "碳纤维浸润剂",
+        "subtitle": "碳纤维处理专用浸润剂",
+        "icon": "🔬"
+      }
+    }
+  },
+  "applications": {
+    "title": "应用行业",
+    "subtitle": "为不同行业提供专业的化工产品解决方案",
+    "categories": {
+      "defoaming": {
+        "title": "消泡应用",
+        "description": "专业的消泡剂解决方案，适用于各种工业领域",
+        "applications": [
+          {
+            "name": "水处理消泡剂",
+            "product": "HY-603有机硅型消泡剂"
+          },
+          {
+            "name": "工业清洗消泡剂",
+            "product": "HY-611有机硅型消泡剂"
+          },
+          {
+            "name": "电路板清洗消泡剂",
+            "product": "HY-611有机硅型消泡剂"
+          },
+          {
+            "name": "油田化工用消泡剂",
+            "product": "HY-611有机硅型消泡剂"
+          },
+          {
+            "name": "涂料油墨消泡剂",
+            "product": "HY-611有机硅型消泡剂"
+          },
+          {
+            "name": "纸浆造纸用消泡剂",
+            "product": "HY-611有机硅型消泡剂"
+          },
+          {
+            "name": "农药用行业消泡剂",
+            "product": "HY-611有机硅型消泡剂"
+          },
+          {
+            "name": "通用消泡剂",
+            "product": "HY-603有机硅型消泡剂"
+          }
+        ]
+      },
+      "agricultural": {
+        "title": "农业应用",
+        "description": "高效农业助剂，提升作物生长和农药效果",
+        "applications": [
+          {
+            "name": "展渗剂",
+            "product": "HY8308农用有机硅展渗剂"
+          },
+          {
+            "name": "润湿剂",
+            "product": "HY8328农用有机硅润湿剂"
+          }
+        ]
+      },
+      "mold-release": {
+        "title": "脱模应用",
+        "description": "专业脱模剂，适用于各种金属压铸工艺",
+        "applications": [
+          {
+            "name": "铝合金压铸",
+            "product": "HY-19N脱模剂"
+          },
+          {
+            "name": "镁合金压铸",
+            "product": "HY-59N脱模剂"
+          }
+        ]
+      },
+      "fiber": {
+        "title": "纤维行业",
+        "description": "高性能纤维浸润剂，提升复合材料性能",
+        "applications": [
+          {
+            "name": "玻璃纤维应用",
+            "product": "HY-501玻纤浸润剂"
+          },
+          {
+            "name": "碳纤维应用",
+            "product": "HY-503碳纤浸润剂"
+          }
+        ]
+      }
+    }
+  },
+  "news": {
+    "title": "最新动态",
+    "subtitle": "了解我们的最新新闻和动态",
+    "readMore": "阅读更多",
+    "featuredProduct": {
+      "title": "HY-611有机硅型消泡剂",
+      "description": "高性能、碱稳定的有机硅消泡剂乳液，活性含量为30%",
+      "productFeatures": "产品特性",
+      "mainApplications": "主要应用领域",
+      "productAdvantages": "产品优势",
+      "features": [
+        "水溶性有机硅消泡剂乳液",
+        "针对富含表面活性剂的配方和环境进行了优化",
+        "具有显著的泡沫控制性能，对透明度的影响最小",
+        "推荐用于高pH值和化学负荷的工艺环境"
+      ],
+      "applications": [
+        "石油工业：钻井、开采和精炼过程",
+        "造纸工业：纸浆黑液处理、造纸工艺、污水处理",
+        "食品行业：生产氨基酸（如味精）和有机酸（如柠檬酸）、大豆豆泡等",
+        "工业清洗：机械加工、电路板、啤酒瓶等清洗场景",
+        "化工生产：乳胶生产和PVC生产",
+        "纺织印染行业",
+        "污水处理领域",
+        "涂料行业：乳胶漆、油漆、油墨等的生产和应用工艺"
+      ],
+      "advantages": "当配制成洗涤剂和纺织助剂时，HY-611有机硅型消泡剂具有显著的泡沫控制性能，对透明度的影响最小，是工业应用中的理想选择。"
+    },
+    "items": {
+      "item1": {
+        "title": "新型高效反应釜技术获得国家专利",
+        "excerpt": "我们自主研发的新型高效反应釜技术近日获得国家发明专利，该技术可提高反应效率30%以上...",
+        "category": "技术创新"
+      },
+      "item2": {
+        "title": "公司荣获\"年度优秀企业\"称号",
+        "excerpt": "在2024年度化工设备行业评选中，我们公司凭借优秀的产品质量和创新能力...",
+        "category": "公司荣誉"
+      },
+      "item3": {
+        "title": "成功交付大型化工项目设备",
+        "excerpt": "我们成功为某大型化工企业交付了价值5000万元的核心设备，获得客户高度认可...",
+        "category": "项目动态"
+      }
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "随时为您服务",
+    "salesManager": "销售经理",
+    "salesManagerPhone": "+86 17664115961",
+    "technicalManager": "技术经理",
+    "technicalManagerPhone": "+86 13791209669",
+    "email": "邮箱",
+    "emailContent": "info@hychemaux.com",
+    "address": "位置",
+    "addressContent": "中国江苏省无锡市滨湖区棟泽路9号",
+    "form": {
+      "title": "发送消息",
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "留言",
+      "submit": "发送消息"
+    }
+  },
+  "footer": {
+    "companyName": "化工设备",
+    "description": "专业的化工设备制造商，致力于为客户提供高品质、高效率的化工设备解决方案。",
+    "products": {
+      "title": "产品中心",
+      "reactors": "反应釜",
+      "heaters": "加热器",
+      "separators": "分离器",
+      "pumps": "泵类设备"
+    },
+    "services": {
+      "title": "服务支持",
+      "consultation": "技术咨询",
+      "installation": "安装调试",
+      "maintenance": "维护保养",
+      "training": "培训服务"
+    },
+    "contact": {
+      "title": "联系我们",
+      "salesManager": "销售经理",
+      "salesManagerPhone": "+86 17664115961",
+      "technicalManager": "技术经理",
+      "technicalManagerPhone": "+86 13791209669",
+      "email": "info@hychemaux.com",
+      "address": "中国江苏省无锡市滨湖区棟泽路9号"
+    },
+    "copyright": "© 2025 珩钰科技有限公司",
+    "rights": "保留所有权利"
+  },
+  "productDetail": {
+    "productNotFound": "产品未找到",
+    "backToProducts": "返回产品列表",
+    "home": "首页",
+    "productFeatures": "产品特性",
+    "typicalProperties": "典型指标",
+    "howToUse": "使用方法",
+    "typicalApplications": "典型应用",
+    "applicablePesticides": "适用农药",
+    "packagingAndStorage": "包装与储存",
+    "packagingSpecs": "包装规格",
+    "storageConditions": "储存条件",
+    "shelfLife": "保质期",
+    "leaveMessage": "留言",
+    "yourName": "您的姓名",
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "邮箱",
+    "phoneNumber": "电话号码",
+    "message": "留言内容",
+    "submit": "提交",
+    "requestMsdsTds": "申请MSDS/TDS",
+    "note": "注：以上信息仅供参考，不作为技术指标。",
+    "indicator": "指标",
+    "result": "结果"
+  },
+  "productNames": {
+    "hy-611": "HY-611有机硅型消泡剂",
+    "hy-603": "HY-603有机硅型消泡剂",
+    "hy8308": "HY8308农用有机硅展渗剂",
+    "hy8328": "HY8328农用有机硅润湿剂",
+    "hy-9072": "HY-9072脱模剂",
+    "hy-09n": "HY-09N脱模剂",
+    "hy-19n": "HY-19N脱模剂",
+    "hy-59n": "HY-59N脱模剂",
+    "hy-501": "HY-501玻纤浸润剂",
+    "hy-503": "HY-503碳纤浸润剂"
+  }
+}
