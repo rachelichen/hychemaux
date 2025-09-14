@@ -214,6 +214,64 @@
     "title": "Latest Updates",
     "subtitle": "Stay informed with our latest news and updates",
     "readMore": "Read More",
+    "dropdown": {
+      "placeholder": "Select news topic",
+      "options": [
+        {
+          "value": "hy-611-defoamer",
+          "label": "HY-611 Silicone Defoamer"
+        },
+        {
+          "value": "oilfield-foam-solution",
+          "label": "Oilfield Foam Solution, Improve Efficiency and Protect Equipment"
+        }
+      ]
+    },
+    "oilfieldSolution": {
+      "title": "Oilfield Foam Solution, Improve Efficiency and Protect Equipment",
+      "description": "Professional oilfield foam control solutions that effectively address foam issues in drilling, extraction, and refining processes, improving production efficiency and protecting critical equipment.",
+      "introduction": "In oilfield operations, foam formation presents significant challenges that can impact extraction efficiency, equipment integrity, and environmental safety. Understanding the causes, consequences, and solutions for foam generation in oil extraction is crucial for optimizing petroleum production processes.",
+      "causes": {
+        "title": "Causes of Foam Formation in Oilfields",
+        "description": "Foam in oilfields typically forms due to gas release during extraction processes or as a byproduct of enhanced recovery techniques:",
+        "items": [
+          "High Reservoir Pressure: When extracting oil under high pressure, dissolved gases in crude oil are released as it rises to the surface. This gas separation leads to foam formation.",
+          "Gas Injection Methods: Injecting natural gas into reservoirs to increase production can mix with existing gases in crude oil, creating stable foam.",
+          "Chemical Reactions: The use of surfactants, acids, or other additives can alter the interfacial tension between oil and water, promoting foam generation.",
+          "Geological Conditions: Reservoir characteristics such as small rock pores, impurities in crude oil, or proximity to gas pockets can exacerbate foam formation."
+        ]
+      },
+      "consequences": {
+        "title": "Consequences of Foam Formation in Oil Production",
+        "description": "Foam-related issues can severely hinder oilfield operations in multiple ways:",
+        "items": [
+          "Increased Viscosity: Foam increases the viscosity of extraction fluids, reducing flow rates and overall production efficiency.",
+          "Pressure Surges: Excessive foam accumulation can cause pressure imbalances that may lead to mechanical damage to extraction equipment.",
+          "Equipment Damage: Prolonged exposure to foam-related stress can result in equipment failure or downtime.",
+          "Environmental Hazards: Uncontrolled foam may escape into surface water or nearby environments, posing contamination risks and regulatory challenges."
+        ]
+      },
+      "solutions": {
+        "title": "Role of Advanced Defoamers in Oilfield Operations",
+        "description": "To address these challenges, we provide a range of specialized oilfield defoamers designed to effectively solve foam problems. These advanced formulations offer:",
+        "items": [
+          "Rapid Foam Elimination: Effectively targets and collapses stubborn micro-scale foam.",
+          "Foam Suppression: Prevents foam reformation, ensuring smooth operation throughout the extraction cycle.",
+          "Gas Release Promotion: Achieves effective gas separation to stabilize pressure and enhance flow dynamics.",
+          "Durability: Maintains performance under extreme conditions, including the high salinity, temperature, and pressure typical of oilfield environments."
+        ]
+      },
+      "benefits": {
+        "title": "Benefits of Using Hengyu Oilfield Defoamers",
+        "description": "By integrating defoamer solutions into oilfield workflows, operators can expect:",
+        "items": [
+          "Improved Efficiency: Enhanced fluid dynamics and reduced viscosity to optimize extraction rates.",
+          "Extended Equipment Lifespan: Minimized pressure shocks and mechanical wear, reducing maintenance costs and downtime.",
+          "Environmental Compliance: Limited foam emissions protect ecosystems and meet strict environmental regulations."
+        ],
+        "conclusion": "Our defoamers undergo rigorous testing to ensure they meet the complex demands of modern oilfield operations, providing customizable solutions for various extraction challenges."
+      }
+    },
     "featuredProduct": {
       "title": "HY-611 Silicone Defoamer",
       "description": "High-performance, alkali-stable silicone defoamer emulsion with 30% active content",
