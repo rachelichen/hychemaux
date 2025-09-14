@@ -16,7 +16,7 @@ export default function Applications() {
       title: t('categories.defoaming.title'),
       description: t('categories.defoaming.description'),
       image: '/application/消泡%20水处理.jpeg',
-      applications: t.raw('categories.defoaming.applications').map((app: {name: string, product: string}, index: number) => {
+      applications: t.raw('categories.defoaming.applications').map((app: {name: string, product: string}) => {
         // 根据应用名称分配对应图片
         const getDefoamingImage = (appName: string) => {
           if (appName.includes('水处理')) return '/application/消泡%20水处理.jpeg';
@@ -26,13 +26,26 @@ export default function Applications() {
           if (appName.includes('涂料') || appName.includes('油墨')) return '/application/消泡剂%20油漆涂料.jpeg';
           if (appName.includes('造纸')) return '/application/造纸.png';
           if (appName.includes('农药')) return '/application/食品%20消泡.png';
+          if (appName.includes('化工')) return '/application/管道.png';
+          if (appName.includes('纺织')) return '/application/纺织.png';
+          if (appName.includes('洗涤剂')) return '/application/机械喷涂.png';
           return '/application/消泡%20水处理.jpeg'; // 默认图片
+        };
+        
+        // 根据产品名称分配对应的productId
+        const getProductId = (productName: string) => {
+          if (productName.includes('HY-603')) return 'hy-603';
+          if (productName.includes('HY-611')) return 'hy-611';
+          if (productName.includes('HY-Z25')) return 'hy-z25';
+          if (productName.includes('HY-WS30')) return 'hy-ws30';
+          if (productName.includes('HY-K2')) return 'hy-k2';
+          return 'hy-603'; // 默认
         };
         
         return {
           name: app.name,
           product: app.product,
-          productId: index === 0 ? 'hy-603' : 'hy-611',
+          productId: getProductId(app.product),
           image: getDefoamingImage(app.name)
         };
       })
@@ -63,18 +76,29 @@ export default function Applications() {
       title: t('categories.mold-release.title'),
       description: t('categories.mold-release.description'),
       image: '/application/机械喷涂.png',
-      applications: t.raw('categories.mold-release.applications').map((app: {name: string, product: string}, index: number) => {
+      applications: t.raw('categories.mold-release.applications').map((app: {name: string, product: string}) => {
         // 根据应用名称分配对应图片
         const getMoldReleaseImage = (appName: string) => {
           if (appName.includes('铝合金')) return '/application/机械喷涂.png';
           if (appName.includes('镁合金')) return '/application/汽车制造.png';
+          if (appName.includes('轮胎')) return '/application/汽车制造.png';
+          if (appName.includes('橡胶')) return '/application/机械喷涂.png';
+          if (appName.includes('气囊')) return '/application/机械喷涂.png';
           return '/application/机械喷涂.png'; // 默认图片
+        };
+        
+        // 根据产品名称分配对应的productId
+        const getMoldReleaseProductId = (productName: string) => {
+          if (productName.includes('HY-19N')) return 'hy-19n';
+          if (productName.includes('HY-59N')) return 'hy-59n';
+          if (productName.includes('HY-3689')) return 'hy-3689';
+          return 'hy-19n'; // 默认
         };
         
         return {
           name: app.name,
           product: app.product,
-          productId: index === 0 ? 'hy-19n' : 'hy-59n',
+          productId: getMoldReleaseProductId(app.product),
           image: getMoldReleaseImage(app.name)
         };
       })
@@ -84,18 +108,29 @@ export default function Applications() {
       title: t('categories.fiber.title'),
       description: t('categories.fiber.description'),
       image: '/application/玻璃纤维.png',
-      applications: t.raw('categories.fiber.applications').map((app: {name: string, product: string}, index: number) => {
+      applications: t.raw('categories.fiber.applications').map((app: {name: string, product: string}) => {
         // 根据应用名称分配对应图片
         const getFiberImage = (appName: string) => {
           if (appName.includes('玻璃纤维')) return '/application/玻璃纤维.png';
           if (appName.includes('碳纤维')) return '/application/风叶叶片.png';
+          if (appName.includes('航空航天')) return '/application/飞机.png';
+          if (appName.includes('风电叶片')) return '/application/风叶叶片.png';
+          if (appName.includes('新能源汽车')) return '/application/汽车制造.png';
+          if (appName.includes('管道')) return '/application/管道.png';
           return '/application/玻璃纤维.png'; // 默认图片
+        };
+        
+        // 根据产品名称分配对应的productId
+        const getFiberProductId = (productName: string) => {
+          if (productName.includes('HY-501')) return 'hy-501';
+          if (productName.includes('HY-503')) return 'hy-503';
+          return 'hy-501'; // 默认
         };
         
         return {
           name: app.name,
           product: app.product,
-          productId: index === 0 ? 'hy-501' : 'hy-503',
+          productId: getFiberProductId(app.product),
           image: getFiberImage(app.name)
         };
       })

@@ -53,7 +53,7 @@
       "button": "Contact Us"
     },
     "categories": {
-      "有机硅消泡剂": {
+      "消泡剂": {
         "title": "Silicone Defoamers",
         "subtitle": "High-efficiency silicone defoamer solutions",
         "icon": "🧪"
@@ -68,7 +68,7 @@
         "subtitle": "Professional release agent solutions",
         "icon": "⚙️"
       },
-      "玻璃纤维浸润剂": {
+      "复合材料浸润剂": {
         "title": "Glass Fiber Sizing Agents",
         "subtitle": "Specialized sizing agents for glass fiber processing",
         "icon": "🧵"
@@ -106,15 +106,31 @@
           },
           {
             "name": "Paint and Ink Defoamer",
-            "product": "HY-611 Silicone Defoamer"
+            "product": "HY-K2 Mineral Oil Defoamer"
           },
           {
             "name": "Pulp and Paper Making Defoamer",
-            "product": "HY-611 Silicone Defoamer"
+            "product": "HY-Z25 Silicone Defoamer"
           },
           {
             "name": "Pesticide Industry Defoamer",
-            "product": "HY-611 Silicone Defoamer"
+            "product": "HY-WS30 Silicone Defoamer"
+          },
+          {
+            "name": "Chemical Industry Defoamer",
+            "product": "HY-WS30 Silicone Defoamer"
+          },
+          {
+            "name": "Textile Industry Defoamer",
+            "product": "HY-Z25 Silicone Defoamer"
+          },
+          {
+            "name": "Detergent Defoamer",
+            "product": "HY-WS30 Silicone Defoamer"
+          },
+          {
+            "name": "Petrochemical Defoamer",
+            "product": "HY-WS30 Silicone Defoamer"
           },
           {
             "name": "General Purpose Defoamer",
@@ -147,19 +163,47 @@
           {
             "name": "Magnesium Alloy Die Casting",
             "product": "HY-59N Release Agent"
+          },
+          {
+            "name": "Tire Production Release",
+            "product": "HY-3689 Release Agent"
+          },
+          {
+            "name": "Rubber Product Vulcanization",
+            "product": "HY-3689 Release Agent"
+          },
+          {
+            "name": "Bladder Lubrication",
+            "product": "HY-3689 Release Agent"
           }
         ]
       },
       "fiber": {
-        "title": "Fiber Industry",
-        "description": "High-performance fiber sizing agents to enhance composite material performance",
+        "title": "Composite Material Sizing Agents",
+        "description": "High-performance composite material sizing agents to enhance fiber composite performance",
         "applications": [
           {
-            "name": "Glass Fiber Applications",
+            "name": "Glass Fiber Composites",
             "product": "HY-501 Glass Fiber Sizing Agent"
           },
           {
-            "name": "Carbon Fiber Applications",
+            "name": "Carbon Fiber Composites",
+            "product": "HY-503 Carbon Fiber Sizing Agent"
+          },
+          {
+            "name": "Aerospace Composites",
+            "product": "HY-503 Carbon Fiber Sizing Agent"
+          },
+          {
+            "name": "Wind Turbine Blade Composites",
+            "product": "HY-503 Carbon Fiber Sizing Agent"
+          },
+          {
+            "name": "New Energy Vehicle Composites",
+            "product": "HY-503 Carbon Fiber Sizing Agent"
+          },
+          {
+            "name": "Pipe Composites",
             "product": "HY-503 Carbon Fiber Sizing Agent"
           }
         ]
@@ -292,13 +336,17 @@
   },
   "productNames": {
     "hy-611": "HY-611 Silicone Defoamer",
-    "hy-603": "HY-603 Silicone Defoamer", 
+    "hy-603": "HY-603 Silicone Defoamer",
+    "hy-z25": "HY-Z25 Silicone Defoamer",
+    "hy-ws30": "HY-WS30 Silicone Defoamer",
+    "hy-k2": "HY-K2 Mineral Oil Defoamer",
     "hy8308": "HY8308 Agricultural Silicone Spreading Agent",
     "hy8328": "HY8328 Agricultural Silicone Wetting Agent",
     "hy-9072": "HY-9072 Release Agent",
     "hy-09n": "HY-09N Release Agent",
     "hy-19n": "HY-19N Release Agent",
     "hy-59n": "HY-59N Release Agent",
+    "hy-3689": "HY-3689 Release Agent",
     "hy-501": "HY-501 Glass Fiber Sizing Agent",
     "hy-503": "HY-503 Carbon Fiber Sizing Agent"
   }

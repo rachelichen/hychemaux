@@ -14,21 +14,21 @@ export default function HomeProducts() {
   // 只显示前两个分类，每个分类只显示前两个产品
   const featuredCategories = [
     {
-      id: '有机硅消泡剂',
-      title: t('categories.有机硅消泡剂.title'),
-      subtitle: t('categories.有机硅消泡剂.subtitle'),
+      id: '消泡剂',
+      title: t('categories.消泡剂.title'),
+      subtitle: t('categories.消泡剂.subtitle'),
       icon: Zap,
       color: 'from-blue-500 to-blue-600',
       image: '/products/有机硅型消泡剂HY611.png',
       products: [
         {
           name: 'HY-611有机硅型消泡剂',
-          description: '高效有机硅消泡剂，适用于水处理、石油开采和工业清洗等应用',
+          description: '高效消泡剂，适用于水处理、石油开采和工业清洗等应用',
           link: `/${locale}/products/hy-611`
         },
         {
           name: 'HY-603有机硅型消泡剂',
-          description: '高含量有机硅消泡剂，提供持久的消泡性能',
+          description: '高含量消泡剂，提供持久的消泡性能',
           link: `/${locale}/products/hy-603`
         }
       ]
