@@ -1,3 +1,5 @@
+'use client';
+
 import ProductPage from '@/components/ProductPage';
 import Footer from '@/components/Footer';
 import PageHeader from '@/components/PageHeader';

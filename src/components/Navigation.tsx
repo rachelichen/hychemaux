@@ -37,7 +37,7 @@ export default function Navigation({ transparent = false }: NavigationProps) {
               <img
                 src={currentLocale === 'zh' ? '/icon_zh.png' : '/icon_en.png'}
                 alt={currentLocale === 'zh' ? '珩钰科技' : 'Hengyu Technology'}
-                className="h-[100px] w-auto"
+                className="h-[60px] w-auto"
               />
             </Link>
           </div>

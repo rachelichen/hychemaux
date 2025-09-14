@@ -1,3 +1,5 @@
+'use client';
+
 import News from '@/components/News';
 import Footer from '@/components/Footer';
 import PageHeader from '@/components/PageHeader';

@@ -1,7 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
-import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
@@ -18,15 +16,8 @@ interface PageHeaderProps {
 }
 
 export default function PageHeader({ title, backgroundImage, backgroundColor, breadcrumbs = [] }: PageHeaderProps) {
-  const t = useTranslations('nav');
-  const params = useParams();
-  const locale = params.locale as string;
-
-  // 默认面包屑导航
-  const defaultBreadcrumbs = [
-    { label: t('home'), href: `/${locale}` },
-    ...breadcrumbs
-  ];
+  // 使用传入的面包屑，如果没有则使用空数组
+  const displayBreadcrumbs = breadcrumbs;
 
   return (
     <div className="relative min-h-[450px] overflow-hidden">
@@ -64,10 +55,10 @@ export default function PageHeader({ title, backgroundImage, backgroundColor, br
             className="text-white"
           >
             {/* 面包屑导航 */}
-            {defaultBreadcrumbs.length > 0 && (
+            {displayBreadcrumbs.length > 0 && (
               <nav className="mb-6">
                 <div className="flex items-center space-x-2 text-white/80">
-                  {defaultBreadcrumbs.map((crumb, index) => (
+                  {displayBreadcrumbs.map((crumb, index) => (
                     <div key={index} className="flex items-center">
                       {crumb.href ? (
                         <Link 
@@ -79,7 +70,7 @@ export default function PageHeader({ title, backgroundImage, backgroundColor, br
                       ) : (
                         <span className="text-white">{crumb.label}</span>
                       )}
-                      {index < defaultBreadcrumbs.length - 1 && (
+                      {index < displayBreadcrumbs.length - 1 && (
                         <span className="mx-2 text-white/60">&gt;</span>
                       )}
                     </div>

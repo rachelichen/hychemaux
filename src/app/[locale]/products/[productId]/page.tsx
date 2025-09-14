@@ -1,7 +1,6 @@
 import ProductDetail from '@/components/ProductDetail';
 import Footer from '@/components/Footer';
 import PageHeader from '@/components/PageHeader';
-import { useTranslations } from 'next-intl';
 
 interface ProductPageProps {
   params: Promise<{

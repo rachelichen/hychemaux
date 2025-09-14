@@ -50,8 +50,8 @@ export default function Footer() {
                 <Image
                   src={currentLocale === 'zh' ? '/icon_zh.png' : '/icon_en.png'}
                   alt={currentLocale === 'zh' ? '珩钰科技' : 'Hengyu Technology'}
-                  width={200}
-                  height={100}
+                  width={150}
+                  height={150}
                 />
               </a>
             </div>
