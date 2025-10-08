@@ -28,11 +28,43 @@ export default function Contact() {
   };
 
   // 处理表单提交
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // 这里可以添加表单提交逻辑
-    console.log('Contact form submitted:', formData);
-    setIsSubmitted(true);
+    
+    try {
+      const response = await fetch('/api/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: '', // 联系我们页面没有电话字段
+          message: formData.message,
+          productId: null // 联系我们页面没有关联产品
+        }),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        console.log('Contact message submitted successfully:', result);
+        setIsSubmitted(true);
+        // 重置表单
+        setFormData({
+          name: '',
+          email: '',
+          message: ''
+        });
+      } else {
+        console.error('Failed to submit contact message:', result.error);
+        alert('提交失败，请稍后重试。');
+      }
+    } catch (error) {
+      console.error('Error submitting contact message:', error);
+      alert('提交失败，请检查网络连接。');
+    }
   };
 
   const contactInfo = [

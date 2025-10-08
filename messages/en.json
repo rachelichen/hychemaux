@@ -514,5 +514,27 @@
       "hy8308": "Agricultural silicone spreading agent, improves the application effect of pesticides and fertilizers",
       "hy8328": "Agricultural silicone wetting agent, enhances the wetting and penetration ability of liquid medicine on plant surfaces"
     }
+  },
+  "admin": {
+    "title": "Message Management",
+    "subtitle": "View and manage user messages",
+    "messagesList": "Messages List",
+    "refresh": "Refresh",
+    "exportCsv": "Export CSV",
+    "exporting": "Exporting...",
+    "exportSuccess": "Export successful",
+    "exportError": "Export failed, please try again later",
+    "exportNetworkError": "Export failed, please check network connection",
+    "id": "ID",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "productId": "Product ID",
+    "message": "Message Content",
+    "createdAt": "Submitted At",
+    "noMessages": "No messages",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry"
   }
 }

@@ -56,11 +56,45 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
   };
 
   // 处理表单提交
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // 这里可以添加表单提交逻辑
-    console.log('Form submitted:', formData);
-    setIsSubmitted(true);
+    
+    try {
+      const response = await fetch('/api/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.firstName,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+          productId: productId
+        }),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        console.log('Message submitted successfully:', result);
+        setIsSubmitted(true);
+        // 重置表单
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          phone: '',
+          message: ''
+        });
+      } else {
+        console.error('Failed to submit message:', result.error);
+        alert('提交失败，请稍后重试。');
+      }
+    } catch (error) {
+      console.error('Error submitting message:', error);
+      alert('提交失败，请检查网络连接。');
+    }
   };
 
   // 根据语言版本选择对应的产品数据

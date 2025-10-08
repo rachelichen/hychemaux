@@ -510,5 +510,27 @@
       "hy8308": "农用有机硅展渗剂，提高农药和肥料的施用效果",
       "hy8328": "农用有机硅润湿剂，增强药液在植物表面的润湿渗透能力"
     }
+  },
+  "admin": {
+    "title": "留言管理",
+    "subtitle": "查看和管理用户留言",
+    "messagesList": "留言列表",
+    "refresh": "刷新",
+    "exportCsv": "导出CSV",
+    "exporting": "导出中...",
+    "exportSuccess": "导出成功",
+    "exportError": "导出失败，请稍后重试",
+    "exportNetworkError": "导出失败，请检查网络连接",
+    "id": "ID",
+    "name": "姓名",
+    "email": "邮箱",
+    "phone": "电话",
+    "productId": "产品ID",
+    "message": "留言内容",
+    "createdAt": "提交时间",
+    "noMessages": "暂无留言",
+    "loading": "加载中...",
+    "error": "错误",
+    "retry": "重试"
   }
 }
