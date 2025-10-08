@@ -136,5 +136,418 @@
     "packaging": "25Kg, 50Kg, 200Kg, 1000Kg drums",
     "storage": "Store in sealed containers",
     "shelf_life": "36 months"
+  },
+  "hy-329": {
+    "product_name": "HY-329 Release Agent",
+    "category": "Release Agents",
+    "typical_properties": {
+      "appearance": "Milky white liquid",
+      "ph_value": "6.5-9.0",
+      "emulsion_type": "Anionic",
+      "water_solubility": "Easily soluble in water",
+      "solid_content": "45%"
+    },
+    "product_introduction": "This product is a high molecular weight polydimethylsiloxane polymer aqueous emulsion, effective even at low addition levels. In industrial applications, it is used for demolding automobile tires and other rubber products, serving as a release agent. In leather finishing, it provides wear resistance and a bright coating, acting as a bright smoothing agent. It can also be used as a leveling/wetting agent in water-based systems. This product can directly replace Dow Chemical's DOWSIL HV 495 product.",
+    "features": [
+      "Excellent thermal stability",
+      "Easy to apply",
+      "Good slip properties, giving leather surfaces a greasy feel",
+      "Good wear resistance",
+      "Excellent dilution stability",
+      "High gloss/color intensity",
+      "Good surface wettability",
+      "Excellent release performance"
+    ],
+    "how_to_use": [
+      "Preparation: Usually needs to be diluted with water before use. It is recommended to conduct small-scale tests first to determine the appropriate dilution ratio. Molds should be cleaned before using the release agent.",
+      "Other Uses: Can be used as an exterior protectant, exterior wax, care agent and sealant, interior renovator, leather care agent, tire care agent, vinyl protectant, etc."
+    ],
+    "typical_applications": [
+      "Industrial demolding and automotive and furniture care",
+      "Demolding of rubber products (e.g., shoe soles, tires)",
+      "Demolding of plastic products",
+      "Demolding of refractory materials"
+    ],
+    "packaging": "25kg, 50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-3845": {
+    "product_name": "HY-3845 Release Agent and Brightener",
+    "category": "Release Agents",
+    "typical_properties": {
+      "appearance": "Milky white liquid",
+      "composition": "Polydimethylsiloxane aqueous emulsion",
+      "ph_value": "Approx. 7.5",
+      "emulsion_type": "Non-ionic emulsion with slight anionic properties",
+      "water_solubility": "Easily soluble in water",
+      "solid_content": "45%"
+    },
+    "product_introduction": "The product's emulsion particles are fine, uniformly dispersed, have high molecular weight, and good stability. It possesses film-forming, slippery, soft, elastic, and anti-wrinkle properties. This product can directly replace Elkem EMUL 8455 product.",
+    "features": [
+      "Excellent thermal stability",
+      "Good hydrophilicity",
+      "Excellent release and isolation properties",
+      "Incompatible with many organic substances"
+    ],
+    "how_to_use": [
+      "Usually needs to be diluted with water before use. It is recommended to conduct small-scale tests first to determine the appropriate dilution ratio. Molds should be cleaned before using the release agent."
+    ],
+    "typical_applications": [
+      "Natural leather brightener",
+      "Fabric and wool smoothing agent",
+      "Industrial rubber, tire, plastic, and casting material release agent",
+      "Maintenance product additive",
+      "Floor and furniture polish",
+      "Leather maintenance products"
+    ],
+    "packaging": "25kg, 50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-302": {
+    "product_name": "HY-302 Release Agent",
+    "category": "Release Agents",
+    "typical_properties": {
+      "appearance": "Milky white liquid",
+      "ph_value": "7.5-8.5",
+      "emulsion_type": "Non-ionic/Anionic",
+      "solid_content": "41%-44%"
+    },
+    "product_introduction": "This product is a special high-viscosity polydimethylsiloxane aqueous dispersion formula. The emulsion is highly stable, capable of handling shear forces even when highly diluted for ready-to-use applications. It boasts excellent wetting and spreading properties, allowing it to form a uniform and smooth film even at lower concentrations. The polydimethylsiloxane component provides extremely high release performance and resistance to mechanical stress. It is a general-purpose release agent that improves the appearance and surface quality of molded products. It can directly replace WACKER® E 22 product.",
+    "features": [
+      "Excellent release capability",
+      "Good thermal stability",
+      "Low surface tension",
+      "Low volatility",
+      "Antioxidant",
+      "Environmentally friendly"
+    ],
+    "how_to_use": [
+      "Dilute the product with water by 0.5%-5%. The diluted emulsion can be used for dipping, brushing, and spraying. It is recommended to conduct small-scale tests first to determine the appropriate addition amount."
+    ],
+    "typical_applications": [
+      "Formulated as a general-purpose release agent for rubber vulcanization",
+      "Used as an ironing aid in starch aerosol formulations",
+      "An additive in fabric softener formulations"
+    ],
+    "packaging": "25kg, 50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-9072": {
+    "product_name": "HY-9072 Release Agent",
+    "category": "Release Agents",
+    "typical_properties": {
+      "appearance": "Milky white liquid",
+      "solid_content": "15~30% (depending on dilution ratio and cost-performance requirements)",
+      "ph_value": "7.0-8.5",
+      "temperature_resistance": "200-700℃",
+      "applicable_metals": "Aluminum/Zinc/Magnesium alloys"
+    },
+    "product_introduction": "This product is a water-based release agent that belongs to environmentally friendly products, non-toxic, non-corrosive, diluted with alcohol solvents, and does not produce harmful fumes. It has lubricity, oil solubility, wear resistance, defoaming, anti-sticking, printable, isolation, and high temperature resistance, and can be used directly. Through high-temperature film formation and lubrication, it ensures that the casting surface has high whiteness, no yellowing, and no blackening after demolding, while effectively inhibiting mold carbon accumulation and extending mold service life.",
+    "features": [
+      "High-efficiency release performance: maintains high lubricity even after 100-fold dilution, forms nano-level isolation film after spraying, reducing adhesion between metal liquid and mold.",
+      "Anti-carbon accumulation design: silicone-based formula coordinates with other non-silicone components to avoid high-temperature carbonization, leaving no residue on mold surface.",
+      "Casting surface optimization: smooth and bright casting surface after demolding, no yellowing or blackening.",
+      "Environmental safety: water-based formula, no harmful volatiles, meets industrial environmental standards."
+    ],
+    "how_to_use": [
+      "Dilution ratio: dilute at 1:100 (concentrate:water), stir evenly before use. Using deionized water will be beneficial for anti-carbon accumulation, anti-corrosion and smoothness. Please choose tap water or deionized water based on practical effects.",
+      "Spraying process: Mold temperature control: preheat mold to 150-200℃ before spraying to ensure uniform film formation of release agent. Spraying equipment: use atomizing spray gun (pressure 0.3-0.5MPa), spray evenly at 20-30cm distance from mold surface. Spraying amount: 1-2 seconds per mold cycle to form uniform transparent film layer.",
+      "Operation process: mold cleaning → preheating → spraying release agent → injecting metal liquid → cooling demolding → mold maintenance."
+    ],
+    "typical_applications": [
+      "Metal machining",
+      "Automotive manufacturing",
+      "Aerospace",
+      "Composite materials",
+      "Pressure vessels",
+      "Steel structures"
+    ],
+    "packaging": "50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-z25": {
+    "product_name": "HY-Z25 Silicone Defoamer",
+    "category": "Defoamers",
+    "indicators": {
+      "appearance": "Milky white liquid",
+      "solid_content": "10-30%",
+      "ion_type": "Non-ionic"
+    },
+    "product_introduction": "This product is a high-efficiency silicone emulsion defoamer with excellent defoaming performance and long-lasting foam suppression effect, and does not easily produce oil spots. This product is a water-based system with good dilution stability.",
+    "features": [
+      "Fast defoaming",
+      "Long-lasting foam suppression",
+      "No oil spots",
+      "Good dilution stability"
+    ],
+    "how_to_use": [
+      "Add during the process, recommend pre-diluting with cold water at a ratio of 1:10 before use",
+      "If using a dosing pump, use a low-shear type",
+      "Any defoamer requires formula engineers to optimize the dosage"
+    ],
+    "typical_applications": [
+      "Chemical industry",
+      "Textile",
+      "Paper making",
+      "Petrochemical",
+      "Detergents",
+      "Pesticides"
+    ],
+    "packaging": "50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-ws30": {
+    "product_name": "HY-WS30 Silicone Defoamer",
+    "category": "Defoamers",
+    "indicators": {
+      "appearance": "Milky white liquid",
+      "solid_content": "10-30%",
+      "ion_type": "Non-ionic"
+    },
+    "product_introduction": "This product is a high-efficiency silicone emulsion defoamer with excellent defoaming performance, long-lasting foam suppression effect, and good acid and alkali resistance. This product is a water-based system with good dilution stability.",
+    "features": [
+      "Fast defoaming",
+      "Long-lasting foam suppression",
+      "Strong alkali resistance",
+      "Acid resistance",
+      "No oil spots",
+      "Good dilution stability"
+    ],
+    "how_to_use": [
+      "Add during the process, recommend pre-diluting with cold water at a ratio of 1:10 before use",
+      "If using a dosing pump, use a low-shear type",
+      "Any defoamer requires formula engineers to optimize the dosage"
+    ],
+    "typical_applications": [
+      "Chemical industry",
+      "Textile",
+      "Paper making",
+      "Petrochemical",
+      "Detergents",
+      "Pesticides"
+    ],
+    "packaging": "50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-k2": {
+    "product_name": "HY-K2 Mineral Oil Defoamer",
+    "category": "Defoamers",
+    "indicators": {
+      "appearance": "Liquid",
+      "solid_content": "Not specified",
+      "ion_type": "Not specified"
+    },
+    "product_introduction": "This product is a mineral oil defoamer specifically designed for the coatings and ink industry, with excellent defoaming performance and long-lasting foam suppression effect.",
+    "features": [
+      "Good system compatibility",
+      "Fast defoaming, long-lasting foam suppression",
+      "Good temperature stability"
+    ],
+    "how_to_use": [
+      "Stir and disperse for a certain time before use",
+      "For different production process systems, it is recommended to conduct small-scale tests first to achieve the best defoaming effect and appropriate dosage control",
+      "It is recommended to conduct compatibility tests before use to achieve the best effect"
+    ],
+    "typical_applications": [
+      "Coatings",
+      "Inks"
+    ],
+    "packaging": "50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-3000": {
+    "product_name": "HY-3000 Modifier",
+    "category": "Modifiers",
+    "typical_properties": {
+      "appearance": "The product appears as a transparent or semi-transparent uniform liquid",
+      "average_molecular_weight": "3000",
+      "hydroxyl_equivalent_weight": "1500"
+    },
+    "product_introduction": "This product is a single-ended dihydroxy polydimethylsiloxane, designed as an organosilicon modifier specifically to enhance the performance of polyurethane resins. Unlike dihydroxy polydimethylsiloxane (e.g., Dow Corning DC-8427 or DC-3667) where organosilicon chains are incorporated into the main chain of modified polyurethane molecules in a block form, the organosilicon molecular chains in HY-3000 modified polyurethane are anchored at only one end to the main chain, with the other end remaining free. This unique structure allows the organosilicon molecular chains of HY-3000 modified polyurethane to more easily migrate to the coating surface, leading to more efficient hydrophobicity, oleophobicity, wear resistance, anti-sticking, and lubricating effects.",
+    "features": [
+      "Excellent hydrophobicity and oleophobicity",
+      "Excellent wear resistance, anti-sticking, and lubricating properties",
+      "Enhances coating performance"
+    ],
+    "how_to_use": [
+      "Determine Addition Amount: Based on the polyurethane resin formula, determine the required amount of HY-3000. The recommended addition amount is approximately 5%.",
+      "Mixing: Add HY-3000 to the polyurethane resin raw material and stir thoroughly until uniform.",
+      "Reaction: Proceed with subsequent reactions according to the standard polyurethane resin synthesis process."
+    ],
+    "typical_applications": [
+      "Modifier for Special Polyurethane Resins: It acts as a modifier for special polyurethane resins, which can be solvent-based, solvent-free, or water-based.",
+      "Coatings and Paints: These modified polyurethane resins are primarily used in coatings or paints. These coatings or paints serve as excellent alternatives to fluorine-containing materials for 'three-proof' (waterproof, oil-proof, anti-fouling) applications.",
+      "Downstream Markets: The downstream market applications include waterproof and anti-corrosion fields, such as marine engineering, ship coatings, and outdoor steel structure protection."
+    ],
+    "packaging": "50kg, 200kg, 1000kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "6 months"
+  },
+  "hy-501": {
+    "product_name": "HY-501 Glass Fiber Sizing Agent",
+    "category": "Composite Material Sizing Agents",
+    "typical_properties": {
+      "appearance": "Milky white liquid",
+      "ionic_type": "Anionic/Non-ionic composite",
+      "stability": "No delamination or oil floating at 3000rpm",
+      "water_solubility": "Infinite miscibility with water"
+    },
+    "product_introduction": "This product can effectively enhance the adhesion between glass fibers and bundle hardness, with strong bundle cohesion. Glass fiber products treated with this product have thermoplastic properties and good compatibility with thermoplastic materials such as PA and PE, with good dispersibility in composite material systems.",
+    "features": [
+      "Improved adhesion: The main function is to improve the adhesion between glass fibers and resins, prevent delamination and increase strength.",
+      "Enhanced mechanical properties: By improving fiber-matrix bonding, the sizing agent can increase the tensile strength, flexural strength, and impact strength of composite materials.",
+      "Improved durability: Better adhesion and reduced water absorption provide better resistance to humidity, chemicals, and other environmental factors.",
+      "Improved processing: Some sizing agents can also improve the processing methods of glass fibers, making them easier to handle, disperse, and integrate into composite materials."
+    ],
+    "how_to_use": [
+      "When used as a composite material sizing agent, it is recommended to dilute with water. It is recommended to add 3-8 times water for dilution and stir evenly.",
+      "After diluting the sizing agent, add it to the sizing bath. The initial concentration can be slightly higher.",
+      "As the number of sizing cycles increases, the concentration of the agent in the sizing bath gradually decreases. It is necessary to regularly supplement the diluted agent, recommended to supplement once every 1-3 cycles.",
+      "The diluted agent should be used as soon as possible and not stored for long periods.",
+      "This product has strong adhesion. If the production interval exceeds 10 days, it is recommended to clean the sizing bath to prevent cured particles from affecting subsequent product quality."
+    ],
+    "typical_applications": [
+      "Aerospace field: Aircraft fuselage, wings, tail fins and other main load-bearing structural components, spacecraft cabins, satellite supports, etc.",
+      "Wind power field: Wind turbine blades. Blades need to withstand long-term alternating loads and humid environments. The sizing agent needs to improve the interfacial fatigue resistance and water resistance between carbon fibers and epoxy resins, optimizing fiber bundling.",
+      "New energy vehicle field: Body frames, chassis components, battery housings, etc.",
+      "Textile weaving: Carbon fiber tows need to be woven into fabrics or braided into tubular shapes. The sizing agent improves bundling and anti-friction properties, reduces fly and breakage during weaving, ensuring fabric uniformity.",
+      "Pipes: In the winding process of pipes and other products, the sizing agent reduces friction between fibers, making the tows neatly arranged during winding, avoiding performance fluctuations due to uneven tension."
+    ],
+    "packaging": "50kg, 200kg, 1000kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "6 months"
+  },
+  "hy-503": {
+    "product_name": "HY-503 Carbon Fiber Sizing Agent",
+    "category": "Composite Material Sizing Agents",
+    "typical_properties": {
+      "appearance": "Milky white liquid",
+      "ionic_type": "Anionic/Non-ionic composite",
+      "stability": "No delamination or oil floating at 3000rpm",
+      "water_solubility": "Infinite miscibility with water"
+    },
+    "product_introduction": "This product is a high-performance special modified macromolecular polyurethane polymer emulsion. Compared with traditional sizing agents, it has excellent positive synergistic effects, with smoother feel after bundling, effectively enhancing adhesion between fibers and bundle hardness. Short-cut glass fiber materials treated with this product have thermoplastic properties and good compatibility with thermoplastic materials such as PA and PE, with good dispersibility in composite material systems, significantly improving the mechanical properties and wear resistance of composite materials.",
+    "features": [
+      "Improved adhesion: The main function is to improve the adhesion between carbon fibers and resins, prevent delamination and increase strength.",
+      "Enhanced mechanical properties: By improving fiber-matrix bonding, the sizing agent can increase the tensile strength, flexural strength, and impact strength of composite materials.",
+      "Improved durability: Better adhesion and reduced water absorption provide better resistance to humidity, chemicals, and other environmental factors."
+    ],
+    "how_to_use": [
+      "When used as a carbon fiber sizing agent, it is recommended to dilute with water. It is recommended to add 3-8 times water for dilution and stir evenly.",
+      "After diluting the sizing agent, add it to the sizing bath. The initial concentration can be slightly higher.",
+      "As the number of short-cut carbon fiber sizing agent uses increases, the concentration of the agent in the sizing bath gradually decreases. It is necessary to regularly supplement the diluted agent, recommended to supplement once every 1-3 cycles.",
+      "The diluted agent should be used as soon as possible and not stored for long periods."
+    ],
+    "typical_applications": [
+      "Aerospace field: Aircraft fuselage, wings, tail fins and other main load-bearing structural components, spacecraft cabins, satellite supports, etc.",
+      "Wind power field: Wind turbine blades. Blades need to withstand long-term alternating loads and humid environments. The sizing agent needs to improve the interfacial fatigue resistance and water resistance between carbon fibers and epoxy resins, optimizing fiber bundling.",
+      "New energy vehicle field: Body frames, chassis components, battery housings, etc.",
+      "Textile weaving: Carbon fiber tows need to be woven into fabrics or braided into tubular shapes. The sizing agent improves bundling and anti-friction properties, reduces fly and breakage during weaving, ensuring fabric uniformity.",
+      "Pipes: In the winding process of pipes and other products, the sizing agent reduces friction between fibers, making the tows neatly arranged during winding, avoiding performance fluctuations due to uneven tension."
+    ],
+    "packaging": "50kg, 200kg, 1000kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "6 months"
+  },
+  "hy-3689": {
+    "product_name": "HY-3689 Release Agent",
+    "category": "Release Agents",
+    "indicators": {
+      "appearance": "Semi-transparent thick viscous liquid",
+      "specific_gravity": "0.98-1",
+      "solid_content": "80-83%"
+    },
+    "product_introduction": "This product is a water-dilutable bladder lubricant release agent specifically designed for tire production. It can directly replace Dow Corning's DOWSIL FBL-3289 and is mainly used for demolding and lubrication during tire vulcanization molding processes.",
+    "features": [
+      "Excellent and flexibly adjustable release performance",
+      "Strong compatibility with various formulations and processes",
+      "Extends bladder service life and reduces production costs",
+      "High cost-performance ratio, can replace imported products"
+    ],
+    "how_to_use": [
+      "Standalone use: According to dilution ratio (water amount adjustment) and differences in vulcanized rubber formulation processes, 1-10 demolding cycles can be achieved. This method is suitable for scenarios requiring fewer demolding cycles",
+      "Combined use (semi-permanent/permanent demolding): Mix with 40% hydrogen-containing silicone oil emulsion (crosslinking agent) in specific proportions to form a complete demolding coating system. Can significantly increase demolding cycle times, achieving \"semi-permanent/permanent demolding\", which is the preferred solution for high-frequency production scenarios"
+    ],
+    "typical_applications": [
+      "Tire production",
+      "Rubber product vulcanization",
+      "Bladder lubrication",
+      "Mold demolding",
+      "Rubber molding processes"
+    ],
+    "packaging": "50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-59n": {
+    "product_name": "HY-59N Release Agent",
+    "category": "Release Agents",
+    "typical_properties": {
+      "appearance": "Light yellow to colorless transparent liquid",
+      "active_ingredient": "100%",
+      "viscosity": "1000-2000 (25℃, mPa*s)"
+    },
+    "product_introduction": "This product is made from organosilicon monomers/materials through multi-component modification, with unique structure, simple use and powerful functionality. This product belongs to environmentally friendly water-based solvent, non-toxic, non-corrosive, diluted with alcohol solvents, and does not produce harmful fumes. It has high lubricity and impact resistance, making workpiece demolding easy and damage-free while fully protecting the mold. Easy to use, easy to emulsify, and can be miscible with mineral oil in any proportion. It has lubricity, oil solubility, wear resistance, defoaming, anti-sticking, and printable properties.",
+    "features": [
+      "High-efficiency release performance: maintains high lubricity even after 100-fold dilution, forms nano-level isolation film after spraying, reducing adhesion between metal liquid and mold.",
+      "Anti-carbon accumulation design: silicone-based formula coordinates with other non-silicone components to avoid high-temperature carbonization, leaving no residue on mold surface.",
+      "Casting surface optimization: smooth and bright casting surface after demolding, no yellowing or blackening.",
+      "Environmental safety: water-based formula, no harmful volatiles, meets industrial environmental standards."
+    ],
+    "how_to_use": [
+      "Dilution ratio: dilute at 1:100 (concentrate:water), stir evenly before use. Using deionized water will be beneficial for anti-carbon accumulation, anti-corrosion and smoothness. Please choose tap water or deionized water based on practical effects.",
+      "Spraying process: Mold temperature control: preheat mold to 150-200℃ before spraying to ensure uniform film formation of release agent. Spraying equipment: use atomizing spray gun (pressure 0.3-0.5MPa), spray evenly at 20-30cm distance from mold surface. Spraying amount: 1-2 seconds per mold cycle to form uniform transparent film layer.",
+      "Operation process: mold cleaning → preheating → spraying release agent → injecting metal liquid → cooling demolding → mold maintenance."
+    ],
+    "typical_applications": [
+      "Metal machining",
+      "Automotive manufacturing",
+      "Aerospace",
+      "Composite materials",
+      "Pressure vessels",
+      "Steel structures"
+    ],
+    "packaging": "50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
+  },
+  "hy-19n": {
+    "product_name": "HY-19N Release Agent",
+    "category": "Release Agents",
+    "typical_properties": {
+      "appearance": "Light yellow to colorless transparent liquid",
+      "active_ingredient": "100%",
+      "viscosity": "1000-2000 (25℃, mPa*s)"
+    },
+    "product_introduction": "This product is made from organosilicon monomers/materials through multi-component modification, with unique structure, simple use and powerful functionality. This product belongs to environmentally friendly water-based solvent, non-toxic, non-corrosive, diluted with alcohol solvents, and does not produce harmful fumes. It has high lubricity and impact resistance, making workpiece demolding easy and damage-free while fully protecting the mold. Easy to use, easy to emulsify, and can be miscible with mineral oil in any proportion. It has lubricity, oil solubility, wear resistance, defoaming, anti-sticking, and printable properties.",
+    "features": [
+      "High-efficiency release performance: maintains high lubricity even after 100-fold dilution, forms nano-level isolation film after spraying, reducing adhesion between metal liquid and mold.",
+      "Anti-carbon accumulation design: silicone-based formula coordinates with other non-silicone components to avoid high-temperature carbonization, leaving no residue on mold surface.",
+      "Casting surface optimization: smooth and bright casting surface after demolding, no yellowing or blackening.",
+      "Environmental safety: water-based formula, no harmful volatiles, meets industrial environmental standards."
+    ],
+    "how_to_use": [
+      "Dilution ratio: dilute at 1:100 (concentrate:water), stir evenly before use. Using deionized water will be beneficial for anti-carbon accumulation, anti-corrosion and smoothness. Please choose tap water or deionized water based on practical effects.",
+      "Spraying process: Mold temperature control: preheat mold to 150-200℃ before spraying to ensure uniform film formation of release agent. Spraying equipment: use atomizing spray gun (pressure 0.3-0.5MPa), spray evenly at 20-30cm distance from mold surface. Spraying amount: 1-2 seconds per mold cycle to form uniform transparent film layer.",
+      "Operation process: mold cleaning → preheating → spraying release agent → injecting metal liquid → cooling demolding → mold maintenance."
+    ],
+    "typical_applications": [
+      "Metal machining",
+      "Automotive manufacturing",
+      "Aerospace",
+      "Composite materials",
+      "Pressure vessels",
+      "Steel structures"
+    ],
+    "packaging": "50kg, 200kg drums",
+    "storage": "Store in sealed containers",
+    "shelf_life": "12 months"
   }
 }

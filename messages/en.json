@@ -17,11 +17,38 @@
   "hero": {
     "title": "Professional Chemical Equipment Manufacturer",
     "subtitle": "Committed to providing high-quality, high-efficiency chemical equipment solutions for customers",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "slides": {
+      "about": {
+        "title": "About Us",
+        "subtitle": "Hengyu Technology Co., Ltd. specializes in modified siloxane and formulation technology with thirty years of silicone industry experience",
+        "cta": "Learn More"
+      },
+      "products": {
+        "title": "Products",
+        "subtitle": "Professional chemical products including silicone defoamers, modifiers, sizing agents, release agents and more",
+        "cta": "Learn More"
+      },
+      "applications": {
+        "title": "Applications",
+        "subtitle": "Providing professional chemical product solutions for petroleum, paper, textile, agriculture and other industries",
+        "cta": "Learn More"
+      },
+      "news": {
+        "title": "News",
+        "subtitle": "Stay updated with our latest technological breakthroughs, product innovations and industry developments",
+        "cta": "Learn More"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "subtitle": "Our professional technical team is ready to provide technical support and product consultation",
+        "cta": "Learn More"
+      }
+    }
   },
   "about": {
     "title": "About Us",
-    "description": "Hengyu Technology Co., Ltd. is an enterprise engaged in chemical additives, production and sales. We focus on modified siloxane and formulation technology, with strong R&D capabilities in formulations, able to quickly respond to sample analysis needs with efficient testing and precise solution feedback. Our production lines cover defoamers, glass fiber/carbon fiber sizing agents, release agents, agricultural extenders and other additives. The factory is equipped with advanced production equipment and strict quality control systems to ensure high quality and stability of products. In addition, we also focus on environmental protection and safe production, comply with relevant regulations and standards, and ensure the sustainability and safety of the production process.",
+    "description": "Hengyu Technology Co., Ltd. is an enterprise engaged in the research, development, production and sales of chemical additives. We specialize in modified siloxane and formulation technology, with strong formulation R&D capabilities, able to quickly respond to sample analysis needs and provide comprehensive solutions. Our products cover silicone defoamers, modifiers, glass fiber/carbon fiber sizing agents, release agents, wetting agents, agricultural spreading agents and other additives. The factory is equipped with advanced production equipment and strict quality control systems to ensure high quality and stability of products.",
     "companyOverview": "Company Overview",
     "companyOverviewDesc": "Hengyu Technology Co., Ltd. is an enterprise specializing in the research, development, production and sales of silicone chemicals, with thirty years of silicone industry experience and formulation technology.",
     "productionLines": "Production Lines",
@@ -67,6 +94,11 @@
         "title": "Release Agents",
         "subtitle": "Professional release agent solutions",
         "icon": "⚙️"
+      },
+      "改性剂": {
+        "title": "Modifiers",
+        "subtitle": "Organosilicon modifier solutions",
+        "icon": "🔧"
       },
       "复合材料浸润剂": {
         "title": "Glass Fiber Sizing Agents",
@@ -224,6 +256,10 @@
         {
           "value": "oilfield-foam-solution",
           "label": "Oilfield Foam Solution, Improve Efficiency and Protect Equipment"
+        },
+        {
+          "value": "wind-turbine-coating",
+          "label": "Hengyu Technology Helps Wind Turbine Blades Achieve High-Efficiency Anti-Icing and Waterproof Coatings"
         }
       ]
     },
@@ -296,6 +332,63 @@
       ],
       "advantages": "When formulated into detergents and textile auxiliaries, HY-611 silicone defoamer exhibits significant foam control performance, with minimal impact on transparency, making it an ideal choice for industrial applications."
     },
+    "windTurbineCoating": {
+      "title": "Hengyu Technology Helps Wind Turbine Blades Achieve High-Efficiency Anti-Icing and Waterproof Coatings, Promoting Fluorine-Free Environmentally Friendly New Material Applications",
+      "description": "Hengyu Technology's HY-3000 modifier has achieved major breakthroughs in wind turbine blade coating applications, providing fluorine-free environmentally friendly high-performance protection solutions for the wind power industry.",
+      "introduction": "As wind turbine operating environments become increasingly complex, the waterproof, anti-icing, and anti-corrosion properties of blade surfaces have become key factors affecting power generation efficiency and equipment lifespan. Traditional fluorine-containing coatings offer some protective effects but pose environmental risks and are costly. Hengyu Technology's HY-3000 organosilicon modifier, as a high-performance fluorine-free alternative, is gradually becoming the preferred modification additive for wind turbine blade coating materials.",
+      "technicalBackground": {
+        "title": "Technical Background: Unique Structure and Mechanism of Action of HY-3000",
+        "description": "HY-3000 is a single-ended dihydroxy polydimethylsiloxane, whose molecular structure differs from traditional dihydroxy silicone oil. In a polyurethane resin system, HY-3000 anchors to the polyurethane main chain at one end, while the other end remains free. This unique structure allows the organosilicon molecular chains of HY-3000 modified polyurethane to more easily migrate to the coating surface, forming a dense and flexible organosilicon-rich layer."
+      },
+      "coatingFeatures": {
+        "title": "Properties of Modified Polyurethane Coating",
+        "description": "This characteristic gives the modified polyurethane coating the following properties:",
+        "features": [
+          "Excellent hydrophobicity and oleophobicity, effectively preventing water and ice crystal adhesion",
+          "Enhanced surface slipperiness, reducing the probability of snow and ice accumulation",
+          "Improved wear resistance and anti-sticking performance, extending blade maintenance cycles"
+        ]
+      },
+      "applications": {
+        "title": "Application Areas and Market Prospects",
+        "description": "Applications of HY-3000 modifier in wind turbine blade coatings:",
+        "items": [
+          "Wind turbine blade surface protection: providing long-lasting waterproof, anti-icing, and anti-corrosion protection",
+          "Marine engineering: suitable for harsh marine environments in offshore wind power",
+          "Outdoor steel structure protection: providing protection for wind turbine towers and other steel structures",
+          "Environmental replacement: gradually replacing traditional fluorine-containing coatings, promoting green development in the industry"
+        ]
+      },
+      "benefits": {
+        "title": "Technical Advantages and Economic Benefits",
+        "description": "Advantages brought by using HY-3000 modifier:",
+        "items": [
+          "Environmental performance: fluorine-free formula, meeting environmental requirements and reducing environmental risks",
+          "Cost effectiveness: significant cost advantages compared to imported fluorine-containing materials",
+          "Excellent performance: providing protection performance equivalent to or superior to fluorine-containing materials",
+          "Maintenance convenience: reducing maintenance frequency and lowering operating costs"
+        ]
+      },
+      "successfulCase": {
+        "title": "Successful Application Case: Wind Farm Blade Anti-icing Coating Project",
+        "description": "Northern wind farms face the problem of decreased power generation efficiency due to blade icing during winter operation. A specific wind farm added 5% HY-3000 to the polyurethane protective coating of blades, followed by on-site testing and comparative verification.",
+        "effects": [
+          "Ice accumulation was reduced by approximately 30%, and blades remained smooth even in low-temperature and high-humidity environments",
+          "The contact angle with rain and snow significantly increased, causing water droplets to roll off quickly and not easily remain on the surface",
+          "Coating durability improved, with no obvious wear or peeling observed after half a year of operation",
+          "The overall coating system does not require fluorine-containing materials, meeting green environmental standards"
+        ]
+      },
+      "industrySignificance": {
+        "title": "Industry Significance: Providing Sustainable Solutions for the Wind Power Industry",
+        "description": "The application of HY-3000 not only enhances the operational reliability of blades in harsh climates but also offers wind power equipment manufacturers a choice of fluorine-free, efficient, and easy-to-apply materials. Its strong compatibility makes it suitable for various polyurethane systems, including solvent-based, solvent-free, and water-based types, thereby contributing to the wind power industry's dual development towards environmental friendliness and high performance."
+      },
+      "futureOutlook": {
+        "title": "Future Outlook",
+        "description": "Hengyu Technology will continue to deepen the application development of HY-3000 in high-end fields such as new energy, rail transit, and marine engineering. The goal is to promote the technical substitution and innovative breakthroughs of domestic high-performance organosilicon materials in a wider range of industrial scenarios."
+      },
+      "conclusion": "The successful application of Hengyu Technology's HY-3000 modifier in wind turbine blade coating fields not only provides high-performance protection solutions for the wind power industry but also promotes the development of fluorine-free environmentally friendly new materials. With increasingly strict environmental requirements and rapid development of the wind power industry, HY-3000 modifier will play an important role in more fields, helping to achieve green and sustainable development."
+    },
     "items": {
       "item1": {
         "title": "New High-Efficiency Reactor Technology Receives National Patent",
@@ -334,7 +427,8 @@
       "name": "Name",
       "email": "Email",
       "message": "Message",
-      "submit": "Send Message"
+      "submit": "Send Message",
+      "thankYouMessage": "Thank you for your message. We will contact you soon."
     }
   },
   "footer": {
@@ -380,6 +474,8 @@
     "storageConditions": "Storage Conditions",
     "shelfLife": "Shelf Life",
     "leaveMessage": "Leave Your Message",
+    "name": "Name",
+    "namePlaceholder": "Please enter your name",
     "yourName": "Your Name",
     "firstName": "First Name",
     "lastName": "Last Name",
@@ -387,25 +483,36 @@
     "phoneNumber": "Phone Number",
     "message": "Message",
     "submit": "Submit",
+    "thankYouMessage": "Thank you for your message. We will contact you soon.",
     "requestMsdsTds": "REQUEST MSDS/TDS",
     "note": "Note: The above information is for reference only and does not constitute technical specifications.",
     "indicator": "Indicator",
-    "result": "Result"
-  },
-  "productNames": {
-    "hy-611": "HY-611 Silicone Defoamer",
-    "hy-603": "HY-603 Silicone Defoamer",
-    "hy-z25": "HY-Z25 Silicone Defoamer",
-    "hy-ws30": "HY-WS30 Silicone Defoamer",
-    "hy-k2": "HY-K2 Mineral Oil Defoamer",
-    "hy8308": "HY8308 Agricultural Silicone Spreading Agent",
-    "hy8328": "HY8328 Agricultural Silicone Wetting Agent",
-    "hy-9072": "HY-9072 Release Agent",
-    "hy-09n": "HY-09N Release Agent",
-    "hy-19n": "HY-19N Release Agent",
-    "hy-59n": "HY-59N Release Agent",
-    "hy-3689": "HY-3689 Release Agent",
-    "hy-501": "HY-501 Glass Fiber Sizing Agent",
-    "hy-503": "HY-503 Carbon Fiber Sizing Agent"
+    "result": "Result",
+    "productNames": {
+      "hy-611": "HY-611 Silicone Defoamer",
+      "hy-603": "HY-603 Silicone Defoamer",
+      "hy-z25": "HY-Z25 Silicone Defoamer",
+      "hy-ws30": "HY-WS30 Silicone Defoamer",
+      "hy-k2": "HY-K2 Mineral Oil Defoamer",
+      "hy8308": "HY8308 Agricultural Silicone Spreading Agent",
+      "hy8328": "HY8328 Agricultural Silicone Wetting Agent",
+      "hy-9072": "HY-9072 Release Agent",
+      "hy-09n": "HY-09N Release Agent",
+      "hy-19n": "HY-19N Release Agent",
+      "hy-59n": "HY-59N Release Agent",
+      "hy-302": "HY-302 Release Agent",
+      "hy-329": "HY-329 Release Agent",
+      "hy-3845": "HY-3845 Release Agent and Brightener",
+      "hy-3689": "HY-3689 Release Agent",
+      "hy-3000": "HY-3000 Modifier",
+      "hy-501": "HY-501 Glass Fiber Sizing Agent",
+      "hy-503": "HY-503 Carbon Fiber Sizing Agent"
+    },
+    "productDescriptions": {
+      "hy-611": "High-efficiency defoamer, suitable for water treatment, oil extraction, and industrial cleaning applications",
+      "hy-603": "High-content defoamer, providing long-lasting defoaming performance",
+      "hy8308": "Agricultural silicone spreading agent, improves the application effect of pesticides and fertilizers",
+      "hy8328": "Agricultural silicone wetting agent, enhances the wetting and penetration ability of liquid medicine on plant surfaces"
+    }
   }
 }

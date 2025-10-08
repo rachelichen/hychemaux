@@ -4,6 +4,7 @@ import {useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
 import {Beaker, CheckCircle, ChevronDown} from 'lucide-react';
 import {useState} from 'react';
+import Image from 'next/image';
 
 export default function News() {
   const t = useTranslations('news');
@@ -93,11 +94,13 @@ export default function News() {
               <h3 className="text-2xl font-bold">
                 {selectedNews === 'hy-611-defoamer' && t('featuredProduct.title')}
                 {selectedNews === 'oilfield-foam-solution' && t('oilfieldSolution.title')}
+                {selectedNews === 'wind-turbine-coating' && t('windTurbineCoating.title')}
               </h3>
             </div>
             <p className="text-blue-100 text-lg">
               {selectedNews === 'hy-611-defoamer' && t('featuredProduct.description')}
               {selectedNews === 'oilfield-foam-solution' && t('oilfieldSolution.description')}
+              {selectedNews === 'wind-turbine-coating' && t('windTurbineCoating.description')}
             </p>
           </div>
 
@@ -224,7 +227,162 @@ export default function News() {
               </div>
             )}
 
-            
+            {selectedNews === 'wind-turbine-coating' && (
+              <div className="space-y-8">
+                {/* 介绍部分 */}
+                <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-6 rounded-lg">
+                  <p className="text-gray-700 text-lg leading-relaxed">
+                    {t('windTurbineCoating.introduction')}
+                  </p>
+                </div>
+
+                {/* 技术背景 */}
+                <div className="bg-white border border-gray-200 rounded-lg p-6">
+                  <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                    {t('windTurbineCoating.technicalBackground.title')}
+                  </h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('windTurbineCoating.technicalBackground.description')}
+                  </p>
+                </div>
+
+                {/* 技术原理图片 */}
+                <div className="bg-white border border-gray-200 rounded-lg p-6">
+                  <div className="flex justify-center">
+                    <Image
+                      src="/news/news_1.png"
+                      alt="HY-3000技术原理图"
+                      width={600}
+                      height={400}
+                      className="rounded-lg shadow-md"
+                    />
+                  </div>
+                </div>
+
+                {/* 涂层特性 */}
+                <div className="bg-white border border-gray-200 rounded-lg p-6">
+                  <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                    <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                    {t('windTurbineCoating.coatingFeatures.title')}
+                  </h4>
+                  <p className="text-gray-600 mb-4">
+                    {t('windTurbineCoating.coatingFeatures.description')}
+                  </p>
+                  <div className="space-y-3">
+                    {t.raw('windTurbineCoating.coatingFeatures.features').map((feature: string, index: number) => (
+                      <div key={index} className="flex items-start">
+                        <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
+                        <p className="text-gray-700">{feature}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* 应用领域 */}
+                <div className="bg-white border border-gray-200 rounded-lg p-6">
+                  <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                    <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                    {t('windTurbineCoating.applications.title')}
+                  </h4>
+                  <p className="text-gray-600 mb-4">
+                    {t('windTurbineCoating.applications.description')}
+                  </p>
+                  <div className="space-y-3">
+                    {t.raw('windTurbineCoating.applications.items').map((item: string, index: number) => (
+                      <div key={index} className="flex items-start">
+                        <div className="w-2 h-2 bg-purple-500 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700">{item}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* 技术优势 */}
+                <div className="bg-white border border-gray-200 rounded-lg p-6">
+                  <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                    <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                    {t('windTurbineCoating.benefits.title')}
+                  </h4>
+                  <p className="text-gray-600 mb-4">
+                    {t('windTurbineCoating.benefits.description')}
+                  </p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {t.raw('windTurbineCoating.benefits.items').map((item: string, index: number) => (
+                      <div key={index} className="flex items-start p-3 bg-gray-50 rounded-lg border border-gray-200">
+                        <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
+                        <p className="text-gray-700 text-sm">{item}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* 成功应用案例 */}
+                <div className="bg-gradient-to-r from-green-50 to-blue-50 border border-green-200 rounded-lg p-6">
+                  <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                    <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                    {t('windTurbineCoating.successfulCase.title')}
+                  </h4>
+                  <p className="text-gray-700 mb-4 leading-relaxed">
+                    {t('windTurbineCoating.successfulCase.description')}
+                  </p>
+                  <div className="space-y-3">
+                    {t.raw('windTurbineCoating.successfulCase.effects').map((effect: string, index: number) => (
+                      <div key={index} className="flex items-start">
+                        <div className="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-sm font-semibold mr-3 mt-0.5 flex-shrink-0">
+                          {index + 1}
+                        </div>
+                        <p className="text-gray-700">{effect}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* 应用效果图片 */}
+                <div className="bg-white border border-gray-200 rounded-lg p-6">
+                  <div className="flex justify-center">
+                    <Image
+                      src="/news/news_2.png"
+                      alt="HY-3000应用效果图"
+                      width={600}
+                      height={400}
+                      className="rounded-lg shadow-md"
+                    />
+                  </div>
+                </div>
+
+                {/* 行业意义 */}
+                <div className="bg-white border border-gray-200 rounded-lg p-6">
+                  <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                    {t('windTurbineCoating.industrySignificance.title')}
+                  </h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('windTurbineCoating.industrySignificance.description')}
+                  </p>
+                </div>
+
+                {/* 未来展望 */}
+                <div className="bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-lg p-6">
+                  <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                    <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                    {t('windTurbineCoating.futureOutlook.title')}
+                  </h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('windTurbineCoating.futureOutlook.description')}
+                  </p>
+                </div>
+
+                {/* 结论 */}
+                <div className="bg-gradient-to-r from-blue-50 to-green-50 border border-blue-200 rounded-lg p-6">
+                  <div className="p-4 bg-white rounded-lg border-l-4 border-green-500">
+                    <p className="text-gray-700 font-medium">
+                      {t('windTurbineCoating.conclusion')}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
 
             {selectedNews === 'hy-611-defoamer' && (
               <div className="mt-8 p-6 bg-blue-50 rounded-lg">

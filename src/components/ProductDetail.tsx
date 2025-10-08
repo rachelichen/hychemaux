@@ -1,12 +1,13 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
-import { FileText, ArrowRight, Package, Clock, Thermometer } from 'lucide-react';
+import { Package, Clock, Thermometer } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useParams } from 'next/navigation';
 import { useState } from 'react';
-import productsData from '@/data/products.json';
+import productsDataZh from '@/data/products.json';
+import productsDataEn from '@/data/products_en.json';
 
 interface ProductDetailProps {
   productId: string;
@@ -28,7 +29,6 @@ interface ProductData {
 }
 
 export default function ProductDetail({ productId }: ProductDetailProps) {
-  const t = useTranslations('products');
   const tDetail = useTranslations('productDetail');
   const params = useParams();
   const locale = params.locale as string;
@@ -42,6 +42,9 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     phone: '',
     message: ''
   });
+  
+  // 提交状态
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   // 处理表单输入变化
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -57,14 +60,30 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     e.preventDefault();
     // 这里可以添加表单提交逻辑
     console.log('Form submitted:', formData);
-    alert('感谢您的留言！我们会尽快与您联系。');
+    setIsSubmitted(true);
   };
 
-  // 从products.json获取产品数据
+  // 根据语言版本选择对应的产品数据
+  const productsData = currentLocale === 'en' ? productsDataEn : productsDataZh;
   const product = productsData[productId as keyof typeof productsData] as ProductData;
   
   // 属性名称翻译映射
-  const propertyTranslations: Record<string, string> = {
+  const propertyTranslations: Record<string, string> = currentLocale === 'en' ? {
+    appearance: 'Appearance',
+    solid_content: 'Solid Content',
+    specific_gravity: 'Specific Gravity',
+    viscosity: 'Viscosity',
+    cloud_point: 'Cloud Point',
+    water_solubility: 'Water Solubility',
+    surface_tension: 'Surface Tension',
+    active_ingredient: 'Active Ingredient',
+    ph_value: 'pH Value',
+    temperature_resistance: 'Temperature Resistance',
+    applicable_metals: 'Applicable Metals',
+    ionic_type: 'Ionic Type',
+    average_molecular_weight: 'Average Molecular Weight',
+    hydroxyl_equivalent_weight: 'Hydroxyl Equivalent Weight'
+  } : {
     appearance: '外观',
     solid_content: '固含量',
     specific_gravity: '比重',
@@ -77,12 +96,13 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     temperature_resistance: '耐温性',
     applicable_metals: '适用金属',
     ionic_type: '离子类型',
-    stability: '稳定性'
+    average_molecular_weight: '平均分子量',
+    hydroxyl_equivalent_weight: '羟基当量'
   };
 
   // 获取属性名称的翻译
   const getPropertyName = (key: string): string => {
-    return locale === 'zh' ? (propertyTranslations[key] || key) : key;
+    return propertyTranslations[key] || key;
   };
 
   // 产品ID到图片文件名的映射
@@ -91,10 +111,15 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     'hy-603': '有机硅型消泡剂HY603.png',
     'hy8308': '农用有机硅展渗剂.png',
     'hy8328': '农用有机硅润湿剂.png',
-    'hy-9072': 'HY-9072脱模剂.png', // 需要确认文件名
-    'hy-09n': 'HY-09N脱模剂.png', // 需要确认文件名
+    'hy-9072': 'HY-9072脱模剂.png',
+    'hy-09n': 'HY-09N脱模剂.png',
     'hy-19n': 'HY-19N脱模剂.png',
     'hy-59n': 'HY-59N脱模剂.png',
+    'hy-302': '通用图片.png',
+    'hy-329': '通用图片.png',
+    'hy-3845': '通用图片.png',
+    'hy-3689': '通用图片.png',
+    'hy-3000': '通用图片.png',
     'hy-501': 'HY-501玻纤浸润剂.png',
     'hy-503': 'HY-503碳纤浸润剂.png'
   };
@@ -102,7 +127,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
   // 获取产品图片路径
   const getProductImage = (productId: string): string => {
     const imageName = productImageMap[productId.toLowerCase()];
-    return imageName ? `/products/${imageName}` : '/products/default-product.png';
+    return imageName ? `/products/${imageName}` : '/products/通用图片.png';
   };
   
   if (!product) {
@@ -156,16 +181,14 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
                     height={320}
                     className="w-full h-full object-contain p-4"
                     onError={(e) => {
-                      // 如果图片加载失败，显示默认图标
+                      // 如果图片加载失败，显示通用图片
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
                       const parent = target.parentElement;
                       if (parent) {
                         parent.innerHTML = `
                           <div class="w-full h-full flex items-center justify-center">
-                            <div class="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center">
-                              <span class="text-3xl">🧪</span>
-                            </div>
+                            <img src="/products/通用图片.png" alt="通用图片" class="w-full h-full object-contain p-4" />
                           </div>
                         `;
                       }
@@ -376,84 +399,90 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
               <div className="w-full h-px bg-gray-300"></div>
             </div>
             
-            <form onSubmit={handleSubmit} className="space-y-6">
-              {/* Name Fields */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('yourName')}</label>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {isSubmitted ? (
+              /* Thank You Message */
+              <div className="text-center py-12">
+                <div className="bg-green-50 border border-green-200 rounded-lg p-8">
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-semibold text-green-800 mb-2">
+                    {tDetail('thankYouMessage')}
+                  </h3>
+                </div>
+              </div>
+            ) : (
+              /* Contact Form */
+              <form onSubmit={handleSubmit} className="space-y-6">
+                {/* Name Field */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('name')}*</label>
                   <input
                     type="text"
                     name="firstName"
                     value={formData.firstName}
                     onChange={handleInputChange}
-                    placeholder={`*${tDetail('firstName')}`}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  />
-                  <input
-                    type="text"
-                    name="lastName"
-                    value={formData.lastName}
-                    onChange={handleInputChange}
-                    placeholder={`*${tDetail('lastName')}`}
+                    placeholder={tDetail('namePlaceholder')}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   />
                 </div>
-              </div>
 
-              {/* Email Field */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('email')}*</label>
-                <input
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  placeholder={`* ${tDetail('email')}`}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
+                {/* Email Field */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('email')}*</label>
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
+                    placeholder={`* ${tDetail('email')}`}
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                </div>
 
-              {/* Phone Field */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('phoneNumber')}*</label>
-                <input
-                  type="tel"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleInputChange}
-                  placeholder={`* ${tDetail('phoneNumber')}`}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
+                {/* Phone Field */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('phoneNumber')}*</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleInputChange}
+                    placeholder={`* ${tDetail('phoneNumber')}`}
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                </div>
 
-              {/* Message Field */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('message')}*</label>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  placeholder={`* ${tDetail('message')}`}
-                  required
-                  rows={6}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-                />
-              </div>
+                {/* Message Field */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('message')}*</label>
+                  <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleInputChange}
+                    placeholder={`* ${tDetail('message')}`}
+                    required
+                    rows={6}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+                  />
+                </div>
 
-              {/* Submit Button */}
-              <div className="text-center">
-                <button
-                  type="submit"
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
-                >
-                  {tDetail('submit')}
-                </button>
-              </div>
-            </form>
+                {/* Submit Button */}
+                <div className="text-center">
+                  <button
+                    type="submit"
+                    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+                  >
+                    {tDetail('submit')}
+                  </button>
+                </div>
+              </form>
+            )}
           </div>
         </div>
       </div>

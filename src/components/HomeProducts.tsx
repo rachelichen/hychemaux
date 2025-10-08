@@ -9,6 +9,7 @@ import Image from 'next/image';
 
 export default function HomeProducts() {
   const t = useTranslations('products');
+  const tDetail = useTranslations('productDetail');
   const locale = useLocale();
 
   // 只显示前两个分类，每个分类只显示前两个产品
@@ -22,13 +23,13 @@ export default function HomeProducts() {
       image: '/products/有机硅型消泡剂HY611.png',
       products: [
         {
-          name: 'HY-611有机硅型消泡剂',
-          description: '高效消泡剂，适用于水处理、石油开采和工业清洗等应用',
+          name: tDetail('productNames.hy-611'),
+          description: tDetail('productDescriptions.hy-611'),
           link: `/${locale}/products/hy-611`
         },
         {
-          name: 'HY-603有机硅型消泡剂',
-          description: '高含量消泡剂，提供持久的消泡性能',
+          name: tDetail('productNames.hy-603'),
+          description: tDetail('productDescriptions.hy-603'),
           link: `/${locale}/products/hy-603`
         }
       ]
@@ -42,13 +43,13 @@ export default function HomeProducts() {
       image: '/products/农用有机硅展渗剂.png',
       products: [
         {
-          name: 'HY8308农用有机硅展渗剂',
-          description: '农用有机硅展渗剂，提高农药和肥料的施用效果',
+          name: tDetail('productNames.hy8308'),
+          description: tDetail('productDescriptions.hy8308'),
           link: `/${locale}/products/hy8308`
         },
         {
-          name: 'HY8328农用有机硅润湿剂',
-          description: '农用有机硅润湿剂，增强药液在植物表面的润湿渗透能力',
+          name: tDetail('productNames.hy8328'),
+          description: tDetail('productDescriptions.hy8328'),
           link: `/${locale}/products/hy8328`
         }
       ]
@@ -152,7 +153,7 @@ export default function HomeProducts() {
             href={`/${locale}/products`}
             className="inline-flex items-center px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
           >
-            查看更多产品 →
+            {t('cta.button')} →
           </Link>
         </motion.div>
       </div>
