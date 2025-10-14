@@ -16,7 +16,7 @@ export default function Hero() {
   // 轮播图片和对应的板块信息
   const carouselSlides = [
     {
-      image: '/screen/screen_1.png',
+      image: '/banner1.png',
       section: 'about',
       path: `/${locale}/about`
     },
