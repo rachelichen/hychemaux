@@ -1,12 +1,14 @@
 'use client';
 
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
-import {MapPin, Mail, Send, User, Wrench} from 'lucide-react';
+import {MapPin, Mail, MessageCircle, Send, User} from 'lucide-react';
 import {useState} from 'react';
+import {buildContactMailtoHref, CONTACT_RECIPIENT_EMAIL} from '@/lib/contact-email';
 
 export default function Contact() {
   const t = useTranslations('contact');
+  const currentLocale = useLocale();
   
   // 表单状态
   const [formData, setFormData] = useState({
@@ -50,6 +52,13 @@ export default function Contact() {
 
       if (response.ok) {
         console.log('Contact message submitted successfully:', result);
+        console.log(`Opening contact mail draft for ${CONTACT_RECIPIENT_EMAIL}`);
+        window.location.href = buildContactMailtoHref({
+          locale: currentLocale,
+          name: formData.name,
+          email: formData.email,
+          message: formData.message
+        });
         setIsSubmitted(true);
         // 重置表单
         setFormData({
@@ -72,14 +81,16 @@ export default function Contact() {
       icon: User,
       title: t('salesManager'),
       content: t('salesManagerPhone'),
-      color: 'text-blue-600'
+      color: 'text-blue-600',
+      href: `tel:${t('salesManagerPhone')}`
     },
-    {
-      icon: Wrench,
-      title: t('technicalManager'),
-      content: t('technicalManagerPhone'),
-      color: 'text-green-600'
-    },
+    ...(currentLocale === 'en' ? [{
+      icon: MessageCircle,
+      title: t('whatsapp'),
+      content: t('whatsappPhone'),
+      color: 'text-green-600',
+      href: 'https://wa.me/85277921151'
+    }] : []),
     {
       icon: Mail,
       title: t('email'),
@@ -135,9 +146,11 @@ export default function Contact() {
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">
                       {info.title}
                     </h3>
-                    {info.title === t('salesManager') || info.title === t('technicalManager') ? (
+                    {info.href ? (
                       <a 
-                        href={`tel:${info.content}`}
+                        href={info.href}
+                        target={info.href.startsWith('http') ? '_blank' : undefined}
+                        rel={info.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                         className="text-gray-600 hover:text-blue-600 transition-colors cursor-pointer"
                       >
                         {info.content}

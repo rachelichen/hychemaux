@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import pool from '@/lib/db';
 import { memoryStorage } from '@/lib/memory-storage';
+import { CONTACT_RECIPIENT_EMAIL } from '@/lib/contact-email';
 
 export async function POST(request: NextRequest) {
   try {
@@ -40,6 +41,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({
         success: true,
         message: 'Message submitted successfully',
+        recipientEmail: CONTACT_RECIPIENT_EMAIL,
         data: {
           id: result.rows[0].id,
           createdAt: result.rows[0].created_at
@@ -61,6 +63,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({
         success: true,
         message: 'Message submitted successfully (saved in memory)',
+        recipientEmail: CONTACT_RECIPIENT_EMAIL,
         data: {
           id: savedMessage.id,
           createdAt: savedMessage.created_at

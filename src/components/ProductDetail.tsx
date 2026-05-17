@@ -8,6 +8,7 @@ import { useParams } from 'next/navigation';
 import { useState } from 'react';
 import productsDataZh from '@/data/products.json';
 import productsDataEn from '@/data/products_en.json';
+import {buildContactMailtoHref, CONTACT_RECIPIENT_EMAIL} from '@/lib/contact-email';
 
 interface ProductDetailProps {
   productId: string;
@@ -33,6 +34,9 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
   const params = useParams();
   const locale = params.locale as string;
   const currentLocale = useLocale();
+  // 根据语言版本选择对应的产品数据
+  const productsData = currentLocale === 'en' ? productsDataEn : productsDataZh;
+  const product = productsData[productId as keyof typeof productsData] as ProductData;
 
   // 表单状态
   const [formData, setFormData] = useState({
@@ -78,6 +82,16 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
 
       if (response.ok) {
         console.log('Message submitted successfully:', result);
+        console.log(`Opening product inquiry mail draft for ${CONTACT_RECIPIENT_EMAIL}`);
+        window.location.href = buildContactMailtoHref({
+          locale: currentLocale,
+          name: formData.firstName,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+          productId,
+          productName: product?.product_name
+        });
         setIsSubmitted(true);
         // 重置表单
         setFormData({
@@ -97,10 +111,6 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     }
   };
 
-  // 根据语言版本选择对应的产品数据
-  const productsData = currentLocale === 'en' ? productsDataEn : productsDataZh;
-  const product = productsData[productId as keyof typeof productsData] as ProductData;
-  
   // 属性名称翻译映射
   const propertyTranslations: Record<string, string> = currentLocale === 'en' ? {
     appearance: 'Appearance',
@@ -112,11 +122,48 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     surface_tension: 'Surface Tension',
     active_ingredient: 'Active Ingredient',
     ph_value: 'pH Value',
+    odor: 'Odor',
+    solvent: 'Solvent',
+    main_component: 'Main Component',
+    curing_temperature_time: 'Curing Temperature/Time',
+    stability: 'Stability',
+    static_surface_tension_001: 'Static Surface Tension',
+    static_surface_tension_005: 'Static Surface Tension',
+    static_surface_tension_01: 'Static Surface Tension',
+    dynamic_surface_tension_1: 'Dynamic Surface Tension',
+    dynamic_surface_tension_3: 'Dynamic Surface Tension',
+    dynamic_surface_tension_6: 'Dynamic Surface Tension',
+    applicable_system: 'Applicable System',
+    foam_under_strong_stirring: 'Foam Under Strong Stirring',
+    foam_under_normal_stirring: 'Foam Under Normal Stirring',
+    high_temperature_hydrolysis_resistance: 'High-Temperature Hydrolysis Resistance',
     temperature_resistance: 'Temperature Resistance',
     applicable_metals: 'Applicable Metals',
     ionic_type: 'Ionic Type',
     average_molecular_weight: 'Average Molecular Weight',
-    hydroxyl_equivalent_weight: 'Hydroxyl Equivalent Weight'
+    hydroxyl_equivalent_weight: 'Hydroxyl Equivalent Weight',
+    voc: 'VOC',
+    process: 'Applicable Process',
+    crosslinker: 'Crosslinker',
+    drying_condition: 'Drying Condition',
+    product_type: 'Type',
+    amine_value: 'Amine Value',
+    acid_value: 'Acid Value',
+    solubility: 'Solubility',
+    boiling_point: 'Boiling Point',
+    double_bond_equivalent_weight: 'Double Bond Equivalent Weight',
+    double_bond_content: 'Double Bond Content',
+    vinyl_content: 'Vinyl Content',
+    hydroxyl_value: 'Hydroxyl Value',
+    grade_1200: 'MW 1200 Grade',
+    grade_2000: 'MW 2000 Grade',
+    grade_2300: 'MW 2300 Grade',
+    grade_2500: 'MW 2500 Grade',
+    grade_3000: 'MW 3000 Grade',
+    grade_4000: 'MW 4000 Grade',
+    grade_5000: 'MW 5000 Grade',
+    shaping_hardness: 'Shaping Hardness',
+    setting_durability: 'Setting Durability'
   } : {
     appearance: '外观',
     solid_content: '固含量',
@@ -127,11 +174,48 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     surface_tension: '表面张力',
     active_ingredient: '活性成分',
     ph_value: 'pH值',
+    odor: '气味',
+    solvent: '溶剂',
+    main_component: '主要成分',
+    curing_temperature_time: '固化温度/时间',
+    stability: '稳定性',
+    static_surface_tension_001: '静态表面张力',
+    static_surface_tension_005: '静态表面张力',
+    static_surface_tension_01: '静态表面张力',
+    dynamic_surface_tension_1: '动态表面张力',
+    dynamic_surface_tension_3: '动态表面张力',
+    dynamic_surface_tension_6: '动态表面张力',
+    applicable_system: '适用体系',
+    foam_under_strong_stirring: '剧烈搅拌下水溶液泡沫状态',
+    foam_under_normal_stirring: '普通搅拌下水溶液泡沫状态',
+    high_temperature_hydrolysis_resistance: '高温抗水解能力',
     temperature_resistance: '耐温性',
     applicable_metals: '适用金属',
     ionic_type: '离子类型',
     average_molecular_weight: '平均分子量',
-    hydroxyl_equivalent_weight: '羟基当量'
+    hydroxyl_equivalent_weight: '羟基当量',
+    voc: 'VOC',
+    process: '适用工艺',
+    crosslinker: '交联剂',
+    drying_condition: '干燥条件',
+    product_type: '类型',
+    amine_value: '胺值',
+    acid_value: '酸值',
+    solubility: '溶解性',
+    boiling_point: '沸点',
+    double_bond_equivalent_weight: '双键克当量',
+    double_bond_content: '双键含量',
+    vinyl_content: '乙烯基含量',
+    hydroxyl_value: '羟值',
+    grade_1200: '1200分子量规格',
+    grade_2000: '2000分子量规格',
+    grade_2300: '2300分子量规格',
+    grade_2500: '2500分子量规格',
+    grade_3000: '3000分子量规格',
+    grade_4000: '4000分子量规格',
+    grade_5000: '5000分子量规格',
+    shaping_hardness: '塑形硬度',
+    setting_durability: '定型持久性'
   };
 
   // 获取属性名称的翻译
@@ -142,26 +226,53 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
   // 产品ID到图片文件名的映射
   const productImageMap: Record<string, string> = {
     'hy-611': '有机硅型消泡剂HY611.png',
+    'hy-612': '/new_products/xiaopaoji.png',
     'hy-603': '有机硅型消泡剂HY603.png',
+    'hy-ws30': '/new_products/xiaopaoji.png',
     'hy8308': '农用有机硅展渗剂.png',
-    'hy8328': '农用有机硅润湿剂.png',
-    'hy-9072': 'HY-9072脱模剂.png',
-    'hy-09n': 'HY-09N脱模剂.png',
-    'hy-19n': 'HY-19N脱模剂.png',
-    'hy-59n': 'HY-59N脱模剂.png',
+    'hy-9072': '/new_products/common.png',
+    'hy-09n': '/new_products/common.png',
+    'hy-19n': '/new_products/common.png',
+    'hy-59n': '/new_products/common.png',
     'hy-302': '通用图片.png',
     'hy-329': '通用图片.png',
     'hy-3845': '通用图片.png',
-    'hy-3689': '通用图片.png',
+    'hy-3689': '/new_products/shangjiangji.jpg',
+    'hy-6014': '/new_products/shangjiangji.jpg',
     'hy-3000': '通用图片.png',
     'hy-501': 'HY-501玻纤浸润剂.png',
-    'hy-503': 'HY-503碳纤浸润剂.png'
+    'hy-503': '/new_products/shangjiangji.jpg',
+    'hy-509': '/new_products/shangjiangji.jpg',
+    'hy-510': '/new_products/shangjiangji.jpg',
+    'hy-512': '/new_products/shangjiangji.jpg',
+    'hy-518': '/new_products/shangjiangji.jpg',
+    'hy-104e': '/new_products/runshiji.png',
+    'hy-302-wetting': '/new_products/runshiji.png',
+    'hy8328': '/new_products/runshiji.png',
+    'hy-9102': '/new_products/runshiji.png',
+    'hy-1617': '/new_products/shuzhi.png',
+    'hy-1625': '/new_products/shuzhi.png',
+    'hy-5100': '/new_products/shuzhi.png',
+    'hy-190': '/new_products/common.png',
+    'hy-204': '/new_products/common.png',
+    'hy-8328-modified-silicone': '/new_products/common.png',
+    'hy-demmas': '/new_products/common.png',
+    'bis-hydroxypropyl-polysiloxane': '/new_products/common.png',
+    'hy-evipaps': '/new_products/common.png',
+    'hy-sees': '/new_products/common.png',
+    'hy-semmas': '/new_products/common.png',
+    'hy-stmos': '/new_products/common.png',
+    'mono-dihydroxy-pdms': '/new_products/common.png',
+    'hy-1380': '/new_products/xiaopaoji.png',
+    'hy-1390': '/new_products/xiaopaoji.png',
+    'hy-5100-textile': '/new_products/xiaopaoji.png'
   };
 
   // 获取产品图片路径
   const getProductImage = (productId: string): string => {
     const imageName = productImageMap[productId.toLowerCase()];
-    return imageName ? `/products/${imageName}` : '/products/通用图片.png';
+    if (!imageName) return '/products/通用图片.png';
+    return imageName.startsWith('/') ? imageName : `/products/${imageName}`;
   };
   
   if (!product) {
@@ -384,46 +495,48 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
         )}
 
         {/* Packaging and Storage Section */}
-        <div className="mt-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold text-blue-900 mb-2">{tDetail('packagingAndStorage')}</h2>
-              <div className="w-full h-px bg-gray-300"></div>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {product.packaging && (
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <div className="flex items-center mb-4">
-                    <Package className="w-6 h-6 text-blue-600 mr-3" />
-                    <h3 className="text-lg font-semibold text-gray-900">{tDetail('packagingSpecs')}</h3>
-                  </div>
-                  <p className="text-gray-700">{product.packaging}</p>
-                </div>
-              )}
+        {(product.packaging || product.storage || product.shelf_life) && (
+          <div className="mt-16 bg-white">
+            <div className="max-w-4xl mx-auto px-4">
+              <div className="mb-8">
+                <h2 className="text-2xl font-bold text-blue-900 mb-2">{tDetail('packagingAndStorage')}</h2>
+                <div className="w-full h-px bg-gray-300"></div>
+              </div>
               
-              {product.storage && (
-                <div className="bg-green-50 p-6 rounded-lg">
-                  <div className="flex items-center mb-4">
-                    <Thermometer className="w-6 h-6 text-green-600 mr-3" />
-                    <h3 className="text-lg font-semibold text-gray-900">{tDetail('storageConditions')}</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {product.packaging && (
+                  <div className="bg-blue-50 p-6 rounded-lg">
+                    <div className="flex items-center mb-4">
+                      <Package className="w-6 h-6 text-blue-600 mr-3" />
+                      <h3 className="text-lg font-semibold text-gray-900">{tDetail('packagingSpecs')}</h3>
+                    </div>
+                    <p className="text-gray-700">{product.packaging}</p>
                   </div>
-                  <p className="text-gray-700">{product.storage}</p>
-                </div>
-              )}
-              
-              {product.shelf_life && (
-                <div className="bg-orange-50 p-6 rounded-lg">
-                  <div className="flex items-center mb-4">
-                    <Clock className="w-6 h-6 text-orange-600 mr-3" />
-                    <h3 className="text-lg font-semibold text-gray-900">{tDetail('shelfLife')}</h3>
+                )}
+
+                {product.storage && (
+                  <div className="bg-green-50 p-6 rounded-lg">
+                    <div className="flex items-center mb-4">
+                      <Thermometer className="w-6 h-6 text-green-600 mr-3" />
+                      <h3 className="text-lg font-semibold text-gray-900">{tDetail('storageConditions')}</h3>
+                    </div>
+                    <p className="text-gray-700">{product.storage}</p>
                   </div>
-                  <p className="text-gray-700">{product.shelf_life}</p>
-                </div>
-              )}
+                )}
+
+                {product.shelf_life && (
+                  <div className="bg-orange-50 p-6 rounded-lg">
+                    <div className="flex items-center mb-4">
+                      <Clock className="w-6 h-6 text-orange-600 mr-3" />
+                      <h3 className="text-lg font-semibold text-gray-900">{tDetail('shelfLife')}</h3>
+                    </div>
+                    <p className="text-gray-700">{product.shelf_life}</p>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
         {/* Contact Form Section */}
         <div className="mt-16 bg-white">

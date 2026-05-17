@@ -26,16 +26,6 @@ export default function Hero() {
       path: `/${locale}/products`
     },
     {
-      image: '/screen/screen_3.png',
-      section: 'applications',
-      path: `/${locale}/applications`
-    },
-    {
-      image: '/screen/screen_4.png',
-      section: 'news',
-      path: `/${locale}/news`
-    },
-    {
       image: '/screen/screen_5.png',
       section: 'contact',
       path: `/${locale}/contact`

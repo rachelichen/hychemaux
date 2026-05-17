@@ -4,35 +4,37 @@
     "category": "Silicone Defoamers",
     "indicators": {
       "appearance": "Milky white liquid",
-      "solid_content": "5-10%"
+      "odor": "Non-irritating odor",
+      "solid_content": "30%",
+      "viscosity": "800-3000 mPa·s"
     },
-    "product_introduction": "This product is a high-content silicone defoamer that provides long-lasting defoaming performance even in small amounts. Its main application industries include water treatment, oil extraction, and industrial cleaning.",
+    "product_introduction": "HY-611 is a high-content silicone defoamer that provides long-lasting defoaming performance at low dosage without affecting the basic properties of the foaming system. It is a waterborne system, easy to dissolve in water, and suitable for water treatment, oil extraction, industrial cleaning and other aqueous systems.",
     "features": [
-      "Fast foam suppression, long-lasting defoaming",
-      "Strong stability, no oil separation",
-      "Easy to dilute and use",
-      "Minimal oil spots, minimal coating shrinkage, no impact on other system properties",
-      "Environmentally friendly, no organic solvents"
+      "Fast foam suppression and long-lasting defoaming.",
+      "Good spreading, penetration and heat resistance.",
+      "Strong chemical stability and oxidation resistance.",
+      "Strong stability, no oil floating and easy dilution.",
+      "Less prone to oil spots or coating craters and does not affect other system properties.",
+      "Environmentally friendly and solvent-free, with no corrosion, toxicity or adverse side effects.",
+      "Can be used in acid, alkali, electrolyte and hard-water systems."
     ],
     "how_to_use": [
-      "Identify the cause and location of foam generation for effective defoamer addition control.",
-      "Determine the addition amount based on foam severity and system characteristics.",
-      "Can be added directly or diluted before addition. Small-scale testing is recommended to determine optimal addition amount.",
-      "Add evenly and dispersedly during production to ensure full contact between defoamer and foam.",
-      "Recommended dosage is 0.1%-0.5% of total system, specific amount should be adjusted based on actual foam conditions."
+      "Identify the cause and location of foam generation to control the defoamer addition point effectively.",
+      "Determine dosage according to foam severity and system characteristics. Add directly or after dilution.",
+      "Small-scale testing is recommended. Add evenly during production to ensure full contact between the defoamer and foam.",
+      "Recommended dosage is 0.1%-0.5% of the total system. Adjust the actual dosage according to foam conditions."
     ],
     "typical_applications": [
-      "Wastewater treatment",
-      "Oilfield drilling",
-      "Chemical industry",
-      "Food fermentation",
-      "Papermaking",
-      "Textile printing and dyeing",
-      "Coatings and inks",
-      "Metal processing"
+      "Water treatment",
+      "Metalworking fluids such as cutting fluids",
+      "Waterborne coatings, waterborne adhesives and water-soluble inks",
+      "Metal cleaning and industrial cleaning",
+      "Papermaking, building materials and textile printing/dyeing",
+      "Oilfield industry and desulfurization industry",
+      "Pesticide formulations, fermentation, mining/mineral processing, rubber and other aqueous defoaming systems"
     ],
-    "packaging": "50Kg, 200Kg drums",
-    "storage": "Store in sealed containers",
+    "packaging": "50kg, 100kg, 200kg plastic drums",
+    "storage": "Store and transport as non-dangerous goods. Keep sealed.",
     "shelf_life": "12 months"
   },
   "hy-603": {
@@ -105,37 +107,40 @@
     "shelf_life": "36 months"
   },
   "hy8328": {
-    "product_name": "HY8328 Agricultural Silicone Wetting Agent",
-    "category": "Agricultural Adjuvants",
+    "product_name": "HY-8328 Agricultural Silicone Wetting Penetrant",
+    "category": "Wetting Agents",
     "typical_properties": {
       "appearance": "Colorless to light yellow transparent liquid",
-      "specific_gravity": "1.020 (25℃)",
-      "viscosity": "20~50 (mPa.S, 25℃)",
-      "cloud_point": "<10 (0.1% aqueous solution, ℃)",
-      "water_solubility": "Easily soluble or dispersible in water, appearing transparent to semi-transparent",
-      "surface_tension": "19~22 (25℃, 0.1% aqueous solution, mN/m)",
-      "active_ingredient": "100%"
+      "specific_gravity": "1.020 (25°C)",
+      "viscosity": "20-50 mPa·s (25°C)",
+      "cloud_point": "<10°C (0.1% aqueous solution)",
+      "water_solubility": "Readily soluble or dispersible in water to a clear solution",
+      "surface_tension": "19-22 mN/m (25°C, 0.1% aqueous solution)",
+      "active_ingredient": "99%"
     },
-    "product_introduction": "This product can be used as a spray modifier, foliar penetration promoter, and spreading agent. It is widely used in herbicides, foliar fertilizers, plant growth regulators, insecticides, and fungicides. It does not decompose pesticide active ingredients, significantly reduces solution surface tension, and enhances the wetting, penetration, adhesion, and spreading ability of pesticide solutions on plant leaves or insect bodies, significantly improving efficacy, reducing pesticide application amounts, reducing application frequency, saving water, reducing pesticide pollution, and protecting the environment.",
+    "product_introduction": "HY-8328 is a high-activity specialty silicone surfactant, chemically polyether-modified heptamethyltrisiloxane. It provides low surface tension and excellent wetting, spreading, penetration, emulsification and dispersion.",
     "features": [
-      "Spreading: Contains nonionic surfactants, helps improve pesticide and fertilizer efficacy, saves time, improves droplet contact with plant or insect body surfaces, with excellent spreading performance.",
-      "Penetration: After field application, droplets dry quickly on leaf and fruit surfaces, remain dry, effectively preventing pesticide volatilization and loss. In rainy and foggy weather, leaf and fruit surfaces are not prone to water accumulation, preventing pathogen spore germination in high humidity environments.",
-      "Efficacy improvement: Improves efficacy, reduces pesticide usage, lowers pesticide application amounts, reduces application frequency."
+      "Low surface tension with excellent wetting, spreading and penetration.",
+      "Quickly dissolves or disperses in water.",
+      "Enhances wetting, penetration, adhesion and spreading of spray solutions on plant leaves or pest surfaces.",
+      "Improves efficacy, reduces spray volume and application frequency, saves water and helps reduce pesticide pollution.",
+      "Can replace Dow Corning Q2-5211 product."
     ],
     "how_to_use": [
-      "Temporary mixing before pesticide spraying: Add directly to sprayer and mix with pesticide solution. Add 0.02~0.04% of total spray solution weight (e.g., add 3~6g HY8328 to 15kg sprayer).",
-      "Adding to pesticide formulation: Suitable for pesticide formulation production stage. Add directly to formulation. Add 0.5~5% of total pesticide formulation weight. Specific amount can be fine-tuned based on formulation type, target crops, and control requirements."
+      "Can be added directly to pesticide formulations or used as a tank-mix adjuvant.",
+      "For tank mixing, use 0.02%-0.04% (add 3-6g HY-8328 to a 15kg sprayer).",
+      "In pesticide formulations, use 0.5%-5%."
     ],
-    "applicable_pesticides": [
-      "Herbicides",
-      "Plant growth regulators",
-      "Fungicides",
-      "Foliar fertilizers",
-      "Insecticides"
+    "typical_applications": [
+      "Spray modifier",
+      "Foliar penetration and absorption adjuvant",
+      "Spreading agent",
+      "Herbicides, foliar fertilizers and plant growth regulators",
+      "Insecticides and fungicides"
     ],
-    "packaging": "25Kg, 50Kg, 200Kg, 1000Kg drums",
-    "storage": "Store in sealed containers",
-    "shelf_life": "36 months"
+    "packaging": "25L, 50L, 200L, 1000L plastic drums",
+    "storage": "Store sealed at 5-30°C as non-dangerous goods. Avoid high temperature and contact with acidic or alkaline substances.",
+    "shelf_life": "3 years"
   },
   "hy-329": {
     "product_name": "HY-329 Release Agent",
@@ -237,37 +242,38 @@
   },
   "hy-9072": {
     "product_name": "HY-9072 Release Agent",
+    "product_code": "HY-9072",
     "category": "Release Agents",
+    "series": "Metal Release",
     "typical_properties": {
       "appearance": "Milky white liquid",
-      "solid_content": "15~30% (depending on dilution ratio and cost-performance requirements)",
+      "solid_content": "15%-30%",
       "ph_value": "7.0-8.5",
-      "temperature_resistance": "200-700℃",
-      "applicable_metals": "Aluminum/Zinc/Magnesium alloys"
+      "temperature_resistance": "200°C-700°C",
+      "applicable_metals": "Aluminum, magnesium and zinc alloys"
     },
-    "product_introduction": "This product is a water-based release agent that belongs to environmentally friendly products, non-toxic, non-corrosive, diluted with alcohol solvents, and does not produce harmful fumes. It has lubricity, oil solubility, wear resistance, defoaming, anti-sticking, printable, isolation, and high temperature resistance, and can be used directly. Through high-temperature film formation and lubrication, it ensures that the casting surface has high whiteness, no yellowing, and no blackening after demolding, while effectively inhibiting mold carbon accumulation and extending mold service life.",
+    "product_introduction": "HY-9072 is a waterborne, environmentally friendly lubricating release agent for die casting, designed for aluminum, zinc and magnesium alloy die casting with high-temperature resistance, isolation, lubrication, pressure resistance, oxidation resistance, anti-carbon buildup, non-corrosion and environmental performance.",
     "features": [
-      "High-efficiency release performance: maintains high lubricity even after 100-fold dilution, forms nano-level isolation film after spraying, reducing adhesion between metal liquid and mold.",
-      "Anti-carbon accumulation design: silicone-based formula coordinates with other non-silicone components to avoid high-temperature carbonization, leaving no residue on mold surface.",
-      "Casting surface optimization: smooth and bright casting surface after demolding, no yellowing or blackening.",
-      "Environmental safety: water-based formula, no harmful volatiles, meets industrial environmental standards."
+      "Maintains high lubricity after 100x dilution and forms a nano-scale isolation film after spraying, reducing adhesion between molten metal and mold.",
+      "Silicone-based high-temperature lubricating matrix works with non-silicone components to avoid high-temperature carbonization and mold residue.",
+      "Produces smooth, bright cast surfaces after release without yellowing or blackening.",
+      "Waterborne formula with no harmful volatiles, meeting industrial environmental standards.",
+      "High-temperature film formation and lubrication suppress mold carbon buildup and extend mold life."
     ],
     "how_to_use": [
-      "Dilution ratio: dilute at 1:100 (concentrate:water), stir evenly before use. Using deionized water will be beneficial for anti-carbon accumulation, anti-corrosion and smoothness. Please choose tap water or deionized water based on practical effects.",
-      "Spraying process: Mold temperature control: preheat mold to 150-200℃ before spraying to ensure uniform film formation of release agent. Spraying equipment: use atomizing spray gun (pressure 0.3-0.5MPa), spray evenly at 20-30cm distance from mold surface. Spraying amount: 1-2 seconds per mold cycle to form uniform transparent film layer.",
-      "Operation process: mold cleaning → preheating → spraying release agent → injecting metal liquid → cooling demolding → mold maintenance."
+      "Dilute 1:100 (concentrate:water) and stir evenly before use. Deionized water helps improve anti-carbon buildup, corrosion resistance and surface finish.",
+      "Preheat mold to 150-200°C before spraying. Use an atomizing spray gun at 0.3-0.5MPa and spray evenly from 20-30cm away.",
+      "Spray 1-2 seconds per mold cycle to form an even transparent film. Process: mold cleaning, preheating, release-agent spraying, metal injection, cooling release and mold maintenance."
     ],
     "typical_applications": [
-      "Metal machining",
-      "Automotive manufacturing",
-      "Aerospace",
-      "Composite materials",
-      "Pressure vessels",
-      "Steel structures"
+      "Aluminum alloy die-casting release",
+      "Zinc alloy die-casting release",
+      "Magnesium alloy die-casting release",
+      "Metal mold lubrication and protection",
+      "High-temperature die-casting processes"
     ],
-    "packaging": "50kg, 200kg drums",
-    "storage": "Store in sealed containers",
-    "shelf_life": "12 months"
+    "packaging": "50kg, 200kg, 1000kg plastic drums",
+    "storage": "Transport and store as non-dangerous goods. Store in a dry, ventilated and cool place at ≥5°C. Avoid strong sunlight and contact with acids or alkalis."
   },
   "hy-z25": {
     "product_name": "HY-Z25 Silicone Defoamer",
@@ -302,37 +308,37 @@
     "shelf_life": "12 months"
   },
   "hy-ws30": {
-    "product_name": "HY-WS30 Silicone Defoamer",
-    "category": "Defoamers",
+    "product_name": "HY-WS30 Silicone Emulsion Defoamer",
+    "category": "Silicone Defoamers",
     "indicators": {
       "appearance": "Milky white liquid",
-      "solid_content": "10-30%",
-      "ion_type": "Non-ionic"
+      "odor": "Non-irritating odor",
+      "product_type": "Silicone type",
+      "solid_content": "30%"
     },
-    "product_introduction": "This product is a high-efficiency silicone emulsion defoamer with excellent defoaming performance, long-lasting foam suppression effect, and good acid and alkali resistance. This product is a water-based system with good dilution stability.",
+    "product_introduction": "HY-WS30 is a high-efficiency silicone emulsion defoamer with excellent defoaming performance, long-lasting foam suppression and good acid/alkali resistance. It is a waterborne system with good dilution stability, suitable for chemical, textile, detergent and agricultural formulation industries.",
     "features": [
-      "Fast defoaming",
-      "Long-lasting foam suppression",
-      "Strong alkali resistance",
-      "Acid resistance",
-      "No oil spots",
-      "Good dilution stability"
+      "Fast defoaming.",
+      "Sustained foam suppression.",
+      "Strong alkali resistance.",
+      "Acid resistance.",
+      "Less prone to oil spots.",
+      "Good dilution stability."
     ],
     "how_to_use": [
-      "Add during the process, recommend pre-diluting with cold water at a ratio of 1:10 before use",
-      "If using a dosing pump, use a low-shear type",
-      "Any defoamer requires formula engineers to optimize the dosage"
+      "Add during the process. Recommended dosage is 0.1%-0.5%, and testing is recommended to optimize the dosage.",
+      "If a feed pump is used, choose a low-shear type.",
+      "Formula engineers should optimize dosage according to the specific formulation system."
     ],
     "typical_applications": [
       "Chemical industry",
-      "Textile",
-      "Paper making",
-      "Petrochemical",
-      "Detergents",
-      "Pesticides"
+      "Textile industry",
+      "Detergent systems",
+      "Agricultural formulations",
+      "Acid- and alkali-resistant aqueous defoaming systems"
     ],
-    "packaging": "50kg, 200kg drums",
-    "storage": "Store in sealed containers",
+    "packaging": "50kg, 200kg plastic drums",
+    "storage": "Store and transport as non-dangerous goods. Keep sealed.",
     "shelf_life": "12 months"
   },
   "hy-k2": {
@@ -425,129 +431,1020 @@
     "shelf_life": "6 months"
   },
   "hy-503": {
-    "product_name": "HY-503 Carbon Fiber Sizing Agent",
-    "category": "Composite Material Sizing Agents",
+    "product_name": "HY-503 Polyester Sizing Agent",
+    "category": "Sizing Agents",
     "typical_properties": {
       "appearance": "Milky white liquid",
+      "odor": "Characteristic odor",
+      "solid_content": "40%",
       "ionic_type": "Anionic/Non-ionic composite",
+      "ph_value": "6.0-7.5",
       "stability": "No delamination or oil floating at 3000rpm",
-      "water_solubility": "Infinite miscibility with water"
+      "water_solubility": "Infinitely miscible with water"
     },
-    "product_introduction": "This product is a high-performance special modified macromolecular polyurethane polymer emulsion. Compared with traditional sizing agents, it has excellent positive synergistic effects, with smoother feel after bundling, effectively enhancing adhesion between fibers and bundle hardness. Short-cut glass fiber materials treated with this product have thermoplastic properties and good compatibility with thermoplastic materials such as PA and PE, with good dispersibility in composite material systems, significantly improving the mechanical properties and wear resistance of composite materials.",
+    "product_introduction": "HY-503 is a special modified macromolecular polymer emulsion designed for thermoplastic chopped carbon fiber processing, offering broad applicability and strong cost performance.",
     "features": [
-      "Improved adhesion: The main function is to improve the adhesion between carbon fibers and resins, prevent delamination and increase strength.",
-      "Enhanced mechanical properties: By improving fiber-matrix bonding, the sizing agent can increase the tensile strength, flexural strength, and impact strength of composite materials.",
-      "Improved durability: Better adhesion and reduced water absorption provide better resistance to humidity, chemicals, and other environmental factors."
+      "Designed for thermoplastic chopped carbon fiber sizing and processing.",
+      "Effectively enhances inter-fiber adhesion and bundle hardness with strong tow cohesion.",
+      "Treated carbon fiber products show thermoplastic behavior and good compatibility with PA, PE and other thermoplastics.",
+      "Provides good dispersion in composite material systems.",
+      "Shows positive synergy with conventional sizing agents, giving treated bundles a harder and smoother hand feel."
     ],
     "how_to_use": [
-      "When used as a carbon fiber sizing agent, it is recommended to dilute with water. It is recommended to add 3-8 times water for dilution and stir evenly.",
-      "After diluting the sizing agent, add it to the sizing bath. The initial concentration can be slightly higher.",
-      "As the number of short-cut carbon fiber sizing agent uses increases, the concentration of the agent in the sizing bath gradually decreases. It is necessary to regularly supplement the diluted agent, recommended to supplement once every 1-3 cycles.",
-      "The diluted agent should be used as soon as possible and not stored for long periods."
+      "Coating method: suitable for conventional sizing processes such as dipping and spraying to ensure uniform coverage on the fiber surface."
     ],
     "typical_applications": [
-      "Aerospace field: Aircraft fuselage, wings, tail fins and other main load-bearing structural components, spacecraft cabins, satellite supports, etc.",
-      "Wind power field: Wind turbine blades. Blades need to withstand long-term alternating loads and humid environments. The sizing agent needs to improve the interfacial fatigue resistance and water resistance between carbon fibers and epoxy resins, optimizing fiber bundling.",
-      "New energy vehicle field: Body frames, chassis components, battery housings, etc.",
-      "Textile weaving: Carbon fiber tows need to be woven into fabrics or braided into tubular shapes. The sizing agent improves bundling and anti-friction properties, reduces fly and breakage during weaving, ensuring fabric uniformity.",
-      "Pipes: In the winding process of pipes and other products, the sizing agent reduces friction between fibers, making the tows neatly arranged during winding, avoiding performance fluctuations due to uneven tension."
+      "Thermoplastic chopped carbon fiber processing",
+      "PA, PE and other thermoplastic composite systems",
+      "Carbon fiber sizing treatment",
+      "Composite material dispersion and bundle reinforcement"
     ],
-    "packaging": "50kg, 200kg, 1000kg drums",
-    "storage": "Store in sealed containers",
+    "packaging": "50kg, 200kg, 1000kg plastic drums",
+    "storage": "Store in a dry, ventilated and cool place. Shelf life is 6 months unopened.",
     "shelf_life": "6 months"
   },
   "hy-3689": {
-    "product_name": "HY-3689 Release Agent",
+    "product_name": "HY-3689 Tire Bladder Release Agent",
+    "product_code": "HY-3689",
     "category": "Release Agents",
-    "indicators": {
-      "appearance": "Semi-transparent thick viscous liquid",
+    "series": "Rubber Release",
+    "typical_properties": {
+      "appearance": "Translucent thick viscous liquid",
+      "main_component": "High-molecular-weight silicone dispersion",
       "specific_gravity": "0.98-1",
-      "solid_content": "80-83%"
+      "solid_content": "80%-83%"
     },
-    "product_introduction": "This product is a water-dilutable bladder lubricant release agent specifically designed for tire production. It can directly replace Dow Corning's DOWSIL FBL-3289 and is mainly used for demolding and lubrication during tire vulcanization molding processes.",
+    "product_introduction": "HY-3689 is a water-dilutable tire bladder lubricating release agent composed of high-molecular-weight silicone dispersion, developed for tire production and suitable as an alternative to Dow DOWSIL FBL-3289.",
     "features": [
-      "Excellent and flexibly adjustable release performance",
-      "Strong compatibility with various formulations and processes",
-      "Extends bladder service life and reduces production costs",
-      "High cost-performance ratio, can replace imported products"
+      "Can be used alone as a release agent for tire or rubber vulcanization molding.",
+      "Can be combined with hydrogen silicone oil emulsion for tire bladder lubricating release coatings and tire internal spray release agents.",
+      "Forms a complete release-coating system with crosslinker, greatly increasing release cycles for permanent or semi-permanent release performance.",
+      "Formula can be adjusted through catalyst, curing time and water amount to match different spraying viscosity and application needs.",
+      "When used as a tire internal spray, it helps green tires release from the bladder and continuously renews the bladder release coating."
     ],
     "how_to_use": [
-      "Standalone use: According to dilution ratio (water amount adjustment) and differences in vulcanized rubber formulation processes, 1-10 demolding cycles can be achieved. This method is suitable for scenarios requiring fewer demolding cycles",
-      "Combined use (semi-permanent/permanent demolding): Mix with 40% hydrogen-containing silicone oil emulsion (crosslinking agent) in specific proportions to form a complete demolding coating system. Can significantly increase demolding cycle times, achieving \"semi-permanent/permanent demolding\", which is the preferred solution for high-frequency production scenarios"
+      "When used alone for tire or rubber vulcanization release, the release count can reach 1-10 times depending on dilution ratio and rubber vulcanization process.",
+      "Recommended formula: HY-3689 12.5%, water 57.5%, 40% hydrogen silicone oil emulsion 30%. Add water to HY-3689 first with strong stirring, then add the hydrogen silicone oil emulsion and mix evenly.",
+      "To avoid hydrogen release and premature crosslinking when adding hydrogen silicone oil emulsion, adjust the diluted HY-3689 to weak acidity at pH 5-6 with citric acid or acetic acid before mixing.",
+      "Bladder treatment can use roller coating, spraying or dip coating. Suggested predrying is 85°C for 3-5 minutes, followed by high-temperature curing at 150-170°C for 1-3 minutes.",
+      "New bladders should be thoroughly cleaned with xylene or petroleum solvent before pretreatment. Allow 1 hour of air drying after each application."
     ],
     "typical_applications": [
-      "Tire production",
-      "Rubber product vulcanization",
-      "Bladder lubrication",
-      "Mold demolding",
-      "Rubber molding processes"
+      "Tire bladder lubricating release in tire production",
+      "Rubber vulcanization molding release",
+      "Tire bladder lubricating release coatings",
+      "Tire internal spray release agents",
+      "Permanent or semi-permanent tire release systems"
     ],
-    "packaging": "50kg, 200kg drums",
-    "storage": "Store in sealed containers",
+    "packaging": "Packaging according to customer requirements",
+    "storage": "Store unopened product at 0-35°C. Reactive mixtures should be continuously stirred when stored in open containers or hot curing areas; refrigerate and use vented containers for longer storage.",
     "shelf_life": "12 months"
   },
   "hy-59n": {
-    "product_name": "HY-59N Release Agent",
-    "category": "Release Agents",
+    "product_name": "HY-59N Long-Chain Alkyl Phenyl Silicone Oil",
+    "product_code": "HY-59N",
+    "category": "Modified Silicone Oil",
+    "series": "Long-Chain Alkyl Phenyl Modified Silicone Oil",
     "typical_properties": {
       "appearance": "Light yellow to colorless transparent liquid",
       "active_ingredient": "100%",
-      "viscosity": "1000-2000 (25℃, mPa*s)"
+      "viscosity": "1000-2000 mPa·s (25°C)"
     },
-    "product_introduction": "This product is made from organosilicon monomers/materials through multi-component modification, with unique structure, simple use and powerful functionality. This product belongs to environmentally friendly water-based solvent, non-toxic, non-corrosive, diluted with alcohol solvents, and does not produce harmful fumes. It has high lubricity and impact resistance, making workpiece demolding easy and damage-free while fully protecting the mold. Easy to use, easy to emulsify, and can be miscible with mineral oil in any proportion. It has lubricity, oil solubility, wear resistance, defoaming, anti-sticking, and printable properties.",
+    "product_introduction": "HY-59N long-chain alkyl phenyl silicone oil is made through multi-component modification of organosilicon monomers/materials, with a unique structure and strong isolation/lubrication and heat-resistant performance.",
     "features": [
-      "High-efficiency release performance: maintains high lubricity even after 100-fold dilution, forms nano-level isolation film after spraying, reducing adhesion between metal liquid and mold.",
-      "Anti-carbon accumulation design: silicone-based formula coordinates with other non-silicone components to avoid high-temperature carbonization, leaving no residue on mold surface.",
-      "Casting surface optimization: smooth and bright casting surface after demolding, no yellowing or blackening.",
-      "Environmental safety: water-based formula, no harmful volatiles, meets industrial environmental standards."
+      "Non-toxic and non-corrosive; can be diluted with alcohol solvents without harmful fumes.",
+      "Excellent lubricity and impact resistance for easy, damage-free demolding while protecting molds.",
+      "Easy to use and emulsify, and miscible with mineral oil in any proportion.",
+      "Provides lubricity, oil solubility, abrasion resistance, defoaming, anti-sticking and printability.",
+      "Strong affinity with organic materials and improves extreme-pressure lubrication of ordinary silicone oil."
     ],
     "how_to_use": [
-      "Dilution ratio: dilute at 1:100 (concentrate:water), stir evenly before use. Using deionized water will be beneficial for anti-carbon accumulation, anti-corrosion and smoothness. Please choose tap water or deionized water based on practical effects.",
-      "Spraying process: Mold temperature control: preheat mold to 150-200℃ before spraying to ensure uniform film formation of release agent. Spraying equipment: use atomizing spray gun (pressure 0.3-0.5MPa), spray evenly at 20-30cm distance from mold surface. Spraying amount: 1-2 seconds per mold cycle to form uniform transparent film layer.",
-      "Operation process: mold cleaning → preheating → spraying release agent → injecting metal liquid → cooling demolding → mold maintenance."
+      "Conduct small-sample trials first to determine the final application method and dosage for each use case.",
+      "Can be added in small amounts to mineral oil to improve high/low temperature resistance."
     ],
     "typical_applications": [
-      "Metal machining",
-      "Automotive manufacturing",
-      "Aerospace",
-      "Composite materials",
-      "Pressure vessels",
-      "Steel structures"
+      "Lubrication and die-casting release for aluminum, magnesium, zinc and other metals",
+      "Base oil for high-lubricity silicone grease",
+      "Release for plastic, rubber and PU products",
+      "Audio/video tape production",
+      "Small machinery lubrication and plastic gear/rolling system lubrication"
     ],
-    "packaging": "50kg, 200kg drums",
-    "storage": "Store in sealed containers",
-    "shelf_life": "12 months"
+    "packaging": "50kg, 200kg plastic drums",
+    "storage": "Transport and store as non-dangerous goods. Store in a dry, ventilated and cool place at ≥5°C. Avoid strong sunlight and contact with acids or alkalis."
   },
   "hy-19n": {
-    "product_name": "HY-19N Release Agent",
-    "category": "Release Agents",
+    "product_name": "HY-19N Long-Chain Alkyl Phenyl Silicone Oil",
+    "product_code": "HY-19N",
+    "category": "Modified Silicone Oil",
+    "series": "Long-Chain Alkyl Phenyl Modified Silicone Oil",
     "typical_properties": {
       "appearance": "Light yellow to colorless transparent liquid",
       "active_ingredient": "100%",
-      "viscosity": "1000-2000 (25℃, mPa*s)"
+      "viscosity": "1000 mPa·s (25°C)"
     },
-    "product_introduction": "This product is made from organosilicon monomers/materials through multi-component modification, with unique structure, simple use and powerful functionality. This product belongs to environmentally friendly water-based solvent, non-toxic, non-corrosive, diluted with alcohol solvents, and does not produce harmful fumes. It has high lubricity and impact resistance, making workpiece demolding easy and damage-free while fully protecting the mold. Easy to use, easy to emulsify, and can be miscible with mineral oil in any proportion. It has lubricity, oil solubility, wear resistance, defoaming, anti-sticking, and printable properties.",
+    "product_introduction": "HY-19N long-chain alkyl phenyl silicone oil is made through multi-component modification of organosilicon monomers/materials, providing strong isolation/lubrication performance and heat resistance.",
     "features": [
-      "High-efficiency release performance: maintains high lubricity even after 100-fold dilution, forms nano-level isolation film after spraying, reducing adhesion between metal liquid and mold.",
-      "Anti-carbon accumulation design: silicone-based formula coordinates with other non-silicone components to avoid high-temperature carbonization, leaving no residue on mold surface.",
-      "Casting surface optimization: smooth and bright casting surface after demolding, no yellowing or blackening.",
-      "Environmental safety: water-based formula, no harmful volatiles, meets industrial environmental standards."
+      "Excellent lubricity and impact resistance for easy demolding and mold protection.",
+      "Easy to use and emulsify, and miscible with mineral oil in any proportion.",
+      "Provides lubricity, oil solubility, abrasion resistance, defoaming, anti-sticking and printability.",
+      "Strong affinity with organic materials; non-toxic and non-corrosive.",
+      "Improves extreme-pressure lubrication of ordinary silicone oil and mineral oil systems."
     ],
     "how_to_use": [
-      "Dilution ratio: dilute at 1:100 (concentrate:water), stir evenly before use. Using deionized water will be beneficial for anti-carbon accumulation, anti-corrosion and smoothness. Please choose tap water or deionized water based on practical effects.",
-      "Spraying process: Mold temperature control: preheat mold to 150-200℃ before spraying to ensure uniform film formation of release agent. Spraying equipment: use atomizing spray gun (pressure 0.3-0.5MPa), spray evenly at 20-30cm distance from mold surface. Spraying amount: 1-2 seconds per mold cycle to form uniform transparent film layer.",
-      "Operation process: mold cleaning → preheating → spraying release agent → injecting metal liquid → cooling demolding → mold maintenance."
+      "Conduct small-sample trials first to determine the final application method and dosage for each use case.",
+      "Can be added in small amounts to mineral oil to prepare high-value modified specialty oils."
     ],
     "typical_applications": [
-      "Metal machining",
-      "Automotive manufacturing",
-      "Aerospace",
-      "Composite materials",
-      "Pressure vessels",
-      "Steel structures"
+      "Lubrication and die-casting release for aluminum, magnesium, zinc and other metals",
+      "Base oil for high-lubricity silicone grease",
+      "Release for plastic, rubber and PU products",
+      "Audio/video tape production",
+      "Small machinery lubrication and plastic gear/rolling system lubrication"
+    ],
+    "packaging": "50kg, 200kg plastic drums",
+    "storage": "Transport and store as non-dangerous goods. Store in a dry, ventilated and cool place at ≥5°C. Avoid strong sunlight and contact with acids or alkalis."
+  },
+  "hy-509": {
+    "product_name": "HY-509 Polyurethane Sizing Agent",
+    "category": "Sizing Agents",
+    "typical_properties": {
+      "appearance": "Milky white liquid",
+      "odor": "Characteristic odor",
+      "solid_content": "40%",
+      "ionic_type": "Anionic/Non-ionic composite",
+      "ph_value": "6.0-7.5",
+      "stability": "No delamination or oil floating at 3000rpm",
+      "water_solubility": "Infinitely miscible with water"
+    },
+    "product_introduction": "HY-509 is a special modified macromolecular polyurethane polymer emulsion designed for thermoplastic carbon fiber processing and scalable sizing production.",
+    "features": [
+      "Strong interfacial bonding with carbon fiber, improving inter-fiber adhesion and bundle strength.",
+      "Treated fibers show good thermoplasticity and excellent compatibility with PA, PE, PU and other thermoplastic resins.",
+      "Provides good dispersion in composite systems and can enhance mechanical properties and wear resistance.",
+      "Emulsion formula with no solvent and almost no VOC emissions for environmental compliance.",
+      "Excellent dilution stability; after dilution with water, it can still be used normally the next day without delamination or sedimentation."
+    ],
+    "how_to_use": [
+      "Coating method: suitable for conventional sizing processes such as dipping and spraying to ensure uniform coverage on the fiber surface."
+    ],
+    "typical_applications": [
+      "Thermoplastic carbon fiber processing",
+      "PA, PE, PU and other thermoplastic resin composites",
+      "Scalable carbon fiber sizing production",
+      "Mechanical property and wear-resistance improvement for composites"
+    ],
+    "packaging": "50kg, 200kg, 1000kg plastic drums",
+    "storage": "Recommended storage temperature: 5-35°C. Shelf life is 6 months unopened.",
+    "shelf_life": "6 months"
+  },
+  "hy-510": {
+    "product_name": "HY-510 Sizing Agent",
+    "category": "Sizing Agents",
+    "typical_properties": {
+      "appearance": "Translucent liquid",
+      "odor": "Characteristic odor",
+      "solid_content": "35%±1%",
+      "main_component": "Waterborne polyurethane",
+      "ph_value": "7.5-9.5",
+      "stability": "No delamination or oil floating",
+      "water_solubility": "Infinitely miscible with water"
+    },
+    "product_introduction": "HY-510 is a special modified macromolecular polyurethane emulsion for thermoplastic carbon fiber processing. It can be used for carbon fiber, glass fiber and basalt fiber.",
+    "features": [
+      "Strong interfacial bonding with carbon fiber, improving inter-fiber adhesion and bundle strength.",
+      "Treated fibers show good thermoplasticity and excellent compatibility with PA, PE, PU, PC and other thermoplastic resins.",
+      "Provides good dispersion in composite systems and can enhance mechanical properties and wear resistance.",
+      "Suitable for carbon fiber, glass fiber, basalt fiber and related fiber systems."
+    ],
+    "how_to_use": [
+      "Coating method: suitable for conventional sizing processes such as dipping and spraying to ensure uniform coverage on the fiber surface."
+    ],
+    "typical_applications": [
+      "Carbon fiber sizing treatment",
+      "Glass fiber sizing treatment",
+      "Basalt fiber sizing treatment",
+      "PA, PE, PU, PC and other thermoplastic composite systems"
+    ],
+    "packaging": "50kg, 200kg, 1000kg plastic drums",
+    "storage": "Recommended storage temperature: 10-35°C. Shelf life is 6 months unopened.",
+    "shelf_life": "6 months"
+  },
+  "hy-512": {
+    "product_name": "HY-512 Waterborne Epoxy Resin Fiber Sizing Agent",
+    "category": "Sizing Agents",
+    "typical_properties": {
+      "appearance": "Milky white liquid",
+      "solid_content": "40%±1%",
+      "main_component": "Modified waterborne epoxy resin",
+      "curing_temperature_time": "120-150°C (15-30 min)",
+      "stability": ">6 months without delamination or gelation",
+      "water_solubility": "Infinitely miscible with water"
+    },
+    "product_introduction": "HY-512 is a modified high-performance waterborne epoxy resin emulsion with a self-emulsifying system. It forms a uniform dense protective film on the fiber surface and improves interfacial bonding between fibers and the resin matrix.",
+    "features": [
+      "Greatly improves interfacial bonding between fibers and resin matrix and increases interfacial shear strength.",
+      "Treated fibers disperse well in composite systems and can enhance tensile, flexural and surface wear properties.",
+      "Environmentally friendly solvent-free formula; dilutable with water and easy to use.",
+      "Excellent compatibility with mainstream thermoplastic resins such as PA and PC for thermoplastic composite molding processes.",
+      "Improves fiber bundling and wear resistance while reducing fuzzing and fiber breakage."
+    ],
+    "how_to_use": [
+      "Coating method: suitable for conventional sizing processes such as dipping and spraying to ensure uniform coverage on the fiber surface."
+    ],
+    "typical_applications": [
+      "Carbon fiber sizing treatment (PAN/pitch based, filament/chopped fiber)",
+      "Basalt fiber sizing treatment",
+      "Glass fiber sizing treatment",
+      "PA, PC and other thermoplastic composite systems"
+    ],
+    "packaging": "25kg, 50kg, 200kg, 1000kg plastic drums",
+    "storage": "Recommended storage temperature: 5-35°C. Shelf life is 6 months unopened.",
+    "shelf_life": "6 months"
+  },
+  "hy-518": {
+    "product_name": "HY-518 Polypropylene Sizing Agent",
+    "category": "Sizing Agents",
+    "typical_properties": {
+      "appearance": "Milky white liquid",
+      "main_component": "Maleic anhydride grafted polypropylene",
+      "stability": "No delamination, oil floating or impurities",
+      "water_solubility": "Infinitely miscible with water"
+    },
+    "product_introduction": "HY-518 is a dedicated sizing agent developed for polypropylene (PP) matrix composites. It uses functional polymer-modified polypropylene design to improve interfacial shear strength between fibers and resin.",
+    "features": [
+      "Forms a protective film on the fiber surface and greatly improves interfacial bonding.",
+      "Treated fibers show good thermoplasticity, good dispersion in composites and excellent chopped processing performance.",
+      "Significantly enhances mechanical properties and wear resistance of composite materials.",
+      "Improves fiber bundling and wear resistance while reducing fuzzing and fiber breakage.",
+      "Waterborne emulsion system with no solvent, low ppm and no VOC emissions."
+    ],
+    "how_to_use": [
+      "Coating method: suitable for conventional sizing processes such as dipping and spraying to ensure uniform coverage on the fiber surface."
+    ],
+    "typical_applications": [
+      "Polypropylene (PP) matrix composites",
+      "Carbon fiber sizing treatment",
+      "Basalt fiber sizing treatment",
+      "Glass fiber and other chemical fiber sizing treatment"
+    ],
+    "packaging": "50kg, 200kg, 1000kg plastic drums",
+    "storage": "Recommended storage temperature: 5-35°C. Shelf life is 6 months unopened.",
+    "shelf_life": "6 months"
+  },
+  "hy-104e": {
+    "product_name": "HY-104E Wetting Agent",
+    "category": "Wetting Agents",
+    "typical_properties": {
+      "solid_content": "50%",
+      "solvent": "Ethylene glycol (solvent type adjustable as needed)",
+      "static_surface_tension_001": "0.01%: 50.1 dyn/cm",
+      "static_surface_tension_005": "0.05%: 36.8 dyn/cm",
+      "static_surface_tension_01": "0.1%: 33.1 dyn/cm",
+      "dynamic_surface_tension_1": "1 bubble/s: 33.1 dyn/cm",
+      "dynamic_surface_tension_3": "3 bubbles/s: 34.1 dyn/cm",
+      "dynamic_surface_tension_6": "6 bubbles/s: 36.2 dyn/cm"
+    },
+    "product_introduction": "HY-104E is a nonionic surfactant with wetting, defoaming and dispersing performance. It rapidly reduces dynamic and static surface tension, controls foam and helps reduce water sensitivity.",
+    "features": [
+      "Rapidly reduces dynamic and static surface tension to reduce defects on low-energy or contaminated substrates.",
+      "Provides defoaming, deaeration and low-foaming effects, reducing defoamer dosage and improving pigment grinding efficiency.",
+      "Wets a wide range of contaminated substrates and does not form micelles.",
+      "Good thermal stability and acid/alkali stability, maintaining chemical stability from pH 3 to pH 12.",
+      "Helps reduce pigment particle size and prevents re-agglomeration."
+    ],
+    "how_to_use": [
+      "Recommended dosage: 0.1%-2%. HY-104E is multifunctional and can replace one or more formulation additives. Gradient testing is recommended to determine the optimum dosage."
+    ],
+    "typical_applications": [
+      "Waterborne industrial coatings",
+      "Waterborne inks, varnishes and dye manufacturing",
+      "Waterborne wood coatings, pressure-sensitive adhesives and plastic coatings",
+      "Metalworking fluids",
+      "Glove latex and agricultural chemicals",
+      "Defoamer and deaerator for coatings, inks, cement and dyes"
+    ],
+    "packaging": "25kg package",
+    "storage": "Store between 4°C and 50°C. If solidification or crystallization occurs at low temperature, heat above the melting point and stir moderately to restore.",
+    "shelf_life": "24 months"
+  },
+  "hy-302-wetting": {
+    "product_name": "HY-302 Self-Defoaming Acid/Alkali-Resistant Wetting Agent",
+    "category": "Wetting Agents",
+    "typical_properties": {
+      "appearance": "Amber transparent liquid",
+      "ph_value": "6.0-8.0",
+      "surface_tension": "24mN/m (25°C)",
+      "viscosity": "30-60 mPa·s (25°C)",
+      "applicable_system": "Waterborne systems",
+      "solid_content": "50%-100%",
+      "foam_under_strong_stirring": "≤5mm",
+      "foam_under_normal_stirring": "None (disappears instantly when standing)",
+      "high_temperature_hydrolysis_resistance": "25.2"
+    },
+    "product_introduction": "HY-302 is a modified siloxane gemini surfactant for waterborne systems, combining wetting and penetration, defoaming and foam suppression, lubrication, abrasion resistance and long-term stability.",
+    "features": [
+      "Surface tension as low as 24mN/m with excellent wetting and penetration.",
+      "Non-foaming by itself and provides defoaming and foam suppression.",
+      "Outstanding oxidation resistance and high/low temperature resistance.",
+      "Excellent compatibility with water-glycol systems and can be compounded with dispersants and corrosion inhibitors.",
+      "Good compatibility with resins and additives, without affecting recoating processes."
+    ],
+    "how_to_use": [
+      "Compatibility testing is recommended before use. Recommended dosage: 1%-2%."
+    ],
+    "typical_applications": [
+      "Waterborne coatings",
+      "Waterborne inks",
+      "Waterborne adhesives",
+      "Waterborne wood coatings",
+      "Waterborne industrial coatings",
+      "Waterborne floor coatings"
+    ],
+    "packaging": "25kg, 50kg, 200kg drums",
+    "storage": "Store in a ventilated, cool and dry place. Avoid contact with strong acids and alkalis. Warehouse temperature should be 5-40°C.",
+    "shelf_life": "12 months"
+  },
+  "hy-9102": {
+    "product_name": "HY-9102 Acrylic Textile Coating Wetting Agent",
+    "category": "Wetting Agents",
+    "typical_properties": {
+      "appearance": "Light yellow, free-flowing, transparent and homogeneous oily liquid",
+      "viscosity": "100-10000 cP (25°C)",
+      "specific_gravity": "1.015-1.075",
+      "active_ingredient": "100%",
+      "ionic_type": "Nonionic",
+      "surface_tension": "26-28 mN/m"
+    },
+    "product_introduction": "HY-9102 is a silicone nonionic surfactant made by graft copolymerization of polyether and polydimethylsiloxane. It is suitable for wetting, dispersing and leveling in acrylic textile coating systems.",
+    "features": [
+      "Low surface tension.",
+      "Good softening and antistatic properties.",
+      "Good viscosity reduction and leveling, improving intermolecular stress in many resin systems.",
+      "Good lubricity, suitable for high-grade cutting fluids.",
+      "Miscible with water and polar organic solvents such as alcohols, DMF, ethers and esters, making it easy to use."
+    ],
+    "how_to_use": [
+      "As a softener, use 1%-5% in padding or dipping bath.",
+      "As a leveling agent, use 0.1%-1% in the system.",
+      "For other applications, use 0.1%-10% as a reference dosage or determine by pilot testing."
+    ],
+    "typical_applications": [
+      "Textile finishing agent",
+      "Wetting and dispersing agent for textile printing adhesives",
+      "Acrylic printing adhesive",
+      "Coating, paint and plastic resin systems",
+      "High-grade cutting fluids",
+      "Oil-water separation in specific applications"
     ],
     "packaging": "50kg, 200kg drums",
-    "storage": "Store in sealed containers",
+    "storage": "Avoid sun exposure and store below 30°C. Store separately in a ventilated place away from oxidizers and other chemicals.",
+    "shelf_life": "Transport and store as non-dangerous goods"
+  },
+  "hy-1617": {
+    "product_name": "HY-1617 Silicone-Modified Polyurethane Emulsion",
+    "category": "Resin Emulsions",
+    "typical_properties": {
+      "appearance": "Translucent or milky liquid",
+      "ionic_type": "Anionic",
+      "voc": "None",
+      "solid_content": "35±1%",
+      "ph_value": "7.5-9.5",
+      "process": "Gravure printing, spraying, knife coating and reverse roll coating",
+      "crosslinker": "A crosslinker can be added to improve physical properties",
+      "drying_condition": "90-150°C, 1-3 min (adjust according to coating thickness)"
+    },
+    "product_introduction": "HY-1617 is a silicone-modified polyurethane dispersion with high gloss, high transparency, abrasion resistance, anti-blocking performance and yellowing resistance for waterborne coatings requiring a premium appearance.",
+    "features": [
+      "Silicone-modified polyurethane dispersion for high-gloss transparent coating systems.",
+      "Provides high gloss, high transparency, abrasion resistance, anti-blocking performance and yellowing resistance.",
+      "VOC-free and suitable for waterborne environmentally conscious formulations.",
+      "Suitable for high-appearance applications such as crystal leather, mirror leather, high-gloss coatings and aluminum foil printing coatings.",
+      "Crosslinker can be added to further improve overall film properties."
+    ],
+    "how_to_use": [
+      "Suitable for gravure printing, spraying, knife coating and reverse roll coating. Adjust drying time and crosslinker dosage according to coating thickness."
+    ],
+    "typical_applications": [
+      "Leather finishing, including crystal leather, mirror leather and high-gloss PU leather",
+      "Waterborne coatings, including high-gloss furniture coatings, plastic coatings and metal anticorrosive coatings",
+      "Packaging printing, including high-gloss printing coatings for aluminum foil and BOPP film",
+      "Protective films, including waterborne peelable films and temporary protective films",
+      "Textile printing with waterborne textile printing binders"
+    ],
+    "packaging": "50kg, 100kg, 200kg plastic drums",
+    "storage": "Store sealed in a dry, cool and ventilated place. Avoid direct sunlight, moisture and high temperature.",
+    "shelf_life": "6 months"
+  },
+  "hy-1625": {
+    "product_name": "HY-1625 Modified Polysiloxane Resin Emulsion",
+    "category": "Resin Emulsions",
+    "typical_properties": {
+      "appearance": "Milky white or whey-colored liquid (25°C)",
+      "ionic_type": "Anionic sodium salt",
+      "voc": "None",
+      "solid_content": "25±1%"
+    },
+    "product_introduction": "HY-1625 is an aqueous sodium salt dispersion of modified polysiloxane resin. It improves compatibility between polysiloxane and polyurethane or acrylic resin systems while enhancing surface slip, abrasion resistance, anti-blocking, transparency and gloss.",
+    "features": [
+      "Improves molecular compatibility between polysiloxane and polyurethane or acrylic resins.",
+      "Gives the formed film a smooth, abrasion-resistant and anti-blocking surface.",
+      "Significantly improves coating transparency and gloss.",
+      "VOC-free with pure water as the solvent.",
+      "Can coexist with water-soluble solvents such as ethanol and water in any ratio."
+    ],
+    "how_to_use": [
+      "Add directly into the waterborne resin system according to the metered ratio, then stir or grind until uniform.",
+      "Recommended dosage is 1%-3% of the total system when converted to 100% solid content. Confirm the final dosage through formulation testing."
+    ],
+    "typical_applications": [
+      "Waterborne coatings, inks or leather finishes requiring high transparency and high gloss",
+      "Crystal leather or mirror leather finishes based on waterborne PU resin",
+      "Aluminum foil printing coatings using waterborne acrylic resin as the main carrier resin",
+      "Waterborne polyurethane/acrylic resin peelable film systems",
+      "Waterborne textile printing binder systems"
+    ],
+    "packaging": "50kg, 100kg, 200kg plastic drums",
+    "storage": "Store sealed in a dry, cool and ventilated place. Avoid direct sunlight, moisture and high temperature.",
+    "shelf_life": "6 months"
+  },
+  "hy-5100": {
+    "product_name": "HY-5100 Waterborne Polyurethane Emulsion",
+    "category": "Resin Emulsions",
+    "typical_properties": {
+      "appearance": "Translucent liquid",
+      "solid_content": "35±1%",
+      "specific_gravity": "1.03-1.09 g/cm³",
+      "ph_value": "7.5-9.5",
+      "viscosity": "20-500 cps",
+      "process": "Gravure printing, spraying, knife coating, reverse roll coating, etc.",
+      "drying_condition": "90-150°C",
+      "crosslinker": "A crosslinker can be added to improve physical properties"
+    },
+    "product_introduction": "HY-5100 is a high-performance waterborne polyurethane emulsion with high gloss, good transparency, excellent yellowing resistance, strong adhesion, scratch resistance, water resistance and solvent resistance.",
+    "features": [
+      "High-gloss grade with good film transparency.",
+      "Excellent yellowing resistance for high-appearance coatings.",
+      "Good adhesion with scratch resistance.",
+      "Good water resistance and solvent resistance.",
+      "Crosslinker can be added to improve overall film properties."
+    ],
+    "how_to_use": [
+      "Suitable for gravure printing, spraying, knife coating and reverse roll coating. Recommended drying condition: 90-150°C."
+    ],
+    "typical_applications": [
+      "High-gloss waterborne coatings",
+      "Transparent coating systems",
+      "Waterborne coatings requiring strong yellowing resistance",
+      "Coating applications requiring adhesion, scratch resistance, water resistance and solvent resistance"
+    ],
+    "packaging": "50kg, 200kg, 1000kg plastic drums",
+    "storage": "Recommended storage temperature: 10-35°C. Keep sealed.",
+    "shelf_life": "6 months unopened"
+  },
+  "hy-612": {
+    "product_name": "HY-612 Food-Use Silicone Defoamer",
+    "category": "Silicone Defoamers",
+    "indicators": {
+      "appearance": "Milky white liquid",
+      "odor": "Non-irritating odor",
+      "solid_content": "10%-30%",
+      "viscosity": "800-3000 mPa·s"
+    },
+    "product_introduction": "HY-612 is an efficient silicone defoamer designed for food-processing and fermentation defoaming scenarios. It provides fast defoaming, long-lasting foam suppression and good dispersion. The waterborne system dissolves easily in water and works quickly at low dosage.",
+    "features": [
+      "Designed for food-related defoaming and fermentation process defoaming.",
+      "Fast defoaming, long foam suppression time and good dispersion.",
+      "Stable physical and chemical properties; does not react with materials in the foaming system or affect product quality.",
+      "After high-temperature sterilization, it can automatically restore the emulsion state, reducing performance loss from oil-water separation or layering.",
+      "Strong stability, no oil floating and easy dilution.",
+      "Less prone to oil spots or coating craters and does not affect other system properties.",
+      "Environmentally friendly and solvent-free."
+    ],
+    "how_to_use": [
+      "Identify the cause and location of foam generation to control the defoamer addition point effectively.",
+      "Determine dosage according to foam severity and system characteristics. Add directly or after dilution.",
+      "Small-scale testing is recommended. Add evenly during production to ensure full contact between the defoamer and foam.",
+      "Recommended dosage is 0.1%-0.5% of the total system. Adjust the actual dosage according to foam conditions."
+    ],
+    "typical_applications": [
+      "Soy products and beer brewing",
+      "Waterborne coating production",
+      "Fermentation industries such as antibiotics, glutamic acid, lysine, xanthan gum and citric acid",
+      "Fermentation processes for erythromycin, lincomycin, avermectin, gentamicin, penicillin, citric acid, lysine and yeast production",
+      "Textile printing/dyeing, oilfield, sugar production and wastewater treatment defoaming"
+    ],
+    "packaging": "50kg, 200kg plastic drums",
+    "storage": "Store and transport as non-dangerous goods. Keep sealed.",
     "shelf_life": "12 months"
+  },
+  "hy-190": {
+    "product_name": "HY-190 Dispersant",
+    "category": "Dispersants",
+    "indicators": {
+      "appearance": "Light yellow liquid",
+      "active_ingredient": "40±2%",
+      "amine_value": "0 mgKOH/g",
+      "acid_value": "8-12 mgKOH/g"
+    },
+    "product_introduction": "HY-190 is a VOC-free and solvent-free wetting and dispersing agent for waterborne coating systems, printing inks and adhesives. It is a standard additive for resin-free pigment concentrates and is suitable for a wide range of pigments.",
+    "features": [
+      "VOC-free and solvent-free, suitable for environmentally conscious waterborne formulations.",
+      "Provides wetting and dispersing performance for waterborne coatings, printing inks and adhesive systems.",
+      "Suitable as a standard additive for resin-free pigment concentrates.",
+      "Applicable to inorganic pigments, titanium dioxide, organic pigments, carbon black and other pigment systems."
+    ],
+    "how_to_use": [
+      "Add to the millbase before dispersion. Dosage in supplied form is calculated based on pigment content.",
+      "Recommended dosage: 2%-10% for inorganic pigments, 2%-5% for titanium dioxide, 20%-50% for organic pigments and 20%-50% for carbon black.",
+      "Recommended dosage for co-grinding is 0.5%-2% based on the total formulation. The optimum dosage should be determined through testing."
+    ],
+    "typical_applications": [
+      "Waterborne coatings",
+      "Waterborne inks",
+      "Waterborne pigment pastes",
+      "Resin-free pigment concentrates",
+      "Wetting and dispersing systems for a wide range of pigments"
+    ],
+    "packaging": "25kg plastic drum",
+    "storage": "Store sealed at room temperature in a dry, cool and ventilated place. Avoid direct sunlight.",
+    "shelf_life": "1 year in unopened original containers when stored at room temperature"
+  },
+  "hy-204": {
+    "product_name": "HY-204 PEG/PPG Ether Modified Polydimethylsiloxane",
+    "category": "Dispersants",
+    "indicators": {
+      "appearance": "Amber or colorless transparent liquid",
+      "solubility": "Soluble in water and alcohol solvents",
+      "viscosity": "1000-10000 mPa·s",
+      "boiling_point": ">150°C"
+    },
+    "product_introduction": "HY-204 is a non-hazardous silicone multifunctional additive with no hazardous components. It is chemically stable, non-flammable and combines surface activity, release and dispersing functions.",
+    "features": [
+      "Silicone multifunctional additive with no hazardous components.",
+      "Chemically stable, non-flammable and environmentally friendly.",
+      "Combines surface activity, release and dispersing functions.",
+      "Soluble in water and alcohol solvents with good compatibility.",
+      "Suitable for food alcohol, cosmetics, rubber/plastic processing, PU slurry, waterborne coatings and ink systems."
+    ],
+    "how_to_use": [
+      "Add directly to the target system or dilute with water or alcohol solvents before addition. Adjust the dilution ratio as needed.",
+      "When used as an additive or dispersant, the recommended dosage is 0.1%-2% of the total system. Adjust according to application requirements and performance testing; the optimum dosage should be determined by trials."
+    ],
+    "typical_applications": [
+      "Food alcohol systems",
+      "Cosmetic systems",
+      "Rubber and plastic processing systems",
+      "PU slurry systems",
+      "Waterborne coating and ink systems"
+    ],
+    "packaging": "25kg, 50kg, 100kg plastic drums; customizable according to customer requirements",
+    "storage": "Store below 30°C in a dry, cool and well-ventilated place. Avoid direct sunlight. Store separately away from oxidizers and other chemical products.",
+    "shelf_life": "1 year in unopened original containers when stored under specified conditions"
+  },
+  "hy-8328-modified-silicone": {
+    "product_name": "Polyether-Modified Heptamethyltrisiloxane HY-8328",
+    "product_code": "HY-8328",
+    "category": "Modified Silicone Oil",
+    "series": "Modified Siloxane Series",
+    "subseries": "Conventional Polysiloxane",
+    "indicators": {
+      "appearance": "Colorless to light yellow transparent liquid",
+      "specific_gravity": "1.020 (25°C)",
+      "viscosity": "20-50 mPa·s (25°C)",
+      "cloud_point": "<10°C (0.1% aqueous solution)",
+      "water_solubility": "Easily dissolves or disperses in water to form a transparent solution",
+      "surface_tension": "19-22 mN/m (25°C, 0.1% aqueous solution)",
+      "active_ingredient": "100%"
+    },
+    "product_introduction": "Polyether-modified heptamethyltrisiloxane HY-8328 is a high-activity specialty silicone surfactant with low surface tension and excellent wetting, spreading, penetration, emulsification and dispersing performance.",
+    "features": [
+      "High-activity specialty silicone surfactant.",
+      "Low surface tension with excellent wetting, spreading, penetration, emulsification and dispersing performance.",
+      "Quickly and easily dissolves or disperses in water.",
+      "Can be used as a new high-efficiency agricultural adjuvant and as an alternative to Dow Corning Q2-5211."
+    ],
+    "how_to_use": [
+      "Add directly into pesticide formulations or use as a tank-mix adjuvant.",
+      "For tank mixing, recommended dosage is 0.02%-0.04% (3-6 g in a 15 kg sprayer).",
+      "In pesticide formulations, recommended dosage is 0.5%-5%."
+    ],
+    "typical_applications": [
+      "Spray modifier",
+      "Foliar penetration and absorption aid",
+      "Spreading agent",
+      "Herbicides, foliar fertilizers and plant growth regulators",
+      "Insecticides and fungicides"
+    ],
+    "storage": "Store sealed away from direct sunlight. Transport and store as non-dangerous goods."
+  },
+  "hy-demmas": {
+    "product_name": "HY-DEMMAS Bis-Methacrylate Terminated Polysiloxane",
+    "product_code": "HY-DEMMAS",
+    "category": "Modified Silicone Oil",
+    "series": "Modified Siloxane Series",
+    "subseries": "Conventional Polysiloxane",
+    "indicators": {
+      "average_molecular_weight": "4000",
+      "appearance": "Colorless transparent liquid",
+      "viscosity": "40-80 mPa·s (25°C)",
+      "double_bond_equivalent_weight": "2000",
+      "double_bond_content": "0.5 mmol/g"
+    },
+    "product_introduction": "HY-DEMMAS bis-methacrylate terminated polydimethylsiloxane is a modified silicone material that combines the flexibility and heat resistance of PDMS with the curability of methacrylate groups, enabling crosslinking through free-radical polymerization.",
+    "features": [
+      "Excellent oxidation resistance, high/low temperature resistance and weatherability.",
+      "Excellent water resistance and stain resistance with lubricity.",
+      "Good compatibility with metal, plastic, rubber and other substrates.",
+      "Customizable mono- or di-end-capped structures and molecular weight distribution from 1000 to 100000.",
+      "Mainly used in contact lens and other optical/medical material applications."
+    ],
+    "how_to_use": [
+      "Use as a key monomer, resin modifier, leveling/slip additive or functional coating component. Dosage should be determined by testing according to curing system, molecular weight and target properties."
+    ],
+    "typical_applications": [
+      "Silicone hydrogel contact lenses",
+      "Dental repair materials and orthodontic appliances",
+      "UV-curable scratch-resistant, anti-fingerprint and optical fiber coatings",
+      "Electronic encapsulation and insulation protection",
+      "Leveling and slip additives for inks and paints",
+      "Flexibility and weatherability modification for acrylic and epoxy resins",
+      "Release paper and label back coatings"
+    ],
+    "packaging": "25kg, 50kg, 200kg, 1000kg plastic drums",
+    "storage": "Non-dangerous goods. Recommended storage temperature: 5-35°C. Keep sealed.",
+    "shelf_life": "6 months unopened"
+  },
+  "bis-hydroxypropyl-polysiloxane": {
+    "product_name": "Bis-Hydroxypropyl Terminated Polydimethylsiloxane",
+    "product_code": "Bis-Hydroxypropyl Terminated Polysiloxane",
+    "category": "Modified Silicone Oil",
+    "series": "Modified Siloxane Series",
+    "subseries": "Conventional Polysiloxane",
+    "indicators": {
+      "grade_1200": "Average molecular weight: 1200; appearance: colorless transparent liquid; viscosity at 25°C: 20-30 mPa·s; hydroxyl equivalent weight: 600 g/mol; hydroxyl value: 93.5",
+      "grade_2300": "Average molecular weight: 2300; appearance: colorless transparent liquid; viscosity at 25°C: 35 mPa·s; hydroxyl equivalent weight: 1150 g/mol; hydroxyl value: 48.78"
+    },
+    "product_introduction": "Bis-hydroxypropyl terminated polydimethylsiloxane is a bifunctional reactive silicone diol with reactive hydroxypropyl groups at both molecular ends. It can undergo polycondensation with isocyanate, epoxy and carboxyl groups.",
+    "features": [
+      "Bis-hydroxypropyl reactive structure with high activity and stable functionality.",
+      "Can fully participate in resin crosslinking and curing, reducing migration and blooming.",
+      "Combines low surface energy, high flexibility, weatherability, hydrophobicity and stain resistance.",
+      "Good compatibility with polyurethane, epoxy and acrylic resins.",
+      "Improves flexibility, high/low temperature resistance, impact resistance and elongation at break.",
+      "Provides durable slip, hydrophobic anti-blocking, abrasion/scratch resistance, stain resistance and anti-graffiti performance."
+    ],
+    "how_to_use": [
+      "Use as a crosslinker, chain extender or soft-segment monomer in foams, composites, adhesives, sealants, elastomers and modified resin systems. Dosage should be determined by target molecular weight and reaction-system testing."
+    ],
+    "typical_applications": [
+      "Silicone-modified polyurethane",
+      "Silicone-modified epoxy resin",
+      "Waterborne polyurethane dispersion (PUD)",
+      "Sealants and elastomers",
+      "Superhydrophobic, anticorrosive and durable coatings",
+      "Adhesives and composites",
+      "Waterproof textile finishing agents",
+      "Personal-care emulsifiers and conditioners",
+      "Polymer modification and thermal-performance improvement for engineering plastics"
+    ],
+    "storage": "Store sealed in a cool and ventilated place. Different molecular weights and mono-/di-end-capped structures can be customized."
+  },
+  "hy-evipaps": {
+    "product_name": "HY-EVIPAPS Bis-Vinyl Polyalkylaryl Siloxane",
+    "product_code": "HY-EVIPAPS",
+    "category": "Modified Silicone Oil",
+    "series": "Modified Siloxane Series",
+    "subseries": "Conventional Polysiloxane",
+    "indicators": {
+      "average_molecular_weight": "10000-20000",
+      "appearance": "Colorless transparent liquid",
+      "viscosity": "650-850 mPa·s (25°C)",
+      "vinyl_content": "0.08-0.12",
+      "active_ingredient": "100%"
+    },
+    "product_introduction": "HY-EVIPAPS bis-vinyl polyalkylaryl siloxane is a high-activity bifunctional modified silicone intermediate combining the heat resistance, weatherability and compatibility of polyalkylaryl siloxane with the curability of vinyl groups.",
+    "features": [
+      "High bis-vinyl activity with fast UV/thermal curing.",
+      "Aryl groups improve heat resistance and thermal stability compared with ordinary silicone oil.",
+      "Good compatibility with organic resins and inorganic fillers, reducing blooming, layering and cratering issues.",
+      "Can be covalently incorporated into the resin backbone for non-migrating, durable performance after curing.",
+      "One additive provides curing, heat resistance, flexibility and hydrophobic modification.",
+      "100% active content with no solvent or volatile components."
+    ],
+    "how_to_use": [
+      "Use as a bis-vinyl reactive intermediate in UV-curing, thermal-curing or resin-modification systems. Dosage should be determined by formulation and target-performance testing."
+    ],
+    "typical_applications": [
+      "High-performance UV/thermal-curing coatings",
+      "Electronic encapsulation adhesives, insulating coatings and thermal gels",
+      "Epoxy, acrylic and polyurethane composite modification",
+      "High-performance silicone adhesives and sealants",
+      "Optical lenses and optical fiber coatings",
+      "Intermediate for modified acrylic, epoxy and polyurethane resins"
+    ],
+    "storage": "Store sealed in a cool and ventilated place. Avoid high temperature and direct sunlight."
+  },
+  "hy-sees": {
+    "product_name": "HY-SEES Epoxy-Terminated Polysiloxane",
+    "product_code": "HY-SEES",
+    "category": "Modified Silicone Oil",
+    "series": "Modified Siloxane Series",
+    "subseries": "Mono-End-Capped Polysiloxane",
+    "indicators": {
+      "grade_2000": "Average molecular weight: 2000; appearance: colorless transparent liquid; viscosity at 25°C: 29 mPa·s; epoxy content: 0.48 mmol/g; epoxy value: 0.048 mol/100g",
+      "grade_5000": "Average molecular weight: 5000; appearance: colorless transparent liquid; viscosity at 25°C: 68 mPa·s; epoxy content: 0.2 mmol/g; epoxy value: 0.02 mol/100g"
+    },
+    "product_introduction": "HY-SEES mono-epoxy-terminated polydimethylsiloxane is a functional silicone material used as a modifier, additive or crosslinker for organic resins such as epoxy resin, providing excellent thermal stability, acid/alkali resistance, hydrophobicity and anti-blocking performance.",
+    "features": [
+      "Can upgrade resin performance as a modifier and also serve as an intermediate for specialty polymer synthesis.",
+      "Improves impact strength and elongation at break of epoxy resin, making materials tougher and more flexible.",
+      "The polysiloxane segment provides excellent hydrophobicity and improves water and moisture resistance in coatings and adhesives.",
+      "Good thermal and chemical stability enhances durability under harsh conditions.",
+      "Provides good compatibility and uniform dispersion in polar epoxy resin matrices.",
+      "Can be used as part of a synergistic flame-retardant system to improve fire safety ratings."
+    ],
+    "how_to_use": [
+      "Use as a resin modifier, additive, crosslinker or specialty polymer intermediate. Molecular weight from 1000 to 100000 and other end-capped structures can be customized; dosage should be determined by formulation testing."
+    ],
+    "typical_applications": [
+      "Paints and coating systems",
+      "Adhesives and sealants",
+      "Intermediate for textile finishing agents",
+      "Electronic encapsulation, insulation and thermal materials",
+      "Flexibility and strength modification for organic resins"
+    ],
+    "storage": "Store sealed in a cool, ventilated place. Transport and store as non-dangerous goods."
+  },
+  "hy-semmas": {
+    "product_name": "HY-SEMMAS Mono-Methacrylate Terminated Polysiloxane",
+    "product_code": "HY-SEMMAS",
+    "category": "Modified Silicone Oil",
+    "series": "Modified Siloxane Series",
+    "subseries": "Mono-End-Capped Polysiloxane",
+    "indicators": {
+      "grade_2000": "Average molecular weight: 2000; appearance: colorless transparent liquid; viscosity at 25°C: 25-35 mPa·s; double-bond equivalent weight: 2800; double-bond content: 0.48 mmol/g",
+      "grade_5000": "Average molecular weight: 5000; appearance: colorless transparent liquid; viscosity at 25°C: 70 mPa·s; double-bond equivalent weight: 5000; double-bond content: 0.2 mmol/g"
+    },
+    "product_introduction": "HY-SEMMAS mono-methacrylate terminated polydimethylsiloxane is a modified silicone material that combines the flexibility and heat resistance of PDMS with the curability of methacrylate groups, enabling crosslinking through free-radical polymerization.",
+    "features": [
+      "Excellent oxidation resistance, high/low temperature resistance and weatherability.",
+      "Excellent water resistance and stain resistance with lubricity.",
+      "Good compatibility with metal, plastic, rubber and other substrates.",
+      "Customizable mono- or di-end-capped structures and molecular weight distribution from 1000 to 100000.",
+      "Mainly used in contact lens and other optical/medical material applications."
+    ],
+    "how_to_use": [
+      "Use as a key monomer, leveling/slip additive, functional coating component or resin modifier. Dosage should be determined by testing according to curing system, molecular weight and target properties."
+    ],
+    "typical_applications": [
+      "Silicone hydrogel contact lenses",
+      "Dental repair materials and orthodontic appliances",
+      "UV-curable scratch-resistant, anti-fingerprint and optical fiber coatings",
+      "Electronic encapsulation protection",
+      "Leveling and slip additives for inks and paints",
+      "Flexibility and weatherability modification for acrylic and epoxy resins",
+      "Release paper, tape and label back coatings"
+    ],
+    "packaging": "25kg, 50kg, 200kg, 1000kg plastic drums",
+    "storage": "Non-dangerous goods. Recommended storage temperature: 5-35°C. Keep sealed.",
+    "shelf_life": "6 months unopened"
+  },
+  "hy-stmos": {
+    "product_name": "HY-STMOS Mono-Trimethoxy-Terminated Polydimethylsiloxane",
+    "product_code": "HY-STMOS",
+    "category": "Modified Silicone Oil",
+    "series": "Modified Siloxane Series",
+    "subseries": "Mono-End-Capped Polysiloxane",
+    "indicators": {
+      "grade_2500": "Average molecular weight: 2500; appearance: colorless transparent liquid; viscosity at 25°C: 33 mPa·s; methoxy content: 1.19 mmol/g; active content: 100%"
+    },
+    "product_introduction": "HY-STMOS mono-trimethoxy-terminated polydimethylsiloxane is a reactive functional silicone intermediate combining low surface energy, high flexibility and weatherability with the reactive activity of a silane coupling group.",
+    "features": [
+      "The molecule uses a linear PDMS backbone with one inert hydrophobic siloxane segment and one hydrolyzable trimethoxysilane end group.",
+      "Can undergo hydrolysis-condensation in waterborne or solventborne systems for self-crosslinking or chemical bonding with hydroxyl groups on inorganic substrates and fillers.",
+      "Improves hydrophobicity, weatherability, adhesion and interfacial compatibility in composites, coatings and adhesives.",
+      "Molecular weight from 1000 to 100000 and other end-capped structures can be customized.",
+      "Also known as reactive PDMS mono-alkoxysilyl or mono-end reactive siloxane."
+    ],
+    "how_to_use": [
+      "Use as a high-performance modifier, crosslinking monomer or filler surface treatment agent. For hydroxyl-containing inorganic fillers, coatings, adhesives and composites, determine addition method and dosage through trials."
+    ],
+    "typical_applications": [
+      "Dispersion and surface modification of inorganic fillers",
+      "Waterborne or solventborne functional coatings",
+      "Adhesive and sealant modification",
+      "Thermal gels, thermal grease and thermal pads",
+      "Epoxy, acrylic and polyurethane composite modification"
+    ],
+    "storage": "Store sealed in a cool, ventilated place. Avoid high temperature and direct sunlight."
+  },
+  "mono-dihydroxy-pdms": {
+    "product_name": "Mono-End Dihydroxy Polydimethylsiloxane",
+    "product_code": "Mono-End Dihydroxy PDMS",
+    "category": "Modified Silicone Oil",
+    "series": "Modified Siloxane Series",
+    "subseries": "Mono-End-Capped Polysiloxane",
+    "indicators": {
+      "grade_2000": "Average molecular weight: 2000; appearance: colorless transparent liquid; viscosity at 25°C: 80 mPa·s; hydroxyl equivalent weight: 1000 g/mol; hydroxyl value: 56",
+      "grade_3000": "Average molecular weight: 3000; appearance: colorless transparent liquid; viscosity at 25°C: 60 mPa·s; hydroxyl equivalent weight: 1500 g/mol; hydroxyl value: 37",
+      "grade_4000": "Average molecular weight: 4000; appearance: colorless transparent liquid; viscosity at 25°C: 135 mPa·s; hydroxyl equivalent weight: 2000 g/mol; hydroxyl value: 28",
+      "grade_5000": "Average molecular weight: 5000; appearance: colorless transparent liquid; viscosity at 25°C: 165 mPa·s; hydroxyl equivalent weight: 2500 g/mol; hydroxyl value: 22"
+    },
+    "product_introduction": "Mono-end dihydroxy polydimethylsiloxane can be introduced into a polyurethane backbone in block form while the other silicone chain end remains free, allowing rapid migration to the coating surface for hydrophobic/oleophobic, abrasion-resistant, anti-blocking and slip performance.",
+    "features": [
+      "Can react chemically with -NCO, -NH2, -COOH and other groups.",
+      "Mainly used in silicone-modified PU, PUD, TPU and modified polyester or acrylic resin systems.",
+      "Improves lubricity and abrasion resistance while providing water repellency, anti-blocking, anti-staining and anti-graffiti functions.",
+      "Good compatibility with metal, plastic, rubber and other substrates.",
+      "Improves scratch resistance, UV stability and heat resistance.",
+      "Low surface energy helps create anti-blocking and stain-resistant surfaces and improves fabric hand feel.",
+      "Can be used as an alternative to Shin-Etsu X-22-176DX and similar grades."
+    ],
+    "how_to_use": [
+      "Use as a reactive modifier for silicone-modified polyurethane, PUD, TPU, polyester resin and acrylic resin systems. Molecular weight from 1000 to 100000 and other end-capped structures can be customized; optimum dosage should be determined by formulation testing."
+    ],
+    "typical_applications": [
+      "Heat-resistant coatings, architectural coatings, anticorrosive coatings and protective varnishes",
+      "Clear abrasion-resistant automotive coatings",
+      "Marine antifouling coating modification",
+      "Finishing agents for sportswear, home textiles and apparel fabrics",
+      "Protective coatings for electronic housings and precision parts",
+      "Tackifiers, silicone stone adhesives and structure-control agents for high-temperature adhesives",
+      "Base silicone oil for thermal grease"
+    ],
+    "packaging": "25kg, 50kg, 200kg, 1000kg plastic drums",
+    "storage": "Non-dangerous goods. Recommended storage temperature: 5-35°C. Keep sealed.",
+    "shelf_life": "6 months unopened"
+  },
+  "hy-1380": {
+    "product_name": "HY-1380 Antistatic Softening Agent",
+    "product_code": "HY-1380",
+    "category": "Textile Auxiliaries",
+    "series": "Chemical Fiber Softener",
+    "indicators": {
+      "appearance": "Milky white liquid (25°C)",
+      "ionic_type": "Cationic",
+      "ph_value": "5.0-7.0",
+      "water_solubility": "Easily soluble in water"
+    },
+    "product_introduction": "HY-1380 is a cationic antistatic softening agent combining antistatic performance, soft fluffy hand feel and cool smooth touch. The self-emulsifying system can be diluted directly with water and is suitable for polyester, nylon and synthetic wig fiber finishing.",
+    "features": [
+      "Cationic groups adsorb to negatively charged chemical fiber surfaces and form a uniform flexible protective film.",
+      "Provides a dry, non-greasy hand feel while suppressing static generation over time.",
+      "Improves softness, fluffiness, antistatic performance, combability and washing durability of wig fibers.",
+      "Self-emulsifying system, directly diluted with water without additional emulsifier.",
+      "Environmentally friendly and suitable for polyester, nylon and other chemical fiber fabrics."
+    ],
+    "how_to_use": [
+      "Dilute with deionized water to avoid hard-water effects. Stir evenly during dilution and do not pour concentrate directly onto fabric.",
+      "Recommended base dilution ratio is 1%-2% (1 kg product with 25-50 kg water). Adjust concentration according to on-site conditions and hand-feel requirements.",
+      "Can be compounded with nonionic antistatic agents, smoothers and water repellents. Do not mix with anionic auxiliaries."
+    ],
+    "typical_applications": [
+      "Pretreatment and soft antistatic finishing of synthetic wig fibers",
+      "Soft, skin-friendly and antistatic finishing for polyester filament, nylon fabrics and blended garments",
+      "Finishing of synthetic blankets, coral fleece, flannel, polyester bedding and nylon curtains",
+      "Finishing of polyester yarns, chemical fiber nonwovens and industrial textiles"
+    ],
+    "packaging": "25kg, 50kg, 100kg, 200kg plastic drums",
+    "storage": "Store sealed in a cool, dry and ventilated place at 5-35°C. Keep container sealed after use and avoid moisture and high temperature.",
+    "shelf_life": "6 months"
+  },
+  "hy-1390": {
+    "product_name": "HY-1390 Antistatic Softener",
+    "product_code": "HY-1390",
+    "category": "Textile Auxiliaries",
+    "series": "Chemical Fiber Softener",
+    "indicators": {
+      "appearance": "Milky white liquid (25°C)",
+      "ionic_type": "Cationic",
+      "ph_value": "5.0-7.0",
+      "water_solubility": "Easily soluble in water"
+    },
+    "product_introduction": "HY-1390 is a cationic antistatic softener designed with a special molecular structure to provide antistatic and soft fluffy performance. It is a self-emulsifying product that can be diluted directly with water for chemical fiber and blended textile finishing.",
+    "features": [
+      "Cationic groups adsorb to negatively charged chemical fiber surfaces and form a uniform flexible protective film.",
+      "Provides a dry, non-greasy fabric hand feel and long-lasting antistatic effect.",
+      "Improves softness, fluffiness, antistatic performance and process adaptability of wig fibers.",
+      "Self-emulsifying system, directly diluted with water without additional emulsifier.",
+      "Environmentally friendly and suitable for polyester, nylon and synthetic wig fibers."
+    ],
+    "how_to_use": [
+      "Dilute with deionized water to avoid hard-water effects. Stir evenly during dilution and do not pour concentrate directly onto fabric.",
+      "Recommended base dilution ratio is 1%-2% (1 kg product with 25-50 kg water). Adjust concentration according to on-site conditions and hand-feel requirements.",
+      "Can be compounded with nonionic antistatic agents, smoothers and water repellents. Do not mix with anionic auxiliaries."
+    ],
+    "typical_applications": [
+      "Pretreatment of synthetic wig fibers to reduce tangling and improve combability",
+      "Soft and antistatic finishing for apparel fabrics",
+      "Fuller pile feel and reduced pilling for home textile fabrics",
+      "Improved smoothness and softness for yarns and industrial textiles"
+    ],
+    "packaging": "25kg, 50kg, 100kg, 200kg plastic drums",
+    "storage": "Store sealed in a cool, dry and ventilated place at 5-35°C. Keep container sealed after use and avoid moisture and high temperature.",
+    "shelf_life": "6 months"
+  },
+  "hy-5100-textile": {
+    "product_name": "HY-5100 Shaping Agent",
+    "product_code": "HY-5100",
+    "category": "Textile Auxiliaries",
+    "series": "Chemical Fiber Softener",
+    "indicators": {
+      "appearance": "Milky white liquid (25°C)",
+      "ionic_type": "Cationic",
+      "ph_value": "5.0-7.0",
+      "water_solubility": "Easily soluble in water",
+      "shaping_hardness": "Firm hand feel (adjustable by concentration; higher concentration gives stronger shaping)",
+      "setting_durability": "Wash durable for 5-8 cycles with no obvious loss of setting effect"
+    },
+    "product_introduction": "HY-5100 is a cationic antistatic shaping agent combining antistatic, shaping/setting and moderate softening performance. The self-emulsifying product can be diluted directly with water and is suitable for chemical fiber fabrics and wig fibers requiring a firmer, shaped hand feel.",
+    "features": [
+      "Specially modified molecular structure forms a uniform dense setting protective film.",
+      "Suppresses static generation while giving fabric or fibers a firm, crisp hand feel.",
+      "Long-lasting shaping effect without brittleness or stiffness; resists deformation and collapse.",
+      "Balances antistatic performance, moderate softness and process adaptability.",
+      "Environmentally friendly and suitable for polyester, nylon and other chemical fiber fabrics."
+    ],
+    "how_to_use": [
+      "Dilute directly with water for antistatic shaping and setting finishing of chemical fiber and blended textiles. Adjust concentration according to target stiffness and hand feel; trial testing is recommended."
+    ],
+    "typical_applications": [
+      "Pretreatment and finished-product setting for synthetic wig fibers",
+      "Styled wigs, short wigs and products requiring a firm structured feel",
+      "Polyester filament, nylon fabrics, collars, cuffs, suit shoulder pads and workwear fabrics",
+      "Chemical fiber decorative fabrics, curtains, tablecloths and sofa covers",
+      "Polyester yarns, chemical fiber nonwovens and shaped industrial filter fabrics"
+    ],
+    "packaging": "100kg, 200kg plastic drums",
+    "storage": "Store sealed in a cool, dry and ventilated place at 5-35°C. Keep container sealed after use and avoid moisture and high temperature.",
+    "shelf_life": "6 months"
+  },
+  "hy-09n": {
+    "product_name": "HY-09N Long-Chain Alkyl Phenyl Silicone Oil",
+    "product_code": "HY-09N",
+    "category": "Modified Silicone Oil",
+    "series": "Long-Chain Alkyl Phenyl Modified Silicone Oil",
+    "typical_properties": {
+      "appearance": "Light yellow to colorless transparent liquid",
+      "active_ingredient": "100%",
+      "viscosity": "1000-2000 mPa·s (25°C)"
+    },
+    "product_introduction": "HY-09N long-chain alkyl phenyl silicone oil is made from organosilicon monomers/materials through multi-component modification, offering a unique structure, simple use, strong isolation/lubrication performance and heat resistance.",
+    "features": [
+      "Non-toxic and non-corrosive; can be diluted with alcohol solvents without harmful fumes.",
+      "Excellent lubricity and impact resistance for easy, damage-free demolding while protecting molds.",
+      "Easy to use and emulsify, and miscible with mineral oil in any proportion.",
+      "Provides lubricity, oil solubility, abrasion resistance, defoaming, anti-sticking and printability.",
+      "Strong affinity with organic materials for isolation, lubrication and release applications."
+    ],
+    "how_to_use": [
+      "Conduct small-sample trials first to determine the final application method and dosage for each use case.",
+      "Can be added in small amounts to mineral oil to improve high/low temperature resistance and extreme-pressure lubrication."
+    ],
+    "typical_applications": [
+      "Lubrication and die-casting release for magnesium, zinc and other metals",
+      "Base oil for high-lubricity silicone grease",
+      "Release for plastic, rubber and PU products",
+      "Isolation, lubrication and release for multiple material types"
+    ],
+    "packaging": "50kg, 200kg plastic drums",
+    "storage": "Transport and store as non-dangerous goods. Store in a dry, ventilated and cool place at ≥5°C. Avoid strong sunlight and contact with acids or alkalis."
+  },
+  "hy-6014": {
+    "product_name": "HY-6014 Tire Bladder Release Agent",
+    "product_code": "HY-6014",
+    "category": "Release Agents",
+    "series": "Rubber Release",
+    "typical_properties": {
+      "appearance": "Milky white liquid, free of mechanical impurities",
+      "ph_value": "6.5-8.0",
+      "stability": "No stratification after 20 minutes at 3000 r/min",
+      "ionic_type": "Anionic",
+      "solid_content": "40%±2%"
+    },
+    "product_introduction": "HY-6014 is a macromolecular silicone material prepared by emulsion polymerization of high-purity octamethylcyclosiloxane with anionic surfactant. It is designed for tire production and helps tires release from molds in vulcanization processes.",
+    "features": [
+      "Water-dilutable tire bladder lubricating release agent with easy atomization.",
+      "Sprayed onto hot mold surfaces and provides release after curing.",
+      "Water-based, non-polluting and non-flammable, suitable for tire production.",
+      "Provides long-lasting release performance and is not prone to mold contamination.",
+      "Leaves no greasy feel on the tire surface after vulcanization and does not affect subsequent surface processing.",
+      "Can replace DOWSIL FBL-3289, WACKER E 22, DOWSIL HV 495, Elkem EMUL 8455 and similar grades."
+    ],
+    "how_to_use": [
+      "Stir the product evenly and place it in the spraying device. Spray uniformly on hot mold surfaces and use after water evaporates.",
+      "A 0.6mm-0.8mm nozzle is recommended for good atomization.",
+      "Recommended dosage: PCR tires can vulcanize about 10-20 tires per spray; TBR tires can be sprayed once per shift.",
+      "This product is an anionic system. Check compatibility when compounded with other materials, especially cationic systems, to prevent emulsion breaking."
+    ],
+    "typical_applications": [
+      "Tire vulcanization release",
+      "Tire bladder lubricating release",
+      "Hot mold surface spray release",
+      "PCR tire production",
+      "TBR tire production"
+    ],
+    "packaging": "50kg, 100kg, 200kg drums",
+    "storage": "Store in a ventilated, cool and dry place. Avoid contact with strong acids and alkalis. Warehouse temperature should not be below 5°C to prevent freezing and emulsion breaking, and should not exceed 40°C. Transport and store as non-dangerous goods."
   }
 }

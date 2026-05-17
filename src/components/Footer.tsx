@@ -2,12 +2,18 @@
 
 import {useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
-import {MapPin, Mail, User, Wrench} from 'lucide-react';
+import {MapPin, Mail, MessageCircle, User} from 'lucide-react';
 import Image from 'next/image';
 import {useLocale} from 'next-intl';
 import {useMemo} from 'react';
 import Link from 'next/link';
 import productsData from '@/data/products.json';
+
+interface ProductSource {
+  category: string;
+}
+
+const hiddenProductCategories = new Set(['农药助剂', '复合材料浸润剂', '改性剂']);
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -16,29 +22,25 @@ export default function Footer() {
 
   // 从products.json动态生成产品分类
   const productCategories = useMemo(() => {
-    const categoryMap = new Map<string, string[]>();
+    const categoryIds: string[] = [];
     
     // 遍历products.json数据，按category分组
-    Object.entries(productsData).forEach(([, productData]) => {
-      const category = productData.category;
-      if (!categoryMap.has(category)) {
-        categoryMap.set(category, []);
-      }
-      categoryMap.get(category)!.push(productData.product_name);
+    Object.values(productsData).forEach((productData) => {
+      const category = (productData as ProductSource).category;
+      if (hiddenProductCategories.has(category) || categoryIds.includes(category)) return;
+      categoryIds.push(category);
     });
 
-    // 转换为分类数组格式，只取前4个分类
-    return Array.from(categoryMap.entries()).slice(0, 4).map(([categoryName, products]) => ({
-      name: categoryName,
-      title: tProducts(`categories.${categoryName}.title`),
-      products: products.slice(0, 2) // 每个分类最多显示2个产品
+    return categoryIds.map((categoryId) => ({
+      id: categoryId,
+      title: tProducts(`categories.${categoryId}.title`)
     }));
   }, [tProducts]);
 
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <motion.div
             initial={{opacity: 0, y: 20}}
             whileInView={{opacity: 1, y: 0}}
@@ -64,32 +66,17 @@ export default function Footer() {
             viewport={{once: true}}
           >
             <h3 className="text-lg font-semibold mb-4">{t('products.title')}</h3>
-            <ul className="space-y-2 text-gray-300">
+            <ul className="grid grid-cols-2 gap-x-6 gap-y-2 text-gray-300">
               {productCategories.map((category) => (
-                <li key={category.name}>
+                <li key={category.id}>
                   <Link 
-                    href={`/${currentLocale}/products`} 
+                    href={`/${currentLocale}/products?category=${encodeURIComponent(category.id)}`}
                     className="hover:text-blue-400 transition-colors"
                   >
                     {category.title}
                   </Link>
                 </li>
               ))}
-            </ul>
-          </motion.div>
-
-          <motion.div
-            initial={{opacity: 0, y: 20}}
-            whileInView={{opacity: 1, y: 0}}
-            transition={{duration: 0.8, delay: 0.2}}
-            viewport={{once: true}}
-          >
-            <h3 className="text-lg font-semibold mb-4">{t('services.title')}</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">{t('services.consultation')}</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">{t('services.installation')}</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">{t('services.maintenance')}</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">{t('services.training')}</a></li>
             </ul>
           </motion.div>
 
@@ -110,15 +97,17 @@ export default function Footer() {
                   </a>
                 </div>
               </div>
-              <div className="flex items-center">
-                <Wrench className="w-4 h-4 mr-2 text-green-400" />
-                <div>
-                  <div className="text-sm text-gray-400">{t('contact.technicalManager')}</div>
-                  <a href={`tel:${t('contact.technicalManagerPhone')}`} className="hover:text-blue-400 transition-colors">
-                    {t('contact.technicalManagerPhone')}
-                  </a>
+              {currentLocale === 'en' && (
+                <div className="flex items-center">
+                  <MessageCircle className="w-4 h-4 mr-2 text-green-400" />
+                  <div>
+                    <div className="text-sm text-gray-400">{t('contact.whatsapp')}</div>
+                    <a href="https://wa.me/85277921151" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+                      {t('contact.whatsappPhone')}
+                    </a>
+                  </div>
                 </div>
-              </div>
+              )}
               <div className="flex items-center">
                 <Mail className="w-4 h-4 mr-2 text-red-400" />
                 <a href={`mailto:${t('contact.email')}`} className="hover:text-blue-400 transition-colors">

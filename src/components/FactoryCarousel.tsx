@@ -18,14 +18,6 @@ export default function FactoryCarousel({ title }: FactoryCarouselProps) {
     '/factory/factory1.jpg',
     '/factory/factory2.jpg',
     '/factory/factory3.jpg',
-    '/factory/factory4.jpg',
-    '/factory/factory5.jpg',
-    '/factory/factory6.jpg',
-    '/factory/factory7.jpg',
-    '/factory/factory8.jpg',
-    '/factory/factory9.jpg',
-    '/factory/factory10.jpg',
-    '/factory/factory11.jpg',
   ];
 
   // 自动播放功能
