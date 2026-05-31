@@ -1,5 +1,5 @@
 'use client';
-
+import { Suspense } from 'react';
 import ProductPage from '@/components/ProductPage';
 import Footer from '@/components/Footer';
 import PageHeader from '@/components/PageHeader';
@@ -10,14 +10,17 @@ export default function ProductsPage() {
 
   return (
     <main>
-      <PageHeader 
+      <PageHeader
         title={t('products')}
         backgroundImage="/screen/screen_2.png"
         breadcrumbs={[
           { label: t('products') }
         ]}
       />
-      <ProductPage />
+      <Suspense fallback={null}>
+        <ProductPage />
+      </Suspense>
+
       <Footer />
     </main>
   );
