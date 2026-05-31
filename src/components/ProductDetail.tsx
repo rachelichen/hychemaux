@@ -162,6 +162,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     grade_3000: 'MW 3000 Grade',
     grade_4000: 'MW 4000 Grade',
     grade_5000: 'MW 5000 Grade',
+    melting_point: 'Melting Point',
     shaping_hardness: 'Shaping Hardness',
     setting_durability: 'Setting Durability'
   } : {
@@ -214,6 +215,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     grade_3000: '3000分子量规格',
     grade_4000: '4000分子量规格',
     grade_5000: '5000分子量规格',
+    melting_point: '熔点',
     shaping_hardness: '塑形硬度',
     setting_durability: '定型持久性'
   };
@@ -265,7 +267,13 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     'mono-dihydroxy-pdms': '/new_products/common.png',
     'hy-1380': '/new_products/xiaopaoji.png',
     'hy-1390': '/new_products/xiaopaoji.png',
-    'hy-5100-textile': '/new_products/xiaopaoji.png'
+    'hy-5100-textile': '/new_products/xiaopaoji.png',
+    'hy-1303': '/new_products/xiaopaoji.png',
+    'hy-1322': '/new_products/xiaopaoji.png',
+    'hy-1352': '/new_products/xiaopaoji.png',
+    'hy-1355': '/new_products/xiaopaoji.png',
+    'hy-1375': '/new_products/xiaopaoji.png',
+    'hy-1378': '/new_products/xiaopaoji.png'
   };
 
   // 获取产品图片路径

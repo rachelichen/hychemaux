@@ -1,38 +1,26 @@
 'use client';
 
-import {useMemo} from 'react';
+import {useMemo, useState} from 'react';
 import {useTranslations, useLocale} from 'next-intl';
 import Link from 'next/link';
-import {ChevronDown, Globe, Menu} from 'lucide-react';
+import {ChevronDown, Globe, Menu, X} from 'lucide-react';
 import {usePathname} from 'next/navigation';
 import productsData from '@/data/products.json';
+import {getVisibleProductCategoryIds} from '@/lib/product-categories';
 
 interface NavigationProps {
   transparent?: boolean;
 }
-
-interface ProductSource {
-  category: string;
-}
-
-const hiddenProductCategories = new Set(['农药助剂', '复合材料浸润剂', '改性剂']);
 
 export default function Navigation({ transparent = false }: NavigationProps) {
   const t = useTranslations('nav');
   const tProducts = useTranslations('products');
   const currentLocale = useLocale();
   const pathname = usePathname();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const productCategories = useMemo(() => {
-    const categoryIds: string[] = [];
-
-    Object.values(productsData).forEach((productData) => {
-      const category = (productData as ProductSource).category;
-      if (hiddenProductCategories.has(category) || categoryIds.includes(category)) return;
-      categoryIds.push(category);
-    });
-
-    return categoryIds.map((categoryId) => ({
+    return getVisibleProductCategoryIds(Object.values(productsData)).map((categoryId) => ({
       id: categoryId,
       title: tProducts(`categories.${categoryId}.title`)
     }));
@@ -41,6 +29,10 @@ export default function Navigation({ transparent = false }: NavigationProps) {
   const toggleLocale = () => {
     const newLocale = currentLocale === 'zh' ? 'en' : 'zh';
     window.location.href = `/${newLocale}`;
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
   };
 
   // 检查当前路径是否匹配导航项
@@ -149,12 +141,96 @@ export default function Navigation({ transparent = false }: NavigationProps) {
             </div>
           </div>
           <div className="md:hidden">
-            <button className={`${transparent ? 'text-white hover:text-blue-300' : 'text-gray-700 hover:text-blue-600'} focus:outline-none`}>
-              <Menu className="h-6 w-6" />
+            <button
+              type="button"
+              aria-label={currentLocale === 'zh' ? '打开移动端导航' : 'Open mobile navigation'}
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
+              onClick={() => setIsMobileMenuOpen((isOpen) => !isOpen)}
+              className={`${transparent ? 'text-white hover:text-blue-300' : 'text-gray-700 hover:text-blue-600'} -mr-2 inline-flex h-11 w-11 items-center justify-center rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2`}
+            >
+              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
           </div>
         </div>
       </div>
+      {isMobileMenuOpen && (
+        <div
+          id="mobile-menu"
+          className="md:hidden border-t border-gray-100 bg-white px-4 pb-5 pt-3 shadow-lg"
+        >
+          <div className="space-y-1">
+            <Link
+              href={`/${currentLocale}`}
+              onClick={closeMobileMenu}
+              className={`block rounded-md px-3 py-3 text-base font-medium ${
+                isActive(`/${currentLocale}`) ? 'bg-blue-50 text-blue-600' : 'text-gray-800 hover:bg-gray-50 hover:text-blue-600'
+              }`}
+            >
+              {t('home')}
+            </Link>
+            <Link
+              href={`/${currentLocale}/products`}
+              onClick={closeMobileMenu}
+              className={`block rounded-md px-3 py-3 text-base font-medium ${
+                isActive(`/${currentLocale}/products`) ? 'bg-blue-50 text-blue-600' : 'text-gray-800 hover:bg-gray-50 hover:text-blue-600'
+              }`}
+            >
+              {t('products')}
+            </Link>
+            <div className="space-y-1 border-l border-gray-200 pl-3">
+              {productCategories.map((category) => (
+                <Link
+                  key={category.id}
+                  href={`/${currentLocale}/products?category=${encodeURIComponent(category.id)}`}
+                  onClick={closeMobileMenu}
+                  className="block rounded-md px-3 py-2 text-sm text-gray-600 hover:bg-blue-50 hover:text-blue-600"
+                >
+                  {category.title}
+                </Link>
+              ))}
+            </div>
+            <Link
+              href={`/${currentLocale}/about`}
+              onClick={closeMobileMenu}
+              className={`block rounded-md px-3 py-3 text-base font-medium ${
+                isActive(`/${currentLocale}/about`) ? 'bg-blue-50 text-blue-600' : 'text-gray-800 hover:bg-gray-50 hover:text-blue-600'
+              }`}
+            >
+              {t('about')}
+            </Link>
+            <Link
+              href={`/${currentLocale}/contact`}
+              onClick={closeMobileMenu}
+              className={`block rounded-md px-3 py-3 text-base font-medium ${
+                isActive(`/${currentLocale}/contact`) ? 'bg-blue-50 text-blue-600' : 'text-gray-800 hover:bg-gray-50 hover:text-blue-600'
+              }`}
+            >
+              {t('contact')}
+            </Link>
+          </div>
+          <div className="mt-4 flex gap-2 border-t border-gray-100 pt-4">
+            <Link
+              href="/en"
+              onClick={closeMobileMenu}
+              className={`flex-1 rounded-md px-3 py-2 text-center text-sm font-medium ${
+                currentLocale === 'en' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-blue-50 hover:text-blue-600'
+              }`}
+            >
+              EN
+            </Link>
+            <Link
+              href="/zh"
+              onClick={closeMobileMenu}
+              className={`flex-1 rounded-md px-3 py-2 text-center text-sm font-medium ${
+                currentLocale === 'zh' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-blue-50 hover:text-blue-600'
+              }`}
+            >
+              中文
+            </Link>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

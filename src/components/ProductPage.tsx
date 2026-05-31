@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import productsData from '@/data/products.json';
 import productsDataEn from '@/data/products_en.json';
+import {isVisibleProductCategory, sortProductCategoryIds} from '@/lib/product-categories';
 
 interface Product {
   id: string;
@@ -82,8 +83,6 @@ const productHierarchy: Record<string, HierarchyGroup[]> = {
   ]
 };
 
-const hiddenProductCategories = new Set(['农药助剂', '复合材料浸润剂', '改性剂']);
-
 const additionalCatalogPlacements: Record<string, CatalogPlacement[]> = {
   'hy-09n': [
     {
@@ -156,6 +155,20 @@ const getHierarchyLabel = (id: string, locale: string) => {
   return locale === 'en' ? label.en : label.zh;
 };
 
+const getProductDisplayName = (product: Product, locale: string) => {
+  if (locale !== 'zh') return product.name;
+
+  const codePattern = product.code.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const codePrefixPattern = new RegExp(`^${codePattern}[-\\s]*`, 'i');
+  const codeSuffixPattern = new RegExp(`[-\\s]*${codePattern}$`, 'i');
+  const displayName = product.name
+    .replace(codePrefixPattern, '')
+    .replace(codeSuffixPattern, '')
+    .trim();
+
+  return displayName || product.name;
+};
+
 export default function ProductPage() {
   const t = useTranslations('products');
   const locale = useLocale();
@@ -177,7 +190,7 @@ export default function ProductPage() {
       const displayData = localizedData || data;
       const addProductToCategory = (placement: CatalogPlacement) => {
         const category = placement.category;
-        if (hiddenProductCategories.has(category)) return;
+        if (!isVisibleProductCategory(category)) return;
         if (!categoryMap.has(category)) {
           categoryMap.set(category, []);
         }
@@ -203,12 +216,16 @@ export default function ProductPage() {
     });
 
     // 转换为Category数组格式
-    return Array.from(categoryMap.entries()).map(([categoryName, products]) => ({
-      id: categoryName,
-      name: t(`categories.${categoryName}.title`),
-      icon: t(`categories.${categoryName}.icon`),
-      products: products
-    }));
+    return sortProductCategoryIds(Array.from(categoryMap.keys())).map((categoryName) => {
+      const products = categoryMap.get(categoryName) || [];
+
+      return {
+        id: categoryName,
+        name: t(`categories.${categoryName}.title`),
+        icon: t(`categories.${categoryName}.icon`),
+        products: products
+      };
+    });
   }, [locale, t]);
 
   const initialCategory = categories.find(category => category.id === categoryFromQuery)?.id || categories[0]?.id || '';
@@ -269,7 +286,7 @@ export default function ProductPage() {
             <div className="flex items-center justify-between gap-3">
               <div className="flex-1 min-w-0">
                 <h3 className="text-lg font-bold text-blue-600 break-words">
-                  {product.code}
+                  {getProductDisplayName(product, locale)}
                 </h3>
               </div>
               <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-blue-100 transition-colors flex-shrink-0">

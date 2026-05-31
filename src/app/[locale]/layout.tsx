@@ -42,7 +42,7 @@ export default async function LocaleLayout({
   const messages = await getMessages({locale});
 
   return (
-    <NextIntlClientProvider messages={messages} locale={locale}>
+    <NextIntlClientProvider key={locale} messages={messages} locale={locale}>
       <LocaleProvider>
         <DynamicFavicon />
         {children}

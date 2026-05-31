@@ -4,6 +4,7 @@ import {locales, defaultLocale} from './src/i18n';
 export default createMiddleware({
   locales,
   defaultLocale,
+  localeDetection: false,
   localePrefix: 'as-needed'
 });
 

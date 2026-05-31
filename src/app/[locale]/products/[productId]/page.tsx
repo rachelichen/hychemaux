@@ -51,7 +51,15 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
       'mono-dihydroxy-pdms': { zh: '单端双羟基聚二甲基硅氧烷', en: 'Mono-End Dihydroxy Polydimethylsiloxane' },
       'hy-1380': { zh: 'HY-1380抗静电柔顺剂', en: 'HY-1380 Antistatic Softening Agent' },
       'hy-1390': { zh: 'HY-1390抗静电柔软剂', en: 'HY-1390 Antistatic Softener' },
-      'hy-5100-textile': { zh: 'HY-5100塑形剂', en: 'HY-5100 Shaping Agent' }
+      'hy-5100-textile': { zh: 'HY-5100塑形剂', en: 'HY-5100 Shaping Agent' },
+      'hy-d70n': { zh: 'HY-D70N有机硅季铵盐类抗菌防霉剂', en: 'HY-D70N Silicone Quaternary Ammonium Antibacterial and Antimildew Agent' },
+      'hy-d1810': { zh: 'HY-D1810端环氧硅油型抗菌防霉剂', en: 'HY-D1810 Epoxy-Terminated Silicone Oil Antibacterial and Antimildew Agent' },
+      'hy-1303': { zh: 'HY-1303非离子柔软剂', en: 'HY-1303 Nonionic Softener' },
+      'hy-1322': { zh: 'HY-1322纺织冰感柔软剂', en: 'HY-1322 Textile Cool-Touch Softener' },
+      'hy-1352': { zh: 'HY-1352皮革丝光手感整理剂', en: 'HY-1352 Leather Silky-Hand Finishing Agent' },
+      'hy-1355': { zh: 'HY-1355抗起球型梭织亲水柔软剂', en: 'HY-1355 Anti-Pilling Woven Hydrophilic Softener' },
+      'hy-1375': { zh: 'HY-1375牛仔面料手感增亮整理剂', en: 'HY-1375 Denim Hand-Feel Brightening Finishing Agent' },
+      'hy-1378': { zh: 'HY-1378纺织纯棉松软整理剂', en: 'HY-1378 Cotton Soft-Fluffy Textile Finishing Agent' }
     };
     
     return productNames[productId]?.[locale] || productId.toUpperCase();

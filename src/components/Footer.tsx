@@ -8,12 +8,7 @@ import {useLocale} from 'next-intl';
 import {useMemo} from 'react';
 import Link from 'next/link';
 import productsData from '@/data/products.json';
-
-interface ProductSource {
-  category: string;
-}
-
-const hiddenProductCategories = new Set(['农药助剂', '复合材料浸润剂', '改性剂']);
+import {getVisibleProductCategoryIds} from '@/lib/product-categories';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -22,16 +17,7 @@ export default function Footer() {
 
   // 从products.json动态生成产品分类
   const productCategories = useMemo(() => {
-    const categoryIds: string[] = [];
-    
-    // 遍历products.json数据，按category分组
-    Object.values(productsData).forEach((productData) => {
-      const category = (productData as ProductSource).category;
-      if (hiddenProductCategories.has(category) || categoryIds.includes(category)) return;
-      categoryIds.push(category);
-    });
-
-    return categoryIds.map((categoryId) => ({
+    return getVisibleProductCategoryIds(Object.values(productsData)).map((categoryId) => ({
       id: categoryId,
       title: tProducts(`categories.${categoryId}.title`)
     }));
