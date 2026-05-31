@@ -1,13 +1,13 @@
 export const hiddenProductCategories = new Set(['农药助剂', '复合材料浸润剂', '改性剂']);
 
 export const productCategoryOrder = [
-  '消泡剂',
   '上浆剂',
   '改性硅油',
   '润湿剂',
   '纺织助剂',
   '脱模剂',
   '树脂乳液',
+  '消泡剂',
   '分散剂'
 ] as const;
 
