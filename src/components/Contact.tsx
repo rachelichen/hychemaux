@@ -2,7 +2,7 @@
 
 import {useLocale, useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
-import {MapPin, Mail, MessageCircle, Send, User} from 'lucide-react';
+import {Mail, MapPin, MessageCircle, Send, User} from 'lucide-react';
 import {useState} from 'react';
 import {buildContactMailtoHref, CONTACT_RECIPIENT_EMAIL} from '@/lib/contact-email';
 
@@ -14,6 +14,8 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
+    country: '',
     message: ''
   });
   
@@ -42,8 +44,10 @@ export default function Contact() {
         body: JSON.stringify({
           name: formData.name,
           email: formData.email,
-          phone: '', // 联系我们页面没有电话字段
-          message: formData.message,
+          phone: formData.phone,
+          message: formData.country
+            ? `Country: ${formData.country}\n\n${formData.message}`
+            : formData.message,
           productId: null // 联系我们页面没有关联产品
         }),
       });
@@ -57,6 +61,8 @@ export default function Contact() {
           locale: currentLocale,
           name: formData.name,
           email: formData.email,
+          phone: formData.phone,
+          country: formData.country,
           message: formData.message
         });
         setIsSubmitted(true);
@@ -64,6 +70,8 @@ export default function Contact() {
         setFormData({
           name: '',
           email: '',
+          phone: '',
+          country: '',
           message: ''
         });
       } else {
@@ -104,6 +112,7 @@ export default function Contact() {
       color: 'text-purple-600'
     }
   ];
+  const showEnglishExtraFields = currentLocale === 'en';
 
   return (
     <section className="py-16">
@@ -194,35 +203,69 @@ export default function Contact() {
             ) : (
               /* Contact Form */
               <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    {t('form.name')}
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder={t('form.name')}
-                    required
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    {t('form.email')}
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder={t('form.email')}
-                    required
-                  />
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                      {t('form.name')}
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      placeholder={t('form.name')}
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                      {t('form.email')}
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      placeholder={t('form.email')}
+                      required
+                    />
+                  </div>
+                  {showEnglishExtraFields ? (
+                    <>
+                      <div>
+                        <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                          {t('form.phone')}
+                        </label>
+                        <input
+                          type="tel"
+                          id="phone"
+                          name="phone"
+                          value={formData.phone}
+                          onChange={handleInputChange}
+                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                          placeholder={t('form.phone')}
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="country" className="block text-sm font-medium text-gray-700 mb-2">
+                          {t('form.country')}
+                        </label>
+                        <input
+                          type="text"
+                          id="country"
+                          name="country"
+                          value={formData.country}
+                          onChange={handleInputChange}
+                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                          placeholder={t('form.country')}
+                        />
+                      </div>
+                    </>
+                  ) : null}
                 </div>
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">

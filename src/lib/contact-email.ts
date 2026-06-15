@@ -5,6 +5,7 @@ interface ContactMailtoFields {
   name: string;
   email: string;
   phone?: string;
+  country?: string;
   message: string;
   productId?: string | null;
   productName?: string;
@@ -15,6 +16,7 @@ export function buildContactMailtoHref({
   name,
   email,
   phone,
+  country,
   message,
   productId,
   productName
@@ -33,6 +35,7 @@ export function buildContactMailtoHref({
         name: '姓名',
         email: '邮箱',
         phone: '电话',
+        country: '国家',
         productName: '产品',
         productId: '产品ID',
         message: '留言'
@@ -41,6 +44,7 @@ export function buildContactMailtoHref({
         name: 'Name',
         email: 'Email',
         phone: 'Phone',
+        country: 'Country',
         productName: 'Product',
         productId: 'Product ID',
         message: 'Message'
@@ -50,6 +54,7 @@ export function buildContactMailtoHref({
     `${labels.name}: ${name}`,
     `${labels.email}: ${email}`,
     phone ? `${labels.phone}: ${phone}` : null,
+    country ? `${labels.country}: ${country}` : null,
     productName ? `${labels.productName}: ${productName}` : null,
     productId ? `${labels.productId}: ${productId}` : null,
     '',

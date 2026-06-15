@@ -1,6 +1,6 @@
 {
   "hy-611": {
-    "product_name": "HY-611 Silicone Defoamer",
+    "product_name": "HY-611",
     "category": "Silicone Defoamers",
     "indicators": {
       "appearance": "Milky white liquid",
@@ -241,7 +241,7 @@
     "shelf_life": "12 months"
   },
   "hy-9072": {
-    "product_name": "HY-9072 Release Agent",
+    "product_name": "Metal Release HY-9072",
     "product_code": "HY-9072",
     "category": "Release Agents",
     "series": "Metal Release",
@@ -308,7 +308,7 @@
     "shelf_life": "12 months"
   },
   "hy-ws30": {
-    "product_name": "HY-WS30 Silicone Emulsion Defoamer",
+    "product_name": "HY-WS30",
     "category": "Silicone Defoamers",
     "indicators": {
       "appearance": "Milky white liquid",
@@ -431,7 +431,7 @@
     "shelf_life": "6 months"
   },
   "hy-503": {
-    "product_name": "HY-503 Polyester Sizing Agent",
+    "product_name": "HY-503 Waterborne Polyester Sizing Agent",
     "category": "Sizing Agents",
     "typical_properties": {
       "appearance": "Milky white liquid",
@@ -464,7 +464,7 @@
     "shelf_life": "6 months"
   },
   "hy-3689": {
-    "product_name": "HY-3689 Tire Bladder Release Agent",
+    "product_name": "Rubber Release HY-3689",
     "product_code": "HY-3689",
     "category": "Release Agents",
     "series": "Rubber Release",
@@ -501,7 +501,7 @@
     "shelf_life": "12 months"
   },
   "hy-59n": {
-    "product_name": "HY-59N Long-Chain Alkyl Phenyl Silicone Oil",
+    "product_name": "Metal Release HY-59N",
     "product_code": "HY-59N",
     "category": "Modified Silicone Oil",
     "series": "Long-Chain Alkyl Phenyl Modified Silicone Oil",
@@ -533,7 +533,7 @@
     "storage": "Transport and store as non-dangerous goods. Store in a dry, ventilated and cool place at ≥5°C. Avoid strong sunlight and contact with acids or alkalis."
   },
   "hy-19n": {
-    "product_name": "HY-19N Long-Chain Alkyl Phenyl Silicone Oil",
+    "product_name": "Metal Release HY-19N",
     "product_code": "HY-19N",
     "category": "Modified Silicone Oil",
     "series": "Long-Chain Alkyl Phenyl Modified Silicone Oil",
@@ -565,7 +565,7 @@
     "storage": "Transport and store as non-dangerous goods. Store in a dry, ventilated and cool place at ≥5°C. Avoid strong sunlight and contact with acids or alkalis."
   },
   "hy-509": {
-    "product_name": "HY-509 Polyurethane Sizing Agent",
+    "product_name": "HY-509 Waterborne Polyurethane Sizing Agent",
     "category": "Sizing Agents",
     "typical_properties": {
       "appearance": "Milky white liquid",
@@ -598,7 +598,7 @@
     "shelf_life": "6 months"
   },
   "hy-510": {
-    "product_name": "HY-510 Sizing Agent",
+    "product_name": "HY-510 Waterborne Polyurethane Sizing Agent",
     "category": "Sizing Agents",
     "typical_properties": {
       "appearance": "Translucent liquid",
@@ -630,7 +630,7 @@
     "shelf_life": "6 months"
   },
   "hy-512": {
-    "product_name": "HY-512 Waterborne Epoxy Resin Fiber Sizing Agent",
+    "product_name": "HY-512 Waterborne Epoxy-Based Sizing Agent",
     "category": "Sizing Agents",
     "typical_properties": {
       "appearance": "Milky white liquid",
@@ -662,7 +662,7 @@
     "shelf_life": "6 months"
   },
   "hy-518": {
-    "product_name": "HY-518 Polypropylene Sizing Agent",
+    "product_name": "HY-518 Waterborne Polypropylene Sizing Agent",
     "category": "Sizing Agents",
     "typical_properties": {
       "appearance": "Milky white liquid",
@@ -836,7 +836,7 @@
     "shelf_life": "6 months"
   },
   "hy-1625": {
-    "product_name": "HY-1625 Modified Polysiloxane Resin Emulsion",
+    "product_name": "HY-1625 Modified Polysiloxane Resin Dispersion",
     "category": "Resin Emulsions",
     "typical_properties": {
       "appearance": "Milky white or whey-colored liquid (25°C)",
@@ -902,7 +902,7 @@
     "shelf_life": "6 months unopened"
   },
   "hy-612": {
-    "product_name": "HY-612 Food-Use Silicone Defoamer",
+    "product_name": "HY-612",
     "category": "Silicone Defoamers",
     "indicators": {
       "appearance": "Milky white liquid",
@@ -938,7 +938,7 @@
     "shelf_life": "12 months"
   },
   "hy-190": {
-    "product_name": "HY-190 Dispersant",
+    "product_name": "HY-190",
     "category": "Dispersants",
     "indicators": {
       "appearance": "Light yellow liquid",
@@ -970,7 +970,7 @@
     "shelf_life": "1 year in unopened original containers when stored at room temperature"
   },
   "hy-204": {
-    "product_name": "HY-204 PEG/PPG Ether Modified Polydimethylsiloxane",
+    "product_name": "HY-204",
     "category": "Dispersants",
     "indicators": {
       "appearance": "Amber or colorless transparent liquid",
@@ -1002,7 +1002,7 @@
     "shelf_life": "1 year in unopened original containers when stored under specified conditions"
   },
   "hy-8328-modified-silicone": {
-    "product_name": "Polyether-Modified Heptamethyltrisiloxane HY-8328",
+    "product_name": "HY-8328 Polyether-Modified Heptamethyltrisiloxane",
     "product_code": "HY-8328",
     "category": "Modified Silicone Oil",
     "series": "Modified Siloxane Series",
@@ -1038,7 +1038,7 @@
     "storage": "Store sealed away from direct sunlight. Transport and store as non-dangerous goods."
   },
   "hy-demmas": {
-    "product_name": "HY-DEMMAS Bis-Methacrylate Terminated Polysiloxane",
+    "product_name": "Modified Polysiloxane (Bis-Methacrylate Terminated Polysiloxane)",
     "product_code": "HY-DEMMAS",
     "category": "Modified Silicone Oil",
     "series": "Modified Siloxane Series",
@@ -1075,7 +1075,7 @@
     "shelf_life": "6 months unopened"
   },
   "bis-hydroxypropyl-polysiloxane": {
-    "product_name": "Bis-Hydroxypropyl Terminated Polydimethylsiloxane",
+    "product_name": "Modified Polysiloxane (Bis-Hydroxypropyl Terminated Polysiloxane)",
     "product_code": "Bis-Hydroxypropyl Terminated Polysiloxane",
     "category": "Modified Silicone Oil",
     "series": "Modified Siloxane Series",
@@ -1110,7 +1110,7 @@
     "storage": "Store sealed in a cool and ventilated place. Different molecular weights and mono-/di-end-capped structures can be customized."
   },
   "hy-evipaps": {
-    "product_name": "HY-EVIPAPS Bis-Vinyl Polyalkylaryl Siloxane",
+    "product_name": "Modified Polysiloxane (Bis-Vinyl Polysiloxane)",
     "product_code": "HY-EVIPAPS",
     "category": "Modified Silicone Oil",
     "series": "Modified Siloxane Series",
@@ -1145,7 +1145,7 @@
     "storage": "Store sealed in a cool and ventilated place. Avoid high temperature and direct sunlight."
   },
   "hy-sees": {
-    "product_name": "HY-SEES Epoxy-Terminated Polysiloxane",
+    "product_name": "Modified Polysiloxane (Mono-Epoxy-Terminated Polysiloxane)",
     "product_code": "HY-SEES",
     "category": "Modified Silicone Oil",
     "series": "Modified Siloxane Series",
@@ -1176,7 +1176,7 @@
     "storage": "Store sealed in a cool, ventilated place. Transport and store as non-dangerous goods."
   },
   "hy-semmas": {
-    "product_name": "HY-SEMMAS Mono-Methacrylate Terminated Polysiloxane",
+    "product_name": "Modified Polysiloxane (Mono-Methacrylate Terminated Polysiloxane)",
     "product_code": "HY-SEMMAS",
     "category": "Modified Silicone Oil",
     "series": "Modified Siloxane Series",
@@ -1210,7 +1210,7 @@
     "shelf_life": "6 months unopened"
   },
   "hy-stmos": {
-    "product_name": "HY-STMOS Mono-Trimethoxy-Terminated Polydimethylsiloxane",
+    "product_name": "Modified Polysiloxane (Mono-Trimethoxy-Terminated Polysiloxane)",
     "product_code": "HY-STMOS",
     "category": "Modified Silicone Oil",
     "series": "Modified Siloxane Series",
@@ -1239,7 +1239,7 @@
     "storage": "Store sealed in a cool, ventilated place. Avoid high temperature and direct sunlight."
   },
   "mono-dihydroxy-pdms": {
-    "product_name": "Mono-End Dihydroxy Polydimethylsiloxane",
+    "product_name": "Modified Polysiloxane (Mono-End Dihydroxy Polydimethylsiloxane)",
     "product_code": "Mono-End Dihydroxy PDMS",
     "category": "Modified Silicone Oil",
     "series": "Modified Siloxane Series",
@@ -1277,7 +1277,7 @@
     "shelf_life": "6 months unopened"
   },
   "hy-1380": {
-    "product_name": "HY-1380 Antistatic Softening Agent",
+    "product_name": "HY-1380 Chemical Fiber Softener",
     "product_code": "HY-1380",
     "category": "Textile Auxiliaries",
     "series": "Chemical Fiber Softener",
@@ -1311,7 +1311,7 @@
     "shelf_life": "6 months"
   },
   "hy-1390": {
-    "product_name": "HY-1390 Antistatic Softener",
+    "product_name": "HY-1390 Chemical Fiber Softener",
     "product_code": "HY-1390",
     "category": "Textile Auxiliaries",
     "series": "Chemical Fiber Softener",
@@ -1380,7 +1380,7 @@
     "shelf_life": "6 months"
   },
   "hy-d70n": {
-    "product_name": "HY-D70N Silicone Quaternary Ammonium Antibacterial and Antimildew Agent",
+    "product_name": "HY-D70N Antibacterial and Antimildew Agent",
     "product_code": "HY-D70N",
     "category": "Textile Auxiliaries",
     "series": "Antibacterial and Antimildew Agents",
@@ -1414,7 +1414,7 @@
     "shelf_life": "6 months"
   },
   "hy-d1810": {
-    "product_name": "HY-D1810 Epoxy-Terminated Silicone Oil Antibacterial and Antimildew Agent",
+    "product_name": "HY-D1810 Antibacterial and Antimildew Agent",
     "product_code": "HY-D1810",
     "category": "Textile Auxiliaries",
     "series": "Antibacterial and Antimildew Agents",
@@ -1660,7 +1660,7 @@
     "shelf_life": "6 months"
   },
   "hy-09n": {
-    "product_name": "HY-09N Long-Chain Alkyl Phenyl Silicone Oil",
+    "product_name": "Metal Release HY-09N",
     "product_code": "HY-09N",
     "category": "Modified Silicone Oil",
     "series": "Long-Chain Alkyl Phenyl Modified Silicone Oil",
@@ -1691,7 +1691,7 @@
     "storage": "Transport and store as non-dangerous goods. Store in a dry, ventilated and cool place at ≥5°C. Avoid strong sunlight and contact with acids or alkalis."
   },
   "hy-6014": {
-    "product_name": "HY-6014 Tire Bladder Release Agent",
+    "product_name": "Rubber Release HY-6014",
     "product_code": "HY-6014",
     "category": "Release Agents",
     "series": "Rubber Release",
@@ -1726,5 +1726,66 @@
     ],
     "packaging": "50kg, 100kg, 200kg drums",
     "storage": "Store in a ventilated, cool and dry place. Avoid contact with strong acids and alkalis. Warehouse temperature should not be below 5°C to prevent freezing and emulsion breaking, and should not exceed 40°C. Transport and store as non-dangerous goods."
+  },
+  "hy-161": {
+    "product_name": "HY-161",
+    "product_code": "HY-161",
+    "category": "聚醚系列",
+    "typical_properties": {
+      "chemical_composition": "Polyether polyols",
+      "chroma": "≤40 APHA/Hazen",
+      "hydroxyl_value": "53.0-59.0 mgKOH/g",
+      "water_content": "≤0.20%",
+      "ph_value": "5.0-7.0",
+      "cloud_point": "18.0-22.0°C"
+    },
+    "product_introduction": "HY-161 is a special polyether polyol with very low toxicity. It is used for formulating low-sudsing, high-cleaning synthetic detergents, and can also be used as a pharmaceutical excipient and emulsifier.",
+    "features": [
+      "Low-sudsing with strong cleaning performance for synthetic detergent systems.",
+      "Very low toxicity and suitable as a pharmaceutical excipient and emulsifier.",
+      "Can be used as an antifoaming agent in papermaking or fermentation industries.",
+      "Polyethers can also be used in crude oil demulsification applications.",
+      "Not classified as hazardous chemicals."
+    ],
+    "typical_applications": [
+      "Low-sudsing high-cleaning synthetic detergents",
+      "Pharmaceutical excipient and emulsifier",
+      "Oral nasal sprays, eye/ear drops and shampoos",
+      "Papermaking or fermentation antifoaming",
+      "Crude oil demulsification"
+    ],
+    "storage": "Store and transport as non-hazardous chemicals. Keep sealed."
+  },
+  "hy-246": {
+    "product_name": "HY-246",
+    "product_code": "HY-246",
+    "category": "聚醚系列",
+    "typical_properties": {
+      "chroma": "≤30 APHA/Hazen",
+      "hydroxyl_value": "Measured value",
+      "water_content": "≤0.15%",
+      "ph_value": "5.0-7.0",
+      "cloud_point": "60.0-63.0°C",
+      "ingredients": "Ethoxylated propoxylated compound",
+      "cas_no": "68002-96-0"
+    },
+    "product_introduction": "HY-246 is a water-based metalworking fluid emulsifier. It is also used in industrial cleaning, textile and coating applications, featuring high HLB, enhanced hydrophilicity, ultra-low foam and low-temperature stability.",
+    "features": [
+      "High HLB, enhanced hydrophilicity and ultra-low foam.",
+      "Low-temperature stability and compatibility with medium-to-high oil content systems.",
+      "Superior calcium soap dispersion and hard-water resistance.",
+      "Strong oil-water emulsification, foam inhibition and improved system stability.",
+      "Particularly suitable for low-temperature and low-foam continuous processes."
+    ],
+    "how_to_use": [
+      "Recommended dosage range is 0.1%-3%. The actual dosage should be determined by application testing."
+    ],
+    "typical_applications": [
+      "Water-based metalworking fluid emulsifier",
+      "Industrial cleaning",
+      "Textile and coating systems",
+      "Heavy oil contamination cleaning",
+      "High-pressure spraying and hard-water cleaning conditions"
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "hy-611": {
-    "product_name": "HY-611有机硅消泡剂",
+    "product_name": "HY-611",
     "category": "消泡剂",
     "indicators": {
       "appearance": "乳白色液体",
@@ -143,7 +143,7 @@
     "shelf_life": "3年"
   },
   "hy-9072": {
-    "product_name": "HY-9072脱模剂",
+    "product_name": "金属脱模 HY-9072",
     "product_code": "HY-9072",
     "category": "脱模剂",
     "series": "金属脱模",
@@ -178,7 +178,7 @@
     "storage": "按非危险品贮存及运输；存于干燥、通风、阴凉处，储存环境≥5℃，避免强日光照射，避免与酸、碱接触"
   },
   "hy-09n": {
-    "product_name": "HY-09N长链烷基苯基硅油",
+    "product_name": "金属脱模 HY-09N",
     "product_code": "HY-09N",
     "category": "改性硅油",
     "series": "长链烷基苯基改性硅油",
@@ -209,7 +209,7 @@
     "storage": "按非危险品贮存及运输；存于干燥、通风、阴凉处，储存环境≥5℃，避免强日光照射，避免与酸、碱接触"
   },
   "hy-19n": {
-    "product_name": "HY-19N长链烷基苯基硅油",
+    "product_name": "金属脱模 HY-19N",
     "product_code": "HY-19N",
     "category": "改性硅油",
     "series": "长链烷基苯基改性硅油",
@@ -241,7 +241,7 @@
     "storage": "按非危险品贮存及运输；存于干燥、通风、阴凉处，储存环境≥5℃，避免强日光照射，避免与酸、碱接触"
   },
   "hy-59n": {
-    "product_name": "HY-59N长链烷基苯基硅油",
+    "product_name": "金属脱模 HY-59N",
     "product_code": "HY-59N",
     "category": "改性硅油",
     "series": "长链烷基苯基改性硅油",
@@ -307,7 +307,7 @@
     "shelf_life": "6个月"
   },
   "hy-503": {
-    "product_name": "HY-503聚酯型上浆剂",
+    "product_name": "HY-503水性聚酯型上浆剂",
     "category": "上浆剂",
     "typical_properties": {
       "appearance": "乳白色液体",
@@ -373,7 +373,7 @@
     "shelf_life": "12个月"
   },
   "hy-ws30": {
-    "product_name": "HY-WS30有机硅乳液消泡剂",
+    "product_name": "HY-WS30",
     "category": "消泡剂",
     "indicators": {
       "appearance": "乳白色液体",
@@ -434,7 +434,7 @@
     "shelf_life": "12个月"
   },
   "hy-3689": {
-    "product_name": "HY-3689轮胎气囊脱模剂",
+    "product_name": "橡胶脱模 HY-3689",
     "product_code": "HY-3689",
     "category": "脱模剂",
     "series": "橡胶脱模",
@@ -597,7 +597,7 @@
     "shelf_life": "6个月"
   },
   "hy-509": {
-    "product_name": "HY-509聚氨酯型上浆剂",
+    "product_name": "HY-509水性聚氨酯型上浆剂",
     "category": "上浆剂",
     "typical_properties": {
       "appearance": "乳白色液体",
@@ -630,7 +630,7 @@
     "shelf_life": "6个月"
   },
   "hy-510": {
-    "product_name": "HY-510上浆剂",
+    "product_name": "HY-510水性聚氨酯型上浆剂",
     "category": "上浆剂",
     "typical_properties": {
       "appearance": "半透明液体",
@@ -662,7 +662,7 @@
     "shelf_life": "6个月"
   },
   "hy-512": {
-    "product_name": "HY-512水性环氧树脂基纤维上浆剂",
+    "product_name": "HY-512水性环氧基型上浆剂",
     "category": "上浆剂",
     "typical_properties": {
       "appearance": "乳白色液体",
@@ -694,7 +694,7 @@
     "shelf_life": "6个月"
   },
   "hy-518": {
-    "product_name": "HY-518聚丙烯型上浆剂",
+    "product_name": "HY-518水性聚丙烯型上浆剂",
     "category": "上浆剂",
     "typical_properties": {
       "appearance": "乳白色液体",
@@ -868,7 +868,7 @@
     "shelf_life": "6个月"
   },
   "hy-1625": {
-    "product_name": "HY-1625改性聚硅氧烷树脂乳液",
+    "product_name": "HY-1625改性聚硅氧烷树脂分散液",
     "category": "树脂乳液",
     "typical_properties": {
       "appearance": "乳白或乳清色液体（25℃）",
@@ -934,7 +934,7 @@
     "shelf_life": "未开封保质期6个月"
   },
   "hy-612": {
-    "product_name": "HY-612食品用有机硅消泡剂",
+    "product_name": "HY-612",
     "category": "消泡剂",
     "indicators": {
       "appearance": "乳白色液体",
@@ -970,7 +970,7 @@
     "shelf_life": "12个月"
   },
   "hy-190": {
-    "product_name": "HY-190分散剂",
+    "product_name": "HY-190",
     "category": "分散剂",
     "indicators": {
       "appearance": "浅黄色液体",
@@ -1002,7 +1002,7 @@
     "shelf_life": "未开启原装容器内室温储存可存放1年"
   },
   "hy-204": {
-    "product_name": "HY-204聚乙二醇丙二醇醚改性聚二甲基硅氧烷",
+    "product_name": "HY-204",
     "category": "分散剂",
     "indicators": {
       "appearance": "琥珀色或无色透明液体",
@@ -1034,7 +1034,7 @@
     "shelf_life": "未开启原装容器内按规定条件储存，保质期1年"
   },
   "hy-8328-modified-silicone": {
-    "product_name": "聚醚改性七甲基三硅氧烷 HY-8328",
+    "product_name": "HY-8328聚醚改性七甲基三硅氧烷",
     "product_code": "HY-8328",
     "category": "改性硅油",
     "series": "改性硅氧烷系列",
@@ -1070,7 +1070,7 @@
     "storage": "密封保存，避免阳光直射，按非危险品储运"
   },
   "hy-demmas": {
-    "product_name": "HY-DEMMAS双端甲基丙烯酸酯聚硅氧烷",
+    "product_name": "改性聚硅氧烷（双端甲基丙烯酸酯聚硅氧烷）",
     "product_code": "HY-DEMMAS",
     "category": "改性硅油",
     "series": "改性硅氧烷系列",
@@ -1107,7 +1107,7 @@
     "shelf_life": "未开封状态保质期6个月"
   },
   "bis-hydroxypropyl-polysiloxane": {
-    "product_name": "双端羟丙基封端聚二甲基硅氧烷",
+    "product_name": "改性聚硅氧烷（双端羟丙基封端聚硅氧烷）",
     "product_code": "双端羟丙基封端聚硅氧烷",
     "category": "改性硅油",
     "series": "改性硅氧烷系列",
@@ -1142,7 +1142,7 @@
     "storage": "密封保存，置于阴凉通风处；可定制不同分子量及单端、双端等封端结构"
   },
   "hy-evipaps": {
-    "product_name": "HY-EVIPAPS双端乙烯基聚烷基芳基硅氧烷",
+    "product_name": "改性聚硅氧烷（双端乙烯基聚硅氧烷）",
     "product_code": "HY-EVIPAPS",
     "category": "改性硅油",
     "series": "改性硅氧烷系列",
@@ -1177,7 +1177,7 @@
     "storage": "密封保存，置于阴凉通风处，避免高温和阳光直射"
   },
   "hy-sees": {
-    "product_name": "HY-SEES环氧基封端聚硅氧烷",
+    "product_name": "改性聚硅氧烷（单端环氧基封端聚硅氧烷）",
     "product_code": "HY-SEES",
     "category": "改性硅油",
     "series": "改性硅氧烷系列",
@@ -1208,7 +1208,7 @@
     "storage": "密封保存，置于阴凉通风处；按非危险品储运"
   },
   "hy-semmas": {
-    "product_name": "HY-SEMMAS单端甲基丙烯酸酯聚硅氧烷",
+    "product_name": "改性聚硅氧烷（单端甲基丙烯酸酯聚硅氧烷）",
     "product_code": "HY-SEMMAS",
     "category": "改性硅油",
     "series": "改性硅氧烷系列",
@@ -1242,7 +1242,7 @@
     "shelf_life": "未开封状态保质期6个月"
   },
   "hy-stmos": {
-    "product_name": "HY-STMOS单端三甲氧基封端聚二甲基硅氧烷",
+    "product_name": "改性聚硅氧烷（单端三甲氧基封端聚硅氧烷）",
     "product_code": "HY-STMOS",
     "category": "改性硅油",
     "series": "改性硅氧烷系列",
@@ -1271,7 +1271,7 @@
     "storage": "密封保存，置于阴凉通风处，避免高温和阳光直射"
   },
   "mono-dihydroxy-pdms": {
-    "product_name": "单端双羟基聚二甲基硅氧烷",
+    "product_name": "改性聚硅氧烷（单端双羟基聚二甲基硅氧烷）",
     "product_code": "单端双羟基聚二甲基硅氧烷",
     "category": "改性硅油",
     "series": "改性硅氧烷系列",
@@ -1309,7 +1309,7 @@
     "shelf_life": "未开封状态保质期6个月"
   },
   "hy-1380": {
-    "product_name": "HY-1380抗静电柔顺剂",
+    "product_name": "HY-1380化纤丝柔顺剂",
     "product_code": "HY-1380",
     "category": "纺织助剂",
     "series": "化纤丝柔顺剂",
@@ -1343,7 +1343,7 @@
     "shelf_life": "6个月"
   },
   "hy-1390": {
-    "product_name": "HY-1390抗静电柔软剂",
+    "product_name": "HY-1390化纤丝柔顺剂",
     "product_code": "HY-1390",
     "category": "纺织助剂",
     "series": "化纤丝柔顺剂",
@@ -1412,7 +1412,7 @@
     "shelf_life": "6个月"
   },
   "hy-d70n": {
-    "product_name": "HY-D70N有机硅季铵盐类抗菌防霉剂",
+    "product_name": "HY-D70N抗菌防霉剂",
     "product_code": "HY-D70N",
     "category": "纺织助剂",
     "series": "抗菌防霉剂",
@@ -1446,7 +1446,7 @@
     "shelf_life": "6个月"
   },
   "hy-d1810": {
-    "product_name": "HY-D1810端环氧硅油型抗菌防霉剂",
+    "product_name": "HY-D1810抗菌防霉剂",
     "product_code": "HY-D1810",
     "category": "纺织助剂",
     "series": "抗菌防霉剂",
@@ -1692,7 +1692,7 @@
     "shelf_life": "6个月"
   },
   "hy-6014": {
-    "product_name": "HY-6014轮胎气囊脱模剂",
+    "product_name": "橡胶脱模 HY-6014",
     "product_code": "HY-6014",
     "category": "脱模剂",
     "series": "橡胶脱模",
@@ -1727,5 +1727,66 @@
     ],
     "packaging": "50kg、100kg、200kg桶包装",
     "storage": "贮存于通风、阴凉、干燥处，不得与强酸、强碱类物质接触；库房温度不得低于5℃以免冻结破乳，也不宜高于40℃；按非危险品贮运"
+  },
+  "hy-161": {
+    "product_name": "HY-161",
+    "product_code": "HY-161",
+    "category": "聚醚系列",
+    "typical_properties": {
+      "chemical_composition": "聚醚多元醇",
+      "chroma": "≤40 APHA/Hazen",
+      "hydroxyl_value": "53.0～59.0 mgKOH/g",
+      "water_content": "≤0.20%",
+      "ph_value": "5.0～7.0",
+      "cloud_point": "18.0～22.0℃"
+    },
+    "product_introduction": "HY-161是一种特殊的聚醚多元醇，毒性很低，可用于配制低泡、高去污力合成洗涤剂，也可用作药物赋形剂和乳化剂，并常用于口腔鼻喷雾剂、眼耳滴剂和洗发剂中。",
+    "features": [
+      "低泡、高去污力，适用于合成洗涤剂体系。",
+      "毒性低，可用作药物赋形剂和乳化剂。",
+      "可在造纸或发酵工业中作为消泡剂使用。",
+      "聚醚类产品也可用于原油破乳应用。",
+      "不属于危险化学品。"
+    ],
+    "typical_applications": [
+      "低泡高去污力合成洗涤剂",
+      "药物赋形剂和乳化剂",
+      "口腔鼻喷雾剂、眼耳滴剂和洗发剂",
+      "造纸或发酵工业消泡",
+      "原油破乳"
+    ],
+    "storage": "按非危险化学品储存和运输，密封保存。"
+  },
+  "hy-246": {
+    "product_name": "HY-246",
+    "product_code": "HY-246",
+    "category": "聚醚系列",
+    "typical_properties": {
+      "chroma": "≤30 APHA/Hazen",
+      "hydroxyl_value": "实测",
+      "water_content": "≤0.15%",
+      "ph_value": "5.0～7.0",
+      "cloud_point": "60.0～63.0℃",
+      "ingredients": "乙氧基化丙氧基化物",
+      "cas_no": "68002-96-0"
+    },
+    "product_introduction": "HY-246属于水基金属加工液乳化剂，也可用于工业清洗、纺织、涂料等领域。产品具有高HLB、亲水性强、超低泡和低温稳定等特点，适配中高含油量体系。",
+    "features": [
+      "高HLB，亲水性更强，超低泡。",
+      "低温稳定，适配中高含油量体系。",
+      "钙皂分散与耐硬水性能优异。",
+      "具备强亲油-亲水乳化能力，可抑制泡沫并提升体系稳定性。",
+      "适合低温、低泡的连续化工艺。"
+    ],
+    "how_to_use": [
+      "建议添加量为0.1%-3%，具体用量需根据体系和应用测试确定。"
+    ],
+    "typical_applications": [
+      "水基金属加工液乳化剂",
+      "工业清洗",
+      "纺织和涂料体系",
+      "重油污清洗",
+      "高压喷淋和硬水工况清洗"
+    ]
   }
 }

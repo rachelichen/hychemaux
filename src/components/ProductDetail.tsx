@@ -164,7 +164,12 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     grade_5000: 'MW 5000 Grade',
     melting_point: 'Melting Point',
     shaping_hardness: 'Shaping Hardness',
-    setting_durability: 'Setting Durability'
+    setting_durability: 'Setting Durability',
+    chroma: 'Chroma',
+    water_content: 'Water Content',
+    chemical_composition: 'Chemical Composition',
+    ingredients: 'Ingredients',
+    cas_no: 'CAS No.'
   } : {
     appearance: '外观',
     solid_content: '固含量',
@@ -217,7 +222,12 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     grade_5000: '5000分子量规格',
     melting_point: '熔点',
     shaping_hardness: '塑形硬度',
-    setting_durability: '定型持久性'
+    setting_durability: '定型持久性',
+    chroma: '色度',
+    water_content: '水分',
+    chemical_composition: '化学成分',
+    ingredients: '成分',
+    cas_no: 'CAS No.'
   };
 
   // 获取属性名称的翻译
@@ -257,6 +267,8 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     'hy-5100': '/new_products/shuzhi.png',
     'hy-190': '/new_products/common.png',
     'hy-204': '/new_products/common.png',
+    'hy-161': '/new_products/common.png',
+    'hy-246': '/new_products/common.png',
     'hy-8328-modified-silicone': '/new_products/common.png',
     'hy-demmas': '/new_products/common.png',
     'bis-hydroxypropyl-polysiloxane': '/new_products/common.png',

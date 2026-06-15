@@ -155,19 +155,7 @@ const getHierarchyLabel = (id: string, locale: string) => {
   return locale === 'en' ? label.en : label.zh;
 };
 
-const getProductDisplayName = (product: Product, locale: string) => {
-  if (locale !== 'zh') return product.name;
-
-  const codePattern = product.code.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const codePrefixPattern = new RegExp(`^${codePattern}[-\\s]*`, 'i');
-  const codeSuffixPattern = new RegExp(`[-\\s]*${codePattern}$`, 'i');
-  const displayName = product.name
-    .replace(codePrefixPattern, '')
-    .replace(codeSuffixPattern, '')
-    .trim();
-
-  return displayName || product.name;
-};
+const getProductDisplayName = (product: Product) => product.name;
 
 export default function ProductPage() {
   const t = useTranslations('products');
@@ -286,7 +274,7 @@ export default function ProductPage() {
             <div className="flex items-center justify-between gap-3">
               <div className="flex-1 min-w-0">
                 <h3 className="text-lg font-bold text-blue-600 break-words">
-                  {getProductDisplayName(product, locale)}
+                  {getProductDisplayName(product)}
                 </h3>
               </div>
               <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-blue-100 transition-colors flex-shrink-0">

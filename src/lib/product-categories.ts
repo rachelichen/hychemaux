@@ -8,7 +8,8 @@ export const productCategoryOrder = [
   '脱模剂',
   '树脂乳液',
   '消泡剂',
-  '分散剂'
+  '分散剂',
+  '聚醚系列'
 ] as const;
 
 interface ProductCategorySource {
