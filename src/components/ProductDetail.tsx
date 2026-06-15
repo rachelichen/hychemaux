@@ -239,7 +239,6 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
   const productImageMap: Record<string, string> = {
     'hy-611': '有机硅型消泡剂HY611.png',
     'hy-612': '/new_products/xiaopaoji.png',
-    'hy-603': '有机硅型消泡剂HY603.png',
     'hy-ws30': '/new_products/xiaopaoji.png',
     'hy8308': '农用有机硅展渗剂.png',
     'hy-9072': '/new_products/common.png',

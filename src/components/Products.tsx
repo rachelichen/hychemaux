@@ -22,11 +22,6 @@ export default function Products() {
           name: 'HY-611有机硅型消泡剂',
           description: '高效消泡剂，适用于水处理、石油开采和工业清洗等应用',
           link: `/${locale}/products/hy-611`
-        },
-        {
-          name: 'HY-603有机硅型消泡剂',
-          description: '高含量消泡剂，提供持久的消泡性能',
-          link: `/${locale}/products/hy-603`
         }
       ]
     },

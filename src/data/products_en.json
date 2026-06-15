@@ -37,42 +37,6 @@
     "storage": "Store and transport as non-dangerous goods. Keep sealed.",
     "shelf_life": "12 months"
   },
-  "hy-603": {
-    "product_name": "HY-603 Silicone Defoamer",
-    "category": "Silicone Defoamers",
-    "indicators": {
-      "appearance": "Milky white liquid",
-      "solid_content": "10-30%"
-    },
-    "product_introduction": "This product is a high-content silicone defoamer that provides long-lasting defoaming performance even in small amounts. Its main application industries include water treatment, oil extraction, and industrial cleaning.",
-    "features": [
-      "Fast foam suppression, long-lasting defoaming",
-      "Strong stability, no oil separation",
-      "Easy to dilute and use",
-      "Minimal oil spots, minimal coating shrinkage, no impact on other system properties",
-      "Environmentally friendly, no organic solvents"
-    ],
-    "how_to_use": [
-      "Identify the cause and location of foam generation for effective defoamer addition control.",
-      "Determine the addition amount based on foam severity and system characteristics.",
-      "Can be added directly or diluted before addition. Small-scale testing is recommended to determine optimal addition amount.",
-      "Add evenly and dispersedly during production to ensure full contact between defoamer and foam.",
-      "Recommended dosage is 0.1%-0.5% of total system, specific amount should be adjusted based on actual foam conditions."
-    ],
-    "typical_applications": [
-      "Wastewater treatment",
-      "Oilfield drilling",
-      "Chemical industry",
-      "Food fermentation",
-      "Papermaking",
-      "Textile printing and dyeing",
-      "Coatings and inks",
-      "Metal processing"
-    ],
-    "packaging": "50Kg, 200Kg drums",
-    "storage": "Store in sealed containers",
-    "shelf_life": "12 months"
-  },
   "hy8308": {
     "product_name": "HY8308 Agricultural Silicone Spreading Agent",
     "category": "Agricultural Adjuvants",
@@ -275,38 +239,6 @@
     "packaging": "50kg, 200kg, 1000kg plastic drums",
     "storage": "Transport and store as non-dangerous goods. Store in a dry, ventilated and cool place at ≥5°C. Avoid strong sunlight and contact with acids or alkalis."
   },
-  "hy-z25": {
-    "product_name": "HY-Z25 Silicone Defoamer",
-    "category": "Defoamers",
-    "indicators": {
-      "appearance": "Milky white liquid",
-      "solid_content": "10-30%",
-      "ion_type": "Non-ionic"
-    },
-    "product_introduction": "This product is a high-efficiency silicone emulsion defoamer with excellent defoaming performance and long-lasting foam suppression effect, and does not easily produce oil spots. This product is a water-based system with good dilution stability.",
-    "features": [
-      "Fast defoaming",
-      "Long-lasting foam suppression",
-      "No oil spots",
-      "Good dilution stability"
-    ],
-    "how_to_use": [
-      "Add during the process, recommend pre-diluting with cold water at a ratio of 1:10 before use",
-      "If using a dosing pump, use a low-shear type",
-      "Any defoamer requires formula engineers to optimize the dosage"
-    ],
-    "typical_applications": [
-      "Chemical industry",
-      "Textile",
-      "Paper making",
-      "Petrochemical",
-      "Detergents",
-      "Pesticides"
-    ],
-    "packaging": "50kg, 200kg drums",
-    "storage": "Store in sealed containers",
-    "shelf_life": "12 months"
-  },
   "hy-ws30": {
     "product_name": "HY-WS30",
     "category": "Silicone Defoamers",
@@ -339,33 +271,6 @@
     ],
     "packaging": "50kg, 200kg plastic drums",
     "storage": "Store and transport as non-dangerous goods. Keep sealed.",
-    "shelf_life": "12 months"
-  },
-  "hy-k2": {
-    "product_name": "HY-K2 Mineral Oil Defoamer",
-    "category": "Defoamers",
-    "indicators": {
-      "appearance": "Liquid",
-      "solid_content": "Not specified",
-      "ion_type": "Not specified"
-    },
-    "product_introduction": "This product is a mineral oil defoamer specifically designed for the coatings and ink industry, with excellent defoaming performance and long-lasting foam suppression effect.",
-    "features": [
-      "Good system compatibility",
-      "Fast defoaming, long-lasting foam suppression",
-      "Good temperature stability"
-    ],
-    "how_to_use": [
-      "Stir and disperse for a certain time before use",
-      "For different production process systems, it is recommended to conduct small-scale tests first to achieve the best defoaming effect and appropriate dosage control",
-      "It is recommended to conduct compatibility tests before use to achieve the best effect"
-    ],
-    "typical_applications": [
-      "Coatings",
-      "Inks"
-    ],
-    "packaging": "50kg, 200kg drums",
-    "storage": "Store in sealed containers",
     "shelf_life": "12 months"
   },
   "hy-3000": {

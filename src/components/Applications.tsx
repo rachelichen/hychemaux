@@ -34,12 +34,9 @@ export default function Applications() {
         
         // 根据产品名称分配对应的productId
         const getProductId = (productName: string) => {
-          if (productName.includes('HY-603')) return 'hy-603';
           if (productName.includes('HY-611')) return 'hy-611';
-          if (productName.includes('HY-Z25')) return 'hy-z25';
           if (productName.includes('HY-WS30')) return 'hy-ws30';
-          if (productName.includes('HY-K2')) return 'hy-k2';
-          return 'hy-603'; // 默认
+          return 'hy-611'; // 默认
         };
         
         return {

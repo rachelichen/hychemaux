@@ -157,7 +157,7 @@
         "applications": [
           {
             "name": "Water Treatment Defoamer",
-            "product": "HY-603 Silicone Defoamer"
+            "product": "HY-611"
           },
           {
             "name": "Industrial Cleaning Defoamer",
@@ -173,11 +173,11 @@
           },
           {
             "name": "Paint and Ink Defoamer",
-            "product": "HY-K2 Mineral Oil Defoamer"
+            "product": "HY-611"
           },
           {
             "name": "Pulp and Paper Making Defoamer",
-            "product": "HY-Z25 Silicone Defoamer"
+            "product": "HY-611"
           },
           {
             "name": "Pesticide Industry Defoamer",
@@ -189,7 +189,7 @@
           },
           {
             "name": "Textile Industry Defoamer",
-            "product": "HY-Z25 Silicone Defoamer"
+            "product": "HY-611"
           },
           {
             "name": "Detergent Defoamer",
@@ -201,7 +201,7 @@
           },
           {
             "name": "General Purpose Defoamer",
-            "product": "HY-603 Silicone Defoamer"
+            "product": "HY-611"
           }
         ]
       },
@@ -527,10 +527,7 @@
     "result": "Result",
     "productNames": {
       "hy-611": "HY-611",
-      "hy-603": "HY-603 Silicone Defoamer",
-      "hy-z25": "HY-Z25 Silicone Defoamer",
       "hy-ws30": "HY-WS30",
-      "hy-k2": "HY-K2 Mineral Oil Defoamer",
       "hy8308": "HY8308 Agricultural Silicone Spreading Agent",
       "hy8328": "HY-8328 Agricultural Silicone Wetting Penetrant",
       "hy-9072": "Metal Release HY-9072",
@@ -582,7 +579,6 @@
     },
     "productDescriptions": {
       "hy-611": "High-content silicone defoamer for water treatment, oil extraction, industrial cleaning and other aqueous systems",
-      "hy-603": "High-content defoamer, providing long-lasting defoaming performance",
       "hy8308": "Agricultural silicone spreading agent, improves the application effect of pesticides and fertilizers",
       "hy8328": "Agricultural silicone wetting penetrant improving spray wetting, spreading and penetration",
       "hy-503": "Polyester sizing agent for thermoplastic chopped carbon fiber processing",
