@@ -2,11 +2,12 @@ import { NextRequest, NextResponse } from 'next/server';
 import pool from '@/lib/db';
 import { memoryStorage } from '@/lib/memory-storage';
 import { CONTACT_RECIPIENT_EMAIL } from '@/lib/contact-email';
+import { sendContactEmail } from '@/lib/send-contact-email';
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, phone, message, productId } = body;
+    const { name, email, phone, country, message, productId, sendEmail } = body;
 
     // 验证必填字段
     if (!name || !email || !message) {
@@ -25,6 +26,12 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const storedMessage = country
+      ? `Country: ${country}\n\n${message}`
+      : message;
+    let savedData: { id: number | string; createdAt: string | Date };
+    let savedInMemory = false;
+
     // 尝试连接数据库
     try {
       // 插入数据到数据库
@@ -34,19 +41,14 @@ export async function POST(request: NextRequest) {
         RETURNING id, created_at
       `;
       
-      const values = [name, email, phone || null, message, productId || null];
+      const values = [name, email, phone || null, storedMessage, productId || null];
       
       const result = await pool.query(query, values);
-      
-      return NextResponse.json({
-        success: true,
-        message: 'Message submitted successfully',
-        recipientEmail: CONTACT_RECIPIENT_EMAIL,
-        data: {
-          id: result.rows[0].id,
-          createdAt: result.rows[0].created_at
-        }
-      });
+
+      savedData = {
+        id: result.rows[0].id,
+        createdAt: result.rows[0].created_at
+      };
     } catch (dbError) {
       console.error('Database connection error:', dbError);
       
@@ -56,21 +58,44 @@ export async function POST(request: NextRequest) {
         name,
         email,
         phone: phone || undefined,
-        message,
+        message: storedMessage,
         product_id: productId || undefined
       });
-      
-      return NextResponse.json({
-        success: true,
-        message: 'Message submitted successfully (saved in memory)',
-        recipientEmail: CONTACT_RECIPIENT_EMAIL,
-        data: {
-          id: savedMessage.id,
-          createdAt: savedMessage.created_at
-        }
-      });
+
+      savedInMemory = true;
+      savedData = {
+        id: savedMessage.id,
+        createdAt: savedMessage.created_at
+      };
     }
 
+    if (sendEmail) {
+      try {
+        await sendContactEmail({
+          name,
+          email,
+          phone,
+          country,
+          message,
+          productId
+        });
+      } catch (emailError) {
+        console.error('Email sending error:', emailError);
+        return NextResponse.json(
+          { error: 'Failed to send email' },
+          { status: 500 }
+        );
+      }
+    }
+
+    return NextResponse.json({
+      success: true,
+      message: savedInMemory
+        ? 'Message submitted successfully (saved in memory)'
+        : 'Message submitted successfully',
+      recipientEmail: CONTACT_RECIPIENT_EMAIL,
+      data: savedData
+    });
   } catch (error) {
     console.error('API error:', error);
     return NextResponse.json(

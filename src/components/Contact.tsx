@@ -4,7 +4,6 @@ import {useLocale, useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
 import {Mail, MapPin, MessageCircle, Send, User} from 'lucide-react';
 import {useState} from 'react';
-import {buildContactMailtoHref, CONTACT_RECIPIENT_EMAIL} from '@/lib/contact-email';
 
 export default function Contact() {
   const t = useTranslations('contact');
@@ -21,6 +20,7 @@ export default function Contact() {
   
   // 提交状态
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   // 处理表单输入变化
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -34,6 +34,7 @@ export default function Contact() {
   // 处理表单提交
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsLoading(true);
     
     try {
       const response = await fetch('/api/messages', {
@@ -45,10 +46,10 @@ export default function Contact() {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
-          message: formData.country
-            ? `Country: ${formData.country}\n\n${formData.message}`
-            : formData.message,
-          productId: null // 联系我们页面没有关联产品
+          country: formData.country,
+          message: formData.message,
+          productId: null, // 联系我们页面没有关联产品
+          sendEmail: true
         }),
       });
 
@@ -56,15 +57,6 @@ export default function Contact() {
 
       if (response.ok) {
         console.log('Contact message submitted successfully:', result);
-        console.log(`Opening contact mail draft for ${CONTACT_RECIPIENT_EMAIL}`);
-        window.location.href = buildContactMailtoHref({
-          locale: currentLocale,
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          country: formData.country,
-          message: formData.message
-        });
         setIsSubmitted(true);
         // 重置表单
         setFormData({
@@ -81,6 +73,8 @@ export default function Contact() {
     } catch (error) {
       console.error('Error submitting contact message:', error);
       alert('提交失败，请检查网络连接。');
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -284,10 +278,11 @@ export default function Contact() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center justify-center"
+                  disabled={isLoading}
+                  className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center justify-center disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  {t('form.submit')}
-                  <Send className="ml-2 h-5 w-5" />
+                  {isLoading ? t('form.submitting') : t('form.submit')}
+                  {!isLoading && <Send className="ml-2 h-5 w-5" />}
                 </button>
               </form>
             )}

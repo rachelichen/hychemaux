@@ -44,11 +44,13 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     lastName: '',
     email: '',
     phone: '',
+    country: '',
     message: ''
   });
   
   // 提交状态
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   // 处理表单输入变化
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -62,6 +64,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
   // 处理表单提交
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsLoading(true);
     
     try {
       const response = await fetch('/api/messages', {
@@ -73,8 +76,10 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
           name: formData.firstName,
           email: formData.email,
           phone: formData.phone,
+          country: formData.country,
           message: formData.message,
-          productId: productId
+          productId: productId,
+          sendEmail: true
         }),
       });
 
@@ -88,6 +93,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
           name: formData.firstName,
           email: formData.email,
           phone: formData.phone,
+          country: formData.country,
           message: formData.message,
           productId,
           productName: product?.product_name
@@ -99,6 +105,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
           lastName: '',
           email: '',
           phone: '',
+          country: '',
           message: ''
         });
       } else {
@@ -108,6 +115,8 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
     } catch (error) {
       console.error('Error submitting message:', error);
       alert('提交失败，请检查网络连接。');
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -624,6 +633,19 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
                   />
                 </div>
 
+                {/* Country Field */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('country')}</label>
+                  <input
+                    type="text"
+                    name="country"
+                    value={formData.country}
+                    onChange={handleInputChange}
+                    placeholder={tDetail('country')}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                </div>
+
                 {/* Message Field */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">{tDetail('message')}*</label>
@@ -642,9 +664,10 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
                 <div className="text-center">
                   <button
                     type="submit"
-                    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+                    disabled={isLoading}
+                    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
                   >
-                    {tDetail('submit')}
+                    {isLoading ? tDetail('submitting') : tDetail('submit')}
                   </button>
                 </div>
               </form>

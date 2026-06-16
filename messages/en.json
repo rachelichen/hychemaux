@@ -465,6 +465,7 @@
       "country": "Country",
       "message": "Message",
       "submit": "Send Message",
+      "submitting": "Sending...",
       "thankYouMessage": "Thank you for your message. We will contact you soon."
     }
   },
@@ -518,6 +519,7 @@
     "lastName": "Last Name",
     "email": "Email",
     "phoneNumber": "Phone Number",
+    "country": "Country",
     "message": "Message",
     "submit": "Submit",
     "thankYouMessage": "Thank you for your message. We will contact you soon.",
