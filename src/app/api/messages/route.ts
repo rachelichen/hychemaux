@@ -97,7 +97,11 @@ export async function POST(request: NextRequest) {
       data: savedData
     });
   } catch (error) {
-    console.error('API error:', error);
+    if (error instanceof SyntaxError) {
+      console.error('POST /api/messages: Failed to parse request body:', error);
+    } else {
+      console.error('POST /api/messages: Unhandled error:', error);
+    }
     return NextResponse.json(
       { error: 'Internal server error' },
       { status: 500 }

@@ -28,7 +28,11 @@ function getSmtpConfig() {
   const pass = process.env.SMTP_PASSWORD;
 
   if (!host || !user || !pass) {
-    throw new Error('SMTP is not configured');
+    const missing: string[] = [];
+    if (!host) missing.push('SMTP_HOST');
+    if (!user) missing.push('SMTP_USER');
+    if (!pass) missing.push('SMTP_PASSWORD');
+    throw new Error(`SMTP is not configured (missing: ${missing.join(', ')})`);
   }
 
   return {
@@ -87,12 +91,18 @@ export async function sendContactEmail({
     </div>
   `;
 
-  await transporter.sendMail({
-    from: smtp.from,
-    to: CONTACT_RECIPIENT_EMAIL,
-    replyTo: email,
-    subject: `Website Contact Message from ${name}`,
-    text,
-    html
-  });
+  try {
+    await transporter.sendMail({
+      from: smtp.from,
+      to: CONTACT_RECIPIENT_EMAIL,
+      replyTo: email,
+      subject: `Website Contact Message from ${name}`,
+      text,
+      html
+    });
+  } catch (sendError) {
+    const err = sendError instanceof Error ? sendError : new Error(String(sendError));
+    err.message = `sendMail failed (from=${smtp.from}, to=${CONTACT_RECIPIENT_EMAIL}): ${err.message}`;
+    throw err;
+  }
 }

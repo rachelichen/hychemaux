@@ -1,4 +1,5 @@
 import type {Metadata} from 'next';
+import Script from 'next/script';
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {locales} from '@/i18n';
@@ -45,6 +46,16 @@ export default async function LocaleLayout({
     <NextIntlClientProvider key={locale} messages={messages} locale={locale}>
       <LocaleProvider>
         <DynamicFavicon />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18202158338"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-gtag" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-18202158338');`}
+        </Script>
         {children}
       </LocaleProvider>
     </NextIntlClientProvider>
