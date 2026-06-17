@@ -57,6 +57,7 @@ export default function Contact() {
 
       if (response.ok) {
         console.log('Contact message submitted successfully:', result);
+        window.gtag_report_conversion();
         setIsSubmitted(true);
         // 重置表单
         setFormData({

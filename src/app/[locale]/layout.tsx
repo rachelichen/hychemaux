@@ -6,6 +6,12 @@ import {locales} from '@/i18n';
 import LocaleProvider from '@/components/LocaleProvider';
 import DynamicFavicon from '@/components/DynamicFavicon';
 
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean;
+  }
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -46,15 +52,33 @@ export default async function LocaleLayout({
     <NextIntlClientProvider key={locale} messages={messages} locale={locale}>
       <LocaleProvider>
         <DynamicFavicon />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18202158338"
-          strategy="afterInteractive"
-        />
         <Script id="google-ads-gtag" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'AW-18202158338');`}
+          gtag('config', 'AW-18202158338');
+
+          (function(){
+            var script = document.createElement('script');
+            script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18202158338';
+            script.async = true;
+            document.head.appendChild(script);
+          })();
+
+          window.gtag_report_conversion = function(url) {
+            var callback = function () {
+              if (typeof(url) != 'undefined') {
+                window.location = url;
+              }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-18202158338/zRA8CIjXxMAcEILKu-dD',
+                'value': 1.0,
+                'currency': 'CNY',
+                'event_callback': callback
+            });
+            return false;
+          };`}
         </Script>
         {children}
       </LocaleProvider>

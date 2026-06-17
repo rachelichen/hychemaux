@@ -87,6 +87,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
 
       if (response.ok) {
         console.log('Message submitted successfully:', result);
+        window.gtag_report_conversion();
         console.log(`Opening product inquiry mail draft for ${CONTACT_RECIPIENT_EMAIL}`);
         window.location.href = buildContactMailtoHref({
           locale: currentLocale,
